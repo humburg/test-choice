@@ -1,0 +1,7 @@
+{
+  "name": "test-choice",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
+}
