@@ -1,5 +1,11 @@
 window.onload = function() {
   const svg = getSvg();
+  // add stylesheet
+  const styleLink = svg.parentNode.createProcessingInstruction('xml-stylesheet',
+      'href="../css/svg_style.css" type="text/css"');
+  svg.parentNode.insertBefore(styleLink, svg);
+
+  // Add callbacks for toggle elements
   const toggles = svg.getElementsByClassName('toggle');
   for (const toggle of toggles) {
     toggle.addEventListener('click', toggleSubtree);
@@ -25,7 +31,8 @@ function toggleSubtree(event) {
  */
 function getSvg() {
   const obj = document.getElementById('test-choice');
-  return obj.contentDocument || obj.contentWindow.document;
+  const doc = obj.contentDocument || obj.contentWindow.document;
+  return doc.getElementsByTagName('svg')[0];
 }
 
 /**
