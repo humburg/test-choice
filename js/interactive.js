@@ -5,23 +5,39 @@ window.onload = function() {
       'href="../css/svg_style.css" type="text/css"');
   svg.parentNode.insertBefore(styleLink, svg);
 
-  // Add callbacks for toggle elements
+  // setup interactivity
   const toggles = svg.getElementsByClassName('toggle');
-  for (const toggle of toggles) {
-    toggle.addEventListener('click', toggleSubtree);
+  for (const tgl of toggles) {
+    // Add callbacks for toggle elements
+    tgl.addEventListener('click', toggleSubtree);
+    // hide all subtrees
+    toggle(getSubtree(tgl));
   }
 };
 
 /**
- * Toggle the display of sub-trees in the diagram
+ * Toggle the display of sub-trees in the diagram based
+ * on which node has received a click event
+ *
  * @param {Event} event The event that triggered the callback.
  */
 function toggleSubtree(event) {
   const target = getSubtree(event.target);
+  toggle(target);
   if (target.style.display === 'block') {
-    target.style.display = 'none';
+    $.scrollTo(target, 300);
+  }
+}
+
+/**
+ * Toggle the visibility of a subtree
+ * @param {Element} subtree
+ */
+function toggle(subtree) {
+  if (subtree.style.display === 'none') {
+    subtree.style.display = 'block';
   } else {
-    target.style.display = 'block';
+    subtree.style.display = 'none';
   }
 }
 
