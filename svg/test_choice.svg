@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="2943.5889"
-     inkscape:cy="1213.857"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="2291.3286"
+     inkscape:cy="590.75006"
      inkscape:document-units="px"
      inkscape:current-layer="g1229"
      showgrid="false"
      units="px"
      borderlayer="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1" />
@@ -164,7 +164,7 @@
       </g>
       <g
          transform="translate(235.36554,-56.568543)"
-         id="dv-choice">
+         id="root">
         <rect
            style="opacity:1;fill:#a6192e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect815"

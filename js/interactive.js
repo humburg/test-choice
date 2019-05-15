@@ -13,6 +13,7 @@ window.onload = function() {
     // hide all subtrees
     toggle(getSubtree(tgl));
   }
+  $.scrollTo(svg.getElementById('root'));
 };
 
 /**
@@ -25,7 +26,10 @@ function toggleSubtree(event) {
   const target = getSubtree(event.target);
   toggle(target);
   if (target.style.display === 'block') {
-    $.scrollTo(target, 300);
+    $.scrollTo(target, 300, {
+      over: {left: 0.5, top: 0.5},
+      offset: {left: -$(window).width() / 2, top: -$(window).height() / 2},
+    });
   }
 }
 
