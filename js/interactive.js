@@ -13,7 +13,13 @@ window.onload = function() {
     // hide all subtrees
     toggle(getSubtree(tgl));
   }
-  $.scrollTo(svg.getElementById('root'));
+  // hide all tooltips
+  $(svg).find('.tooltip').
+      fadeOut(1).
+      get(0).transform.baseVal.clear();
+  // enable tooltips
+  $(svg).find('.inform').hover(showTooltip, hideTooltip);
+  $.scrollTo($(svg).find('#root'));
 };
 
 /**
@@ -68,4 +74,67 @@ function getSubtree(target) {
   }
   const subId = target.dataset.subtree;
   return svg.getElementById(subId);
+}
+
+/**
+ * Hide tooltip
+ * @param {Event} event Event that triggered tooltip display
+ */
+function hideTooltip(event) {
+  const svg = getSvg();
+  let target = event.target;
+  while (! $(target).is('g.inform') && target != svg) {
+    target = target.parentElement;
+  }
+  const id = target.dataset.tooltip;
+  $(svg).find('#' + id).fadeOut(400,
+      function() {
+        // eslint-disable-next-line no-invalid-this
+        this.transform.baseVal.clear();
+      });
+}
+
+/**
+ * Show and position tooltip
+ * @param {Event} event Event that triggered tooltip display
+ */
+function showTooltip(event) {
+  const svg = getSvg();
+  let target = event.target;
+  while (! $(target).is('g.inform') && target != svg) {
+    target = target.parentElement;
+  }
+  const id = target.dataset.tooltip;
+  const tooltip = $(svg).find('#' + id);
+  const translation = getTranslation(tooltip.get(0), target);
+  tooltip.get(0).transform.baseVal.appendItem(translation);
+  tooltip.fadeIn();
+}
+
+/**
+ * Obtain translation required to position obj next to target.
+ * @param {Element} obj The element to be moved
+ * @param {Element} target The element in the target area
+ *
+ * @return {SVGTransform} x and y coordinates of translation
+ */
+function getTranslation(obj, target) {
+  const objPos = obj.getBoundingClientRect();
+  const targetPos = target.getBoundingClientRect();
+  const svg = getSvg();
+  const ptObj = svg.createSVGPoint();
+  ptObj.x = objPos.right;
+  ptObj.y = objPos.bottom;
+  const ptTarget = svg.createSVGPoint();
+  ptTarget.x = targetPos.left + 0.25 * targetPos.width;
+  ptTarget.y = targetPos.top + 0.25 * targetPos.height;
+
+  const svgPtObj = ptObj.matrixTransform(target.getScreenCTM().inverse());
+  const svgPtTarget = ptTarget.matrixTransform(target.getScreenCTM().inverse());
+
+  const translation = svg.createSVGTransform();
+  translation.setTranslate(
+      svgPtTarget.x - svgPtObj.x,
+      svgPtTarget.y - svgPtObj.y);
+  return translation;
 }
