@@ -82,7 +82,10 @@ function hideTooltip(event) {
     target = target.parentElement;
   }
   const id = target.dataset.tooltip;
-  $(svg).find('#' + id).removeClass('visible');
+  $(svg).find('#' + id).css('display', 'block').removeClass('visible').
+      one('transitionend', function(event) {
+        $(event.target).css('display', '');
+      });
 }
 
 /**
@@ -96,11 +99,12 @@ function showTooltip(event) {
     target = target.parentElement;
   }
   const id = target.dataset.tooltip;
-  const tooltip = $(svg).find('#' + id);
+  const tooltip = $(svg).find('#' + id).css('display', 'block');
   const translation = getTranslation(tooltip.get(0), target);
   tooltip.get(0).transform.baseVal.appendItem(translation);
   tooltip.addClass('visible');
   tooltip.get(0).transform.baseVal.consolidate();
+  tooltip.css('display', '');
 }
 
 /**

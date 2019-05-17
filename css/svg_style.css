@@ -12,10 +12,11 @@ g {
 }
 
 .tooltip {
-  display: block;
+  display: none;
   opacity: 0;
 }
 .visible {
+  display:block;
   opacity: 1;
 }
 
