@@ -87,6 +87,70 @@
          result="composite2"
          id="feComposite1437" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-9">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-2" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-6" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-4" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-6" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1621">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1611" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1613" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1615" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1617" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1619" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -95,11 +159,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="227.43071"
-     inkscape:cy="773.67537"
+     inkscape:zoom="0.98994951"
+     inkscape:cx="226.16661"
+     inkscape:cy="955.45428"
      inkscape:document-units="px"
-     inkscape:current-layer="g1822"
+     inkscape:current-layer="normal-resid"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -1215,7 +1279,7 @@
                        id="tspan1346-6"
                        y="857.03925"
                        x="-381.37946"
-                       sodipodi:role="line">Wilcoxon rank sum test</tspan></text>
+                       sodipodi:role="line">Mann-Whitney U test</tspan></text>
                 </g>
                 <path
                    style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1279,7 +1343,8 @@
                 <g
                    id="dv-choice-7-0-6-0"
                    transform="translate(199.34326,523.7399)"
-                   class="choice">
+                   class="choice inform"
+                   data-tooltip="normal-mean">
                   <rect
                      id="rect815-5-3-5-9"
                      width="96.689354"
@@ -1408,7 +1473,7 @@
                        id="tspan1346-6-6"
                        y="857.03925"
                        x="-381.37946"
-                       sodipodi:role="line">Wilcoxon rank sum test</tspan></text>
+                       sodipodi:role="line">Wilcoxon signed rank test</tspan></text>
                 </g>
                 <path
                    style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1594,7 +1659,8 @@
                 <g
                    id="dv-choice-7-0-6-8"
                    transform="translate(199.34326,523.7399)"
-                   class="choice">
+                   class="choice inform"
+                   data-tooltip="normal-resid">
                   <rect
                      id="rect815-5-3-5-6"
                      width="96.689354"
@@ -2162,7 +2228,8 @@
             <g
                id="dv-choice-7-0-1"
                transform="translate(199.34326,523.7399)"
-               class="choice">
+               data-tooltip="normal-resid"
+               class="choice inform">
               <rect
                  id="rect815-5-3-4"
                  width="96.689354"
@@ -2473,7 +2540,8 @@
               <g
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6"
-                 class="choice">
+                 class="choice inform"
+                 data-tooltip="normal-resid">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -2982,7 +3050,8 @@
               <g
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-0"
-                 class="choice">
+                 data-tooltip="normal-resid"
+                 class="choice inform">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3332,7 +3401,7 @@
     <g
        id="normal-mean"
        class="tooltip"
-       transform="translate(2665.9154,-512.28304)">
+       transform="translate(-186.75533,-613.29826)">
       <rect
          id="rect1408"
          width="250.71429"
@@ -3341,7 +3410,8 @@
          y="608.63556"
          rx="22.645161"
          ry="25.732838"
-         style="filter:url(#filter1439)" />
+         style="filter:url(#filter1439)"
+         transform="matrix(1.0366224,0,0,1.0501989,-1.3244297,-29.318349)" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
@@ -3357,78 +3427,137 @@
            sodipodi:role="line"
            x="-73.544197"
            y="659.22534"
-           id="tspan1438">the two variables are normally</tspan><tspan
+           id="tspan1438">the measurements in the two </tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="679.22534"
-           id="tspan1440">distributed.</tspan><tspan
+           id="tspan1440">groups are normally distributed.</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="699.22534"
-           id="tspan1444">Instead, the assumption is that</tspan><tspan
+           id="tspan1441" /><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="719.22534"
+           id="tspan1444">Instead, the assumption is that</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="739.22534"
            id="tspan1446">the <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
    id="tspan1454">sampling distribution of the</tspan></tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
-           y="739.22534"
+           y="759.22534"
            id="tspan1452"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"><tspan
    style="font-style:italic"
-   id="tspan1488">mean</tspan> is normal. This will be the</tspan><tspan
-           sodipodi:role="line"
-           x="-73.544197"
-           y="759.22534"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1462">case if the sample is large </tspan><tspan
+   id="tspan1488">means</tspan> is normal. This will be the</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="779.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1464">enough.</tspan><tspan
+           id="tspan1464">case if the sample is large enough.</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="799.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1466">The sample size required for this</tspan><tspan
+           id="tspan1448" /><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="819.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1468">assumption to be met depends</tspan><tspan
+           id="tspan1466">The sample size required for this</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="839.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1470">on the distribution of the data.</tspan><tspan
+           id="tspan1468">assumption to be met depends</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="859.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1474">If the data are symmetric even</tspan><tspan
+           id="tspan1470">on the distribution of the data.</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="879.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1478">a relatively small sample will</tspan><tspan
+           id="tspan1474">If the data are symmetric even</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="899.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1480">be sufficient. The more skewed</tspan><tspan
+           id="tspan1478">a relatively small sample will</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="919.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan1482">the distribution is, the larger the</tspan><tspan
+           id="tspan1480">be sufficient. The more skewed</tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="939.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1482">the distribution is, the larger the</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="959.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan1484">sample has to be.</tspan></text>
+    </g>
+    <g
+       id="normal-resid"
+       class="tooltip"
+       transform="translate(-192.40646,-210.99298)">
+      <rect
+         id="rect1408-3"
+         width="250.71429"
+         height="349.23132"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1621)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-73.544197"
+         y="639.22534"
+         id="text1431-9"><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="639.22534"
+           id="tspan1434-5">The question here <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+   id="tspan1450-1">isn't</tspan> whether</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="659.22534"
+           id="tspan1440-1">the measurements are normally</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="679.22534"
+           id="tspan1537">distributed.</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="699.22534"
+           id="tspan1441-4" /><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="719.22534"
+           id="tspan1444-3">Instead, the assumption is that</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="739.22534"
+           id="tspan1452-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia">the distribution of the <tspan
+   style="font-style:italic"
+   id="tspan1542">residuals</tspan> </tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1484-6">is normal. </tspan></text>
     </g>
   </g>
 </svg>
