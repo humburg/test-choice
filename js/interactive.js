@@ -20,7 +20,7 @@ $(window).on('load', function() {
   $(svg).find('.inform').hover(showTooltip, hideTooltip);
   window.setTimeout(function() {
     $('#loading').css('display', 'none');
-    $('#test-choice').css('display', 'block');
+    $('#test-choice').fadeIn();
     $.scrollTo($(svg).find('#root'));
   }, 600);
 });
