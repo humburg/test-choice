@@ -16,10 +16,6 @@
   opacity: 1;
 }
 
-.inform {
-  cursor: help;
-}
-
 .choice {
   cursor: default;
   transition-property: fill;
@@ -28,4 +24,8 @@
 }
 .choice:hover {
   fill: #A6192E
+}
+
+.inform {
+  cursor: help;
 }
