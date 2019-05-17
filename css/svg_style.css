@@ -4,9 +4,15 @@
 
 .tooltip {
   display: block;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
   opacity: 0;
 }
 .visible {
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
   opacity: 1;
 }
 
