@@ -87,70 +87,6 @@
          result="composite2"
          id="feComposite1437" />
     </filter>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
-       id="filter1439-9">
-      <feFlood
-         flood-opacity="0.498039"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood1429-2" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite1431-6" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="3"
-         result="blur"
-         id="feGaussianBlur1433-4" />
-      <feOffset
-         dx="6"
-         dy="6"
-         result="offset"
-         id="feOffset1435-6" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite1437-9" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
-       id="filter1621">
-      <feFlood
-         flood-opacity="0.498039"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood1611" />
-      <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
-         result="composite1"
-         id="feComposite1613" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="3"
-         result="blur"
-         id="feGaussianBlur1615" />
-      <feOffset
-         dx="6"
-         dy="6"
-         result="offset"
-         id="feOffset1617" />
-      <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
-         result="composite2"
-         id="feComposite1619" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -159,11 +95,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994951"
-     inkscape:cx="226.16661"
-     inkscape:cy="955.45428"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="137.65991"
+     inkscape:cy="693.94259"
      inkscape:document-units="px"
-     inkscape:current-layer="normal-resid"
+     inkscape:current-layer="independent"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -1028,7 +964,8 @@
               <g
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-0"
-                 class="choice">
+                 data-tooltip="independent"
+                 class="choice inform">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -1538,7 +1475,8 @@
               <g
                  transform="translate(-324.65674,523.7399)"
                  id="dv-choice-7-0-0-8"
-                 class="choice">
+                 data-tooltip="independent"
+                 class="choice inform">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -2420,7 +2358,8 @@
             <g
                id="dv-choice-7-0-0-6"
                transform="translate(199.34326,523.7399)"
-               class="choice">
+               data-tooltip="independent"
+               class="choice inform">
               <rect
                  id="rect815-5-3-1-2"
                  width="96.689354"
@@ -2930,7 +2869,8 @@
             <g
                id="dv-choice-7-0-0-6-4"
                transform="translate(199.34326,523.7399)"
-               class="choice">
+               data-tooltip="independent"
+               class="choice inform">
               <rect
                  id="rect815-5-3-1-2-9"
                  width="96.689354"
@@ -3516,7 +3456,7 @@
          y="608.63556"
          rx="19.414169"
          ry="41.882198"
-         style="filter:url(#filter1621)"
+         style="filter:url(#filter1439)"
          transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
       <text
          xml:space="preserve"
@@ -3558,6 +3498,64 @@
            y="759.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan1484-6">is normal. </tspan></text>
+    </g>
+    <g
+       id="independent"
+       class="tooltip"
+       transform="translate(-211.76779,-2.2702042)">
+      <rect
+         id="rect1408-3-1"
+         width="250.71429"
+         height="349.23132"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-73.544197"
+         y="639.22534"
+         id="text1431-9-5"><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1484-6-6">Are the observations in different</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1597">groups independent of each</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1599">other?</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1601" /><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1603">If individuals contribute more</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1605">than one observation the answer</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1607">is <tspan
+   style="font-weight:bold"
+   id="tspan1613">no</tspan>. </tspan></text>
     </g>
   </g>
 </svg>
