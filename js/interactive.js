@@ -55,9 +55,8 @@ function toggle(subtree) {
  * @return {Object} SVG object
  */
 function getSvg() {
-  const obj = document.getElementById('test-choice');
-  const doc = obj.contentDocument || obj.contentWindow.document;
-  return doc.getElementsByTagName('svg')[0];
+  return $('#test-choice').get(0).getSVGDocument().
+      getElementsByTagName('svg')[0];
 }
 
 /**
