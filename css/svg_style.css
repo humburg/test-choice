@@ -4,6 +4,10 @@
 
 .tooltip {
   display: block;
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
 }
 
 .inform {

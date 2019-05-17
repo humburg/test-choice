@@ -15,7 +15,6 @@ window.onload = function() {
   }
   // hide all tooltips
   $(svg).find('.tooltip').
-      fadeOut(1).
       get(0).transform.baseVal.clear();
   // enable tooltips
   $(svg).find('.inform').hover(showTooltip, hideTooltip);
@@ -87,11 +86,7 @@ function hideTooltip(event) {
     target = target.parentElement;
   }
   const id = target.dataset.tooltip;
-  $(svg).find('#' + id).fadeOut(400,
-      function() {
-        // eslint-disable-next-line no-invalid-this
-        this.transform.baseVal.clear();
-      });
+  $(svg).find('#' + id).removeClass('visible');
 }
 
 /**
@@ -108,7 +103,8 @@ function showTooltip(event) {
   const tooltip = $(svg).find('#' + id);
   const translation = getTranslation(tooltip.get(0), target);
   tooltip.get(0).transform.baseVal.appendItem(translation);
-  tooltip.fadeIn();
+  tooltip.addClass('visible');
+  tooltip.get(0).transform.baseVal.consolidate();
 }
 
 /**

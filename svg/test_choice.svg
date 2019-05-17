@@ -32,7 +32,6 @@
     fill:#76232f;
 }
 .tooltip {
-    opacity:1;
     font-size:16px;
     font-family:Georgia;
     stroke-opacity:1;
