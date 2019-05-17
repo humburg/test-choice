@@ -123,6 +123,7 @@
   <g
      inkscape:label="Layer 1"
      id="layer1"
+     class="layer"
      transform="translate(2676.5077,-95.630975)"
      inkscape:groupmode="layer">
     <g
@@ -3336,8 +3337,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Tooltips"
-     style="display:inline">
+     class="layer"
+     inkscape:label="Tooltips">
     <g
        id="normal-mean"
        class="tooltip"

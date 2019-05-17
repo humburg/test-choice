@@ -1,4 +1,4 @@
-window.onload = function() {
+$(window).on('load', function() {
   const svg = getSvg();
   // add stylesheet
   const styleLink = svg.parentNode.createProcessingInstruction('xml-stylesheet',
@@ -18,8 +18,12 @@ window.onload = function() {
       get(0).transform.baseVal.clear();
   // enable tooltips
   $(svg).find('.inform').hover(showTooltip, hideTooltip);
-  $.scrollTo($(svg).find('#root'));
-};
+  window.setTimeout(function() {
+    $('#loading').css('display', 'none');
+    $('#test-choice').css('display', 'block');
+    $.scrollTo($(svg).find('#root'));
+  }, 600);
+});
 
 /**
  * Toggle the display of sub-trees in the diagram based
