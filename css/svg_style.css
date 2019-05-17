@@ -1,18 +1,21 @@
+g {
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.subtree {
+  opacity: 0;
+}
 .toggle {
     cursor: pointer;
 }
 
 .tooltip {
   display: block;
-  transition-property: opacity;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
   opacity: 0;
 }
 .visible {
-  transition-property: opacity;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
   opacity: 1;
 }
 

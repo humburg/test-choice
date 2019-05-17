@@ -11,7 +11,7 @@ window.onload = function() {
     // Add callbacks for toggle elements
     tgl.addEventListener('click', toggleSubtree);
     // hide all subtrees
-    toggle(getSubtree(tgl));
+    $(getSubtree(tgl)).addClass('subtree');
   }
   // hide all tooltips
   $(svg).find('.tooltip').
@@ -30,7 +30,7 @@ window.onload = function() {
 function toggleSubtree(event) {
   const target = getSubtree(event.target);
   toggle(target);
-  if (target.style.display === 'block') {
+  if ($(target).is('.visible')) {
     $.scrollTo(target, 300, {
       over: {left: 0.5, top: 0.5},
       offset: {left: -$(window).width() / 2, top: -$(window).height() / 2},
@@ -43,11 +43,7 @@ function toggleSubtree(event) {
  * @param {Element} subtree
  */
 function toggle(subtree) {
-  if (subtree.style.display === 'none') {
-    subtree.style.display = 'block';
-  } else {
-    subtree.style.display = 'none';
-  }
+  $(subtree).toggleClass('visible');
 }
 
 /**
