@@ -54,7 +54,40 @@
     fill:#d6d2c4;
 }</style>
   <defs
-     id="defs2" />
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -62,11 +95,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="2680.8242"
-     inkscape:cy="919.58838"
+     inkscape:zoom="1.979899"
+     inkscape:cx="227.43071"
+     inkscape:cy="773.67537"
      inkscape:document-units="px"
-     inkscape:current-layer="normal-mean"
+     inkscape:current-layer="g1822"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -3307,7 +3340,8 @@
          x="-82.691299"
          y="608.63556"
          rx="22.645161"
-         ry="25.732838" />
+         ry="25.732838"
+         style="filter:url(#filter1439)" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
