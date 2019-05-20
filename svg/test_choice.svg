@@ -119,6 +119,38 @@
          result="composite2"
          id="feComposite1437-9" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-6">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-8" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-1" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-2" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -127,9 +159,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35000001"
-     inkscape:cx="581.16655"
-     inkscape:cy="574.96625"
+     inkscape:zoom="1.4"
+     inkscape:cx="97.861315"
+     inkscape:cy="143.15581"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -2704,7 +2736,8 @@
               <g
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-2"
-                 class="choice">
+                 data-tooltip="normal-mixed"
+                 class="choice inform">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3215,7 +3248,8 @@
               <g
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-2-8"
-                 class="choice">
+                 data-tooltip="normal-mixed"
+                 class="choice inform">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3702,6 +3736,69 @@
            y="979.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan1484-0">sample has to be.</tspan></text>
+    </g>
+    <g
+       id="normal-mixed"
+       class="tooltip"
+       transform="translate(-188.68802,604.59878)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-0"
+         width="246.55412"
+         height="379.14719"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-6)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-73.544197"
+         y="639.22534"
+         id="text1431-9-1"><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="639.22534"
+           id="tspan1434-5-7">The question here <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+   id="tspan1450-1-8">isn't</tspan> whether</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="659.22534"
+           id="tspan1440-1-2">the measurements are normally</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="679.22534"
+           id="tspan1537-1">distributed.</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="699.22534"
+           id="tspan1441-4-1" /><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="719.22534"
+           id="tspan1444-3-3">Instead, the assumption is that</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="739.22534"
+           id="tspan1452-7-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia">the distributions of the <tspan
+   style="font-style:italic"
+   id="tspan1555">within</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1484-6-68">and <tspan
+   style="font-style:italic"
+   id="tspan1559">between </tspan>group errors are</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1567">normal. </tspan></text>
     </g>
   </g>
 </svg>
