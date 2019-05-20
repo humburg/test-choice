@@ -40,9 +40,12 @@ function toggleSubtree(event) {
   const target = getSubtree(event.target);
   toggle(target);
   if ($(target).is('.visible')) {
-    $.scrollTo(target, 300, {
+    const focus = $(target).children('g').first().children('.choice').first();
+    $.scrollTo(focus, 300, {
       over: {left: 0.5, top: 0.5},
-      offset: {left: -$(window).width() / 2, top: -$(window).height() / 2},
+      offset: {
+        left: -$(window).width() / 2,
+        top: -$(window).height() / 2},
     });
   }
 }
