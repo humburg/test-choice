@@ -1,4 +1,9 @@
-$(window).on('load', function() {
+$(window).on('load', prepSvg);
+
+/**
+ * Hook up javascript for interactivity.
+ */
+function prepSvg() {
   const svg = getSvg();
   // add stylesheet
   const styleLink = svg.parentNode.createProcessingInstruction('xml-stylesheet',
@@ -20,10 +25,10 @@ $(window).on('load', function() {
   $(svg).find('.inform').hover(showTooltip, hideTooltip);
   window.setTimeout(function() {
     $('#loading').css('display', 'none');
-    $('#test-choice').fadeIn();
+    $('#test-choice').addClass('loaded');
     $.scrollTo($(svg).find('#root'));
   }, 600);
-});
+}
 
 /**
  * Toggle the display of sub-trees in the diagram based
@@ -55,8 +60,7 @@ function toggle(subtree) {
  * @return {Object} SVG object
  */
 function getSvg() {
-  return $('#test-choice').get(0).getSVGDocument().
-      getElementsByTagName('svg')[0];
+  return $('#test-choice').contents().find('svg')[0];
 }
 
 /**

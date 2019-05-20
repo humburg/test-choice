@@ -1,3 +1,14 @@
+object {
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  opacity: 0;
+}
+
 #test-choice {
-   display: none;
+  display: inline;
+}
+
+object.loaded {
+  opacity: 1;
 }
