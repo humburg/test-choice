@@ -151,6 +151,38 @@
          result="composite2"
          id="feComposite1437-2" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -159,11 +191,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="97.861315"
-     inkscape:cy="143.15581"
+     inkscape:zoom="0.7"
+     inkscape:cx="246.89016"
+     inkscape:cy="846.16741"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="data-cor"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -654,204 +686,6 @@
              id="path931"
              inkscape:connector-curvature="0"
              sodipodi:nodetypes="ccc" />
-        </g>
-        <g
-           id="int-1-int-grp"
-           inkscape:label="int-1-int-grp">
-          <g
-             transform="translate(-2919.5307,-17.172593)"
-             id="g1822">
-            <g
-               class="toggle"
-               data-subtree="int-1-int-yes-grp"
-               transform="translate(51.782964,541.76087)"
-               id="g1427-3-0-0">
-              <circle
-                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="circle1421-4-0-3"
-                 cx="284.49631"
-                 cy="206.60995"
-                 r="8" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-                 x="279.04578"
-                 y="213.18613"
-                 id="text1425-9-2-4"><tspan
-                   sodipodi:role="line"
-                   id="tspan1423-2-1-7"
-                   x="279.04578"
-                   y="213.18613"
-                   style="font-size:18.66666603px">+</tspan></text>
-            </g>
-            <g
-               class="toggle"
-               data-subtree="int-1-int-no-grp"
-               transform="translate(342.90995,542.77103)"
-               id="g1427-3-0-0-5">
-              <circle
-                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="circle1421-4-0-3-9"
-                 cx="284.49631"
-                 cy="206.60995"
-                 r="8" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-                 x="279.04578"
-                 y="213.18613"
-                 id="text1425-9-2-4-1"><tspan
-                   sodipodi:role="line"
-                   id="tspan1423-2-1-7-0"
-                   x="279.04578"
-                   y="213.18613"
-                   style="font-size:18.66666603px">+</tspan></text>
-            </g>
-            <g
-               id="dv-choice-7-0"
-               transform="translate(199.34326,523.7399)"
-               class="choice inform"
-               data-tooltip="normal-cor">
-              <rect
-                 id="rect815-5-3"
-                 width="96.689354"
-                 height="96.689354"
-                 x="-67.427727"
-                 y="318.3754"
-                 rx="0.91376519"
-                 ry="1.0277354"
-                 transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)" />
-              <text
-                 id="text819-6-6"
-                 y="212.83331"
-                 x="281.68542"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 xml:space="preserve"><tspan
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-                   y="212.83331"
-                   x="281.68542"
-                   sodipodi:role="line"
-                   id="tspan1007-7">Normality</tspan><tspan
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-                   y="237.3382"
-                   x="281.68542"
-                   sodipodi:role="line"
-                   id="tspan1197">assumptions</tspan><tspan
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-                   y="261.84308"
-                   x="281.68542"
-                   sodipodi:role="line"
-                   id="tspan1199">met</tspan></text>
-            </g>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               x="360.52295"
-               y="746.3302"
-               id="text1796"><tspan
-                 sodipodi:role="line"
-                 id="tspan1794"
-                 x="360.52295"
-                 y="746.3302">Yes</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               x="578.81738"
-               y="746.3302"
-               id="text1800"><tspan
-                 sodipodi:role="line"
-                 id="tspan1798"
-                 x="578.81738"
-                 y="746.3302">No</tspan></text>
-            <path
-               sodipodi:nodetypes="cc"
-               inkscape:connector-curvature="0"
-               id="path4823"
-               d="M 402.86031,749.45575 H 345.87573"
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <path
-               sodipodi:nodetypes="cc"
-               inkscape:connector-curvature="0"
-               id="path4823-4"
-               d="M 616.67386,749.45575 H 559.68928"
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <path
-               sodipodi:nodetypes="ccc"
-               inkscape:connector-curvature="0"
-               id="path935"
-               d="M 481.27479,692.88721 V 565.52777 h 118.7975"
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-          </g>
-          <g
-             inkscape:label="int-1-int-yes-grp"
-             transform="translate(-2228,-1.0714286)"
-             id="int-1-int-yes-grp">
-            <g
-               id="g949"
-               transform="translate(26.263966,-2.0203051)">
-              <rect
-                 y="819.08154"
-                 x="-474.7717"
-                 height="64.649773"
-                 width="186.87822"
-                 id="rect937"
-                 style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-              <text
-                 id="text941"
-                 y="845.64081"
-                 x="-381.37946"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 xml:space="preserve"><tspan
-                   y="845.64081"
-                   x="-381.37946"
-                   id="tspan939"
-                   sodipodi:role="line">Pearson Correlation</tspan><tspan
-                   id="tspan943"
-                   y="865.64081"
-                   x="-381.37946"
-                   sodipodi:role="line">with parametric test</tspan></text>
-            </g>
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M -355.06862,817.12938 V 743.20081"
-               id="path951"
-               inkscape:connector-curvature="0" />
-          </g>
-          <g
-             inkscape:label="int-1-int-no-grp"
-             transform="translate(-1936.7885,-1.0714286)"
-             id="int-1-int-no-grp">
-            <g
-               id="g949-2"
-               transform="translate(26.263966,-2.0203051)">
-              <rect
-                 y="819.08154"
-                 x="-474.7717"
-                 height="64.649773"
-                 width="186.87822"
-                 id="rect937-5"
-                 style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-              <text
-                 id="text941-0"
-                 y="845.64081"
-                 x="-381.37946"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 xml:space="preserve"><tspan
-                   y="845.64081"
-                   x="-381.37946"
-                   id="tspan939-7"
-                   sodipodi:role="line">Pearson Correlation</tspan><tspan
-                   id="tspan943-1"
-                   y="865.64081"
-                   x="-381.37946"
-                   sodipodi:role="line">with bootstrap</tspan></text>
-            </g>
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M -355.06862,817.12938 V 743.20081"
-               id="path951-2"
-               inkscape:connector-curvature="0" />
-          </g>
         </g>
         <g
            id="int-1-cat-grp"
@@ -1995,6 +1829,367 @@
                    inkscape:connector-curvature="0" />
               </g>
             </g>
+          </g>
+        </g>
+        <g
+           id="int-1-int-grp">
+          <g
+             transform="translate(-143.43146,153.87817)"
+             inkscape:label="int-1-int-grp"
+             id="int-1-int-no-grp">
+            <g
+               id="g1822"
+               transform="translate(-2919.5307,-17.172593)">
+              <g
+                 id="g1427-3-0-0"
+                 transform="translate(51.782964,541.76087)"
+                 data-subtree="int-1-int-no-yes-grp"
+                 class="toggle">
+                <circle
+                   r="8"
+                   cy="206.60995"
+                   cx="284.49631"
+                   id="circle1421-4-0-3"
+                   style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                <text
+                   id="text1425-9-2-4"
+                   y="213.18613"
+                   x="279.04578"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     style="font-size:18.66666603px"
+                     y="213.18613"
+                     x="279.04578"
+                     id="tspan1423-2-1-7"
+                     sodipodi:role="line">+</tspan></text>
+              </g>
+              <g
+                 id="g1427-3-0-0-5"
+                 transform="translate(342.90995,542.77103)"
+                 data-subtree="int-1-int-no-no-grp"
+                 class="toggle">
+                <circle
+                   r="8"
+                   cy="206.60995"
+                   cx="284.49631"
+                   id="circle1421-4-0-3-9"
+                   style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                <text
+                   id="text1425-9-2-4-1"
+                   y="213.18613"
+                   x="279.04578"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     style="font-size:18.66666603px"
+                     y="213.18613"
+                     x="279.04578"
+                     id="tspan1423-2-1-7-0"
+                     sodipodi:role="line">+</tspan></text>
+              </g>
+              <g
+                 data-tooltip="normal-cor"
+                 class="choice inform"
+                 transform="translate(199.34326,523.7399)"
+                 id="dv-choice-7-0">
+                <rect
+                   transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
+                   ry="1.0277354"
+                   rx="0.91376519"
+                   y="318.3754"
+                   x="-67.427727"
+                   height="96.689354"
+                   width="96.689354"
+                   id="rect815-5-3" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                   x="281.68542"
+                   y="212.83331"
+                   id="text819-6-6"><tspan
+                     id="tspan1007-7"
+                     sodipodi:role="line"
+                     x="281.68542"
+                     y="212.83331"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Normality</tspan><tspan
+                     id="tspan1197"
+                     sodipodi:role="line"
+                     x="281.68542"
+                     y="237.3382"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">assumptions</tspan><tspan
+                     id="tspan1199"
+                     sodipodi:role="line"
+                     x="281.68542"
+                     y="261.84308"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">met</tspan></text>
+              </g>
+              <text
+                 id="text1796"
+                 y="746.3302"
+                 x="360.52295"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                 xml:space="preserve"><tspan
+                   y="746.3302"
+                   x="360.52295"
+                   id="tspan1794"
+                   sodipodi:role="line">Yes</tspan></text>
+              <text
+                 id="text1800"
+                 y="746.3302"
+                 x="578.81738"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                 xml:space="preserve"><tspan
+                   y="746.3302"
+                   x="578.81738"
+                   id="tspan1798"
+                   sodipodi:role="line">No</tspan></text>
+              <path
+                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 d="M 402.86031,749.45575 H 345.87573"
+                 id="path4823"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cc" />
+              <path
+                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 d="M 616.67386,749.45575 H 559.68928"
+                 id="path4823-4"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cc" />
+              <path
+                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 d="M 481.27479,692.88721 V 603.52777"
+                 id="path935"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cc" />
+            </g>
+            <g
+               id="int-1-int-no-yes-grp"
+               transform="translate(-2228,-1.0714286)"
+               inkscape:label="int-1-int-no-yes-grp">
+              <g
+                 transform="translate(26.263966,-2.0203051)"
+                 id="g949">
+                <rect
+                   style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                   id="rect937"
+                   width="186.87822"
+                   height="64.649773"
+                   x="-474.7717"
+                   y="819.08154" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                   x="-381.37946"
+                   y="845.64081"
+                   id="text941"><tspan
+                     sodipodi:role="line"
+                     id="tspan939"
+                     x="-381.37946"
+                     y="845.64081">Pearson Correlation</tspan><tspan
+                     sodipodi:role="line"
+                     x="-381.37946"
+                     y="865.64081"
+                     id="tspan943">with parametric test</tspan></text>
+              </g>
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path951"
+                 d="M -355.06862,817.12938 V 743.20081"
+                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            </g>
+            <g
+               id="int-1-int-no-no-grp"
+               transform="translate(-1936.7885,-1.0714286)"
+               inkscape:label="int-1-int-no-no-grp">
+              <g
+                 transform="translate(26.263966,-2.0203051)"
+                 id="g949-2">
+                <rect
+                   style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                   id="rect937-5"
+                   width="186.87822"
+                   height="64.649773"
+                   x="-474.7717"
+                   y="819.08154" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                   x="-381.37946"
+                   y="845.64081"
+                   id="text941-0"><tspan
+                     sodipodi:role="line"
+                     id="tspan939-7"
+                     x="-381.37946"
+                     y="845.64081">Pearson Correlation</tspan><tspan
+                     sodipodi:role="line"
+                     x="-381.37946"
+                     y="865.64081"
+                     id="tspan943-1">with bootstrap</tspan></text>
+              </g>
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path951-2"
+                 d="M -355.06862,817.12938 V 743.20081"
+                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            </g>
+          </g>
+          <g
+             id=""
+             transform="translate(-2918.4252,-15.200044)">
+            <g
+               id="g1427-3-0-0-40"
+               transform="translate(51.782964,541.76087)"
+               data-subtree="int-1-int-no-grp"
+               class="toggle">
+              <circle
+                 r="8"
+                 cy="206.60995"
+                 cx="284.49631"
+                 id="circle1421-4-0-3-20"
+                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+              <text
+                 id="text1425-9-2-4-76"
+                 y="213.18613"
+                 x="279.04578"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                 xml:space="preserve"><tspan
+                   style="font-size:18.66666603px"
+                   y="213.18613"
+                   x="279.04578"
+                   id="tspan1423-2-1-7-3"
+                   sodipodi:role="line">+</tspan></text>
+            </g>
+            <g
+               id="g1427-3-0-0-5-4"
+               transform="translate(342.90995,542.77103)"
+               data-subtree="int-1-int-yes-grp"
+               class="toggle">
+              <circle
+                 r="8"
+                 cy="206.60995"
+                 cx="284.49631"
+                 id="circle1421-4-0-3-9-0"
+                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+              <text
+                 id="text1425-9-2-4-1-9"
+                 y="213.18613"
+                 x="279.04578"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                 xml:space="preserve"><tspan
+                   style="font-size:18.66666603px"
+                   y="213.18613"
+                   x="279.04578"
+                   id="tspan1423-2-1-7-0-6"
+                   sodipodi:role="line">+</tspan></text>
+            </g>
+            <g
+               data-tooltip="data-cor"
+               class="choice inform"
+               transform="translate(199.34326,523.7399)"
+               id="dv-choice-7-0-17">
+              <rect
+                 transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
+                 ry="1.0277354"
+                 rx="0.91376519"
+                 y="318.3754"
+                 x="-67.427727"
+                 height="96.689354"
+                 width="96.689354"
+                 id="rect815-5-3-10" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                 x="281.68542"
+                 y="204.83331"
+                 id="text819-6-6-0"><tspan
+                   id="tspan1199-97"
+                   sodipodi:role="line"
+                   x="281.68542"
+                   y="204.83331"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Data</tspan><tspan
+                   id="tspan1592"
+                   sodipodi:role="line"
+                   x="281.68542"
+                   y="229.3382"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">skewed or clear</tspan><tspan
+                   id="tspan1594"
+                   sodipodi:role="line"
+                   x="281.68542"
+                   y="253.84309"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">outliers</tspan></text>
+            </g>
+            <text
+               id="text1796-06"
+               y="746.3302"
+               x="360.52295"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="746.3302"
+                 x="360.52295"
+                 id="tspan1794-6"
+                 sodipodi:role="line">No</tspan></text>
+            <text
+               id="text1800-3"
+               y="746.3302"
+               x="578.81738"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="746.3302"
+                 x="578.81738"
+                 id="tspan1798-5"
+                 sodipodi:role="line">Yes</tspan></text>
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="M 402.86031,749.45575 H 345.87573"
+               id="path4823-0"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cc" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="M 616.67386,749.45575 H 559.68928"
+               id="path4823-4-6"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cc" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="M 481.27479,692.88721 V 565.52777 h 118.7975"
+               id="path935-2"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccc" />
+          </g>
+          <g
+             id="int-1-int-yes-grp"
+             transform="translate(-1936.0387,-1.1003044)"
+             inkscape:label="int-1-int-yes-grp">
+            <g
+               transform="translate(26.263966,-2.0203051)"
+               id="g949-87">
+              <rect
+                 style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                 id="rect937-4"
+                 width="186.87822"
+                 height="64.649773"
+                 x="-474.7717"
+                 y="819.08154" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                 x="-381.37946"
+                 y="855.64081"
+                 id="text941-3"><tspan
+                   sodipodi:role="line"
+                   id="tspan939-2"
+                   x="-381.37946"
+                   y="855.64081">Spearman Correlation</tspan><tspan
+                   sodipodi:role="line"
+                   x="-381.37946"
+                   y="875.64081"
+                   id="tspan943-8" /></text>
+            </g>
+            <path
+               inkscape:connector-curvature="0"
+               id="path951-3"
+               d="M -355.06862,817.12938 V 743.20081"
+               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
           </g>
         </g>
       </g>
@@ -3410,7 +3605,8 @@
     <g
        id="normal-mean"
        class="tooltip"
-       transform="translate(-186.75533,-613.29826)">
+       transform="translate(-410.75533,-613.29826)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408"
          width="250.71429"
@@ -3516,7 +3712,8 @@
     <g
        id="normal-resid"
        class="tooltip"
-       transform="translate(-182.92342,-210.99298)">
+       transform="translate(-406.92342,-210.99298)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3"
          width="250.71429"
@@ -3571,7 +3768,8 @@
     <g
        id="independent"
        class="tooltip"
-       transform="translate(-182.92342,-2.2702042)">
+       transform="translate(-406.92342,-2.2702042)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1"
          width="250.71429"
@@ -3629,7 +3827,8 @@
     <g
        id="normal-cor"
        class="tooltip"
-       transform="translate(-188.32675,196.86652)">
+       transform="translate(-412.32675,196.86652)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-7"
          width="252.09239"
@@ -3740,7 +3939,7 @@
     <g
        id="normal-mixed"
        class="tooltip"
-       transform="translate(-188.68802,604.59878)"
+       transform="translate(-412.68802,604.59878)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-0"
@@ -3799,6 +3998,78 @@
            y="779.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan1567">normal. </tspan></text>
+    </g>
+    <g
+       id="data-cor"
+       class="tooltip"
+       transform="translate(-101.54516,-606.8298)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0"
+         width="249.32756"
+         height="471.88632"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-73.544197"
+         y="639.22534"
+         id="text1431-9-5-2"><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1607-9">Skewed data and outliers can </tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1630">produce misleading results when</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1632">assuming a linear relationship</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1634">between variables.</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1636" /><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1638">Consider whether outliers re-</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1640">present true measurements or</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1642">whether they are due to some</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1644">error. In the latter case you</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1646">should clean the data first.</tspan></text>
     </g>
   </g>
 </svg>
