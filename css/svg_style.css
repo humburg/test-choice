@@ -15,11 +15,16 @@ g {
   display: none;
   opacity: 0;
 }
+.tooltip:hover {
+  opacity: 1;
+}
+.tooltip:not(.visible) {
+  transition-delay: 1s;
+}
 .visible {
   display:block;
   opacity: 1;
 }
-
 .choice {
   cursor: default;
   transition-property: fill;
