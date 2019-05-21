@@ -35,6 +35,6 @@ g {
   fill: #A6192E
 }
 
-.inform {
+.visible > g > .inform {
   cursor: help;
 }

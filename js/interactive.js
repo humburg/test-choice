@@ -108,15 +108,35 @@ function showTooltip(event) {
   while (! $(target).is('g.inform') && target != svg) {
     target = target.parentElement;
   }
-  const id = target.dataset.tooltip;
-  const tooltip = $(svg).find('#' + id).css('display', 'block');
-  const translation = getTranslation(tooltip.get(0), target);
-  tooltip.get(0).transform.baseVal.appendItem(translation);
-  tooltip.addClass('visible');
-  tooltip.get(0).transform.baseVal.consolidate();
-  tooltip.css('display', '');
+  if (isVisible(target)) {
+    const id = target.dataset.tooltip;
+    const tooltip = $(svg).find('#' + id).css('display', 'block');
+    const translation = getTranslation(tooltip.get(0), target);
+    tooltip.get(0).transform.baseVal.appendItem(translation);
+    tooltip.addClass('visible');
+    tooltip.get(0).transform.baseVal.consolidate();
+    tooltip.css('display', '');
+  }
 }
 
+/**
+ * Test whether an element on the page is visible. Elements
+ * with obacity 0 or visibility 'hidden' are not considered to be
+ * visible.
+ * @param {Element} elem An element to be tested for visibility.
+ * @return {Boolean}
+ */
+function isVisible(elem) {
+  if (!$(elem).is(':visible') ||
+      $(elem).css('opacity') == 0 ||
+      $(elem).css('visibility') == 'hidden') {
+    return false;
+  }
+  if ($(elem).is('svg')) {
+    return true;
+  }
+  return isVisible(elem.parentElement);
+}
 /**
  * Obtain translation required to position obj next to target.
  * @param {Element} obj The element to be moved
