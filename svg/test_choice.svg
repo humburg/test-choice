@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3688.4753"
-   height="1376.0627"
-   viewBox="0 0 3688.4755 1376.0627"
+   width="4086.572"
+   height="1456.1238"
+   viewBox="0 0 4086.5722 1456.1237"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -191,11 +191,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="3576.8366"
-     inkscape:cy="323.49413"
+     inkscape:zoom="0.175"
+     inkscape:cx="3100.9098"
+     inkscape:cy="818.60259"
      inkscape:document-units="px"
-     inkscape:current-layer="g1822-9-07-2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -220,7 +220,7 @@
      inkscape:label="Layer 1"
      id="layer1"
      class="layer"
-     transform="translate(2978.011,-55.526524)"
+     transform="translate(3203.6931,-55.526524)"
      inkscape:groupmode="layer">
     <g
        id="g1229">
@@ -322,7 +322,8 @@
       <g
          transform="translate(235.36554,-56.568543)"
          id="root"
-         class="choice">
+         class="choice"
+         style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
         <rect
            transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
            ry="1.0277354"
@@ -391,7 +392,8 @@
         <g
            transform="translate(24.639895,189.12781)"
            id="dv-choice-7"
-           class="choice">
+           class="choice"
+           style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
           <rect
              transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
              ry="1.0277354"
@@ -493,7 +495,8 @@
         </g>
         <g
            id="g1412"
-           class="choice">
+           class="choice"
+           style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
           <rect
              transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
              ry="1.0277354"
@@ -647,7 +650,8 @@
           <g
              id="dv-choice-6"
              transform="translate(413.3732,244.3605)"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect815-1"
                width="96.689354"
@@ -770,7 +774,8 @@
             <g
                transform="translate(413.3732,244.3605)"
                id="dv-choice-6-1"
-               class="choice">
+               class="choice"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                  ry="1.0277354"
@@ -865,7 +870,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-0"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -987,7 +993,8 @@
                    id="dv-choice-7-0-6"
                    transform="translate(199.34326,523.7399)"
                    class="choice inform"
-                   data-tooltip="normal-mean">
+                   data-tooltip="normal-mean"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5"
                      width="96.689354"
@@ -1181,7 +1188,8 @@
                    id="dv-choice-7-0-6-0"
                    transform="translate(199.34326,523.7399)"
                    class="choice inform"
-                   data-tooltip="normal-mean">
+                   data-tooltip="normal-mean"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5-9"
                      width="96.689354"
@@ -1376,7 +1384,8 @@
                  transform="translate(-324.65674,523.7399)"
                  id="dv-choice-7-0-0-8"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -1498,7 +1507,8 @@
                    id="dv-choice-7-0-6-8"
                    transform="translate(199.34326,523.7399)"
                    class="choice inform"
-                   data-tooltip="normal-resid">
+                   data-tooltip="normal-resid"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5-6"
                      width="96.689354"
@@ -1687,7 +1697,8 @@
                 <g
                    id="dv-choice-7-0-6-8-2"
                    transform="translate(199.34326,523.7399)"
-                   class="choice">
+                   class="choice"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5-6-8"
                      width="96.689354"
@@ -1890,7 +1901,8 @@
                  data-tooltip="normal-cor"
                  class="choice inform"
                  transform="translate(199.34326,523.7399)"
-                 id="dv-choice-7-0">
+                 id="dv-choice-7-0"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -2085,7 +2097,8 @@
                data-tooltip="data-cor"
                class="choice inform"
                transform="translate(199.34326,523.7399)"
-               id="dv-choice-7-0-17">
+               id="dv-choice-7-0-17"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                  ry="1.0277354"
@@ -2275,7 +2288,8 @@
           <g
              id="dv-choice-6-5"
              transform="translate(413.3732,244.3605)"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect815-1-31"
                width="96.689354"
@@ -2428,7 +2442,8 @@
                id="dv-choice-7-0-1"
                transform="translate(199.34326,523.7399)"
                data-tooltip="normal-resid"
-               class="choice inform">
+               class="choice inform"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-5-3-4"
                  width="96.689354"
@@ -2620,7 +2635,8 @@
                id="dv-choice-7-0-0-6"
                transform="translate(199.34326,523.7399)"
                data-tooltip="independent"
-               class="choice inform">
+               class="choice inform"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-5-3-1-2"
                  width="96.689354"
@@ -2741,7 +2757,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6"
                  class="choice inform"
-                 data-tooltip="normal-resid">
+                 data-tooltip="normal-resid"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -2932,7 +2949,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-2"
                  data-tooltip="normal-mixed"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3132,7 +3150,8 @@
                id="dv-choice-7-0-0-6-4"
                transform="translate(199.34326,523.7399)"
                data-tooltip="independent"
-               class="choice inform">
+               class="choice inform"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-5-3-1-2-9"
                  width="96.689354"
@@ -3253,7 +3272,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-0"
                  data-tooltip="normal-resid"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3444,7 +3464,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-2-8"
                  data-tooltip="normal-mixed"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -4438,7 +4459,7 @@
      id="layer3"
      class="layer"
      inkscape:label="Tooltips"
-     transform="translate(301.5033,40.104451)">
+     transform="translate(527.18542,40.104451)">
     <g
        id="normal-mean"
        class="tooltip"
