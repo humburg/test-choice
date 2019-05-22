@@ -39,7 +39,13 @@ function prepSvg() {
 function toggleSubtree(event) {
   const target = getSubtree(event.target);
   toggle(target);
+  const group = getGroup(event.target);
+  const circle = $(group).find('circle').first();
+  const text = $(group).find('tspan').first();
+  text.attr('x', circle.attr('cx')).attr('y', circle.attr('cy') +
+    circle.height()/2).attr('text-anchor', 'middle');
   if ($(target).is('.visible')) {
+    text.html('-');
     const focus = $(target).children('g').first().children('.choice').first();
     $.scrollTo(focus, 300, {
       over: {left: 0.5, top: 0.5},
@@ -47,6 +53,8 @@ function toggleSubtree(event) {
         left: -$(window).width() / 2,
         top: -$(window).height() / 2},
     });
+  } else {
+    text.html('+');
   }
 }
 
@@ -137,6 +145,19 @@ function isVisible(elem) {
   }
   return isVisible(elem.parentElement);
 }
+
+/**
+ * Find the next group element in the hierarchy.
+ * @param {Element} elem Elemnt for which the group should be determined.
+ * @return {Element} The group containing elem or elem, if it is a g element.
+ */
+function getGroup(elem) {
+  if ($(elem).is('g')) {
+    return elem;
+  }
+  return getGroup(elem.parentElement);
+}
+
 /**
  * Obtain translation required to position obj next to target.
  * @param {Element} obj The element to be moved

@@ -38,3 +38,7 @@ g {
 .visible > g > .inform {
   cursor: help;
 }
+
+.active {
+  fill-opacity: 0;
+}
