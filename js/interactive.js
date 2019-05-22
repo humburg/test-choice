@@ -42,8 +42,7 @@ function toggleSubtree(event) {
   const group = getGroup(event.target);
   const circle = $(group).find('circle').first();
   const text = $(group).find('tspan').first();
-  text.attr('x', circle.attr('cx')).attr('y', circle.attr('cy') +
-    circle.height()/2).attr('text-anchor', 'middle');
+  text.attr('x', circle.attr('cx')).attr('text-anchor', 'middle');
   if ($(target).is('.visible')) {
     text.html('-');
     const focus = $(target).children('g').first().children('.choice').first();
