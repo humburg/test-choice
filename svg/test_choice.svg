@@ -256,10 +256,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="5246.4943"
-     inkscape:cy="510.83096"
+     inkscape:cx="4127.4467"
+     inkscape:cy="876.87162"
      inkscape:document-units="px"
-     inkscape:current-layer="g1822-9-07-8-1-7-0"
+     inkscape:current-layer="root"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -287,7 +287,7 @@
      transform="translate(3203.6931,-55.526524)"
      inkscape:groupmode="layer">
     <g
-       id="g1229">
+       id="root">
       <path
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 517.29708,225.71585 v 70.69924"
@@ -385,34 +385,34 @@
              style="font-size:18.66666603px">+</tspan></text>
       </g>
       <g
-         transform="translate(235.36554,-56.568543)"
-         id="root"
-         class="choice">
+         class="choice"
+         id="choice-1"
+         transform="translate(235.36554,-56.568543)">
         <rect
-           transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
-           ry="1.0277354"
-           rx="0.91376519"
-           y="318.3754"
-           x="-67.427727"
-           height="96.689354"
+           id="rect815"
            width="96.689354"
-           id="rect815" />
+           height="96.689354"
+           x="-67.427727"
+           y="318.3754"
+           rx="0.91376519"
+           ry="1.0277354"
+           transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)" />
         <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-           x="281.21149"
+           id="text819"
            y="220.03502"
-           id="text819"><tspan
-             sodipodi:role="line"
-             x="283.80002"
-             y="220.03502"
+           x="281.21149"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
              id="tspan821"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Dependent </tspan><tspan
-             sodipodi:role="line"
-             x="281.21149"
-             y="244.5399"
+             y="220.03502"
+             x="283.80002"
+             sodipodi:role="line">Dependent </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
              id="tspan825"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Variable</tspan></text>
+             y="244.5399"
+             x="281.21149"
+             sodipodi:role="line">Variable</tspan></text>
       </g>
       <g
          id="g974">
