@@ -183,6 +183,70 @@
          result="composite2"
          id="feComposite1437-0" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-3">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-2" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-8" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-11" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-3-2">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-7-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-2-4" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-8-7" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-11-3" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-3-4" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -191,11 +255,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="3900.3163"
-     inkscape:cy="1310.1925"
+     inkscape:zoom="0.7"
+     inkscape:cx="5175.8199"
+     inkscape:cy="595.33054"
      inkscape:document-units="px"
-     inkscape:current-layer="g1732-4-2-6"
+     inkscape:current-layer="g4301"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -5602,7 +5666,7 @@
             <g
                style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                class="choice inform"
-               data-tooltip="normal-mixed"
+               data-tooltip="normal-iv"
                id="dv-choice-7-0-6-8-6-2-8-2"
                transform="translate(199.34326,523.7399)">
               <rect
@@ -5712,7 +5776,7 @@
           </g>
           <g
              transform="translate(2531.7608,150.50041)"
-             id="g4263">
+             id="cat-2-2-int-no-grp">
             <g
                id="g949-2-5-7-3-8-3-12"
                transform="translate(24.164438,-2.0203051)">
@@ -6574,7 +6638,7 @@
                 <g
                    style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    class="choice inform"
-                   data-tooltip="independent"
+                   data-tooltip="small-count"
                    id="dv-choice-7-0-0-0-7-6"
                    transform="translate(199.34326,523.7399)">
                   <rect
@@ -6913,7 +6977,7 @@
                 <g
                    style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    class="choice inform"
-                   data-tooltip="independent"
+                   data-tooltip="small-count"
                    id="dv-choice-7-0-0-0-7-6-6"
                    transform="translate(199.34326,523.7399)">
                   <rect
@@ -7557,6 +7621,126 @@
            y="819.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan1646">should clean the data first.</tspan></text>
+    </g>
+    <g
+       id="small-count"
+       class="tooltip"
+       transform="translate(-104.37013,-352.48304)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-8"
+         width="250.71429"
+         height="274.44168"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-3)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-77.829918"
+         y="639.22534"
+         id="text1431-9-5-9"><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1599-6">Consider the number of <tspan
+   style="font-style:italic"
+   id="tspan4893">expected</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan4895">observations for all combinations</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan4899">of factor levels. If some of these</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan4901">numbers are below 5 the answer</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan4903">to this question is <tspan
+   style="font-weight:bold"
+   id="tspan4905">yes</tspan>.</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1607-2" /></text>
+    </g>
+    <g
+       id="normal-iv"
+       class="tooltip"
+       transform="translate(-98.655852,-184.62589)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-8-1"
+         width="229.91341"
+         height="343.2482"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-3-2)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-77.829918"
+         y="639.22534"
+         id="text1431-9-5-9-9"><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan4903-7">Are all <tspan
+   style="font-style:italic"
+   id="tspan5026">independent </tspan>variables</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan5032">normally distributed?</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan5034" /><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan5036">Some deviation from</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan5038">normality is fine as long as the</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan5040">distributions of the indepen-</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan5042">dent variables are symmetric.</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1607-2-8" /></text>
     </g>
   </g>
 </svg>
