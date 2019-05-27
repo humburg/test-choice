@@ -15,7 +15,9 @@ object.loaded {
 #instructions {
   position: relative;
   max-width: 800px;
-  left: 25px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* MQ styles */
 h1,h2,h3 {

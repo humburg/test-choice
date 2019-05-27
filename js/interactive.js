@@ -66,7 +66,7 @@ function scroll(target) {
   });
   $(window).scroll(function() {
     $('#instructions').css({
-      'left': $(window).scrollLeft() + 25,
+      'left': $(window).scrollLeft(),
     });
   });
 }
