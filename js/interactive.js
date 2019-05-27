@@ -63,6 +63,11 @@ function scroll(target) {
       left: -$(window).width() / 2,
       top: -$(window).height() / 2},
   });
+  $(window).scroll(function() {
+    $('#instructions').css({
+      'left': $(window).scrollLeft() + 25,
+    });
+  });
 }
 /**
  * Toggle the visibility of a subtree

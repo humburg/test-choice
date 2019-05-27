@@ -12,7 +12,11 @@ object {
 object.loaded {
   opacity: 1;
 }
-
+#instructions {
+  position: relative;
+  max-width: 800px;
+  left: 25px;
+}
 /* MQ styles */
 h1,h2,h3 {
   font-feature-settings: "kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1
