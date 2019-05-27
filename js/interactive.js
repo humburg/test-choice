@@ -26,7 +26,7 @@ function prepSvg() {
   window.setTimeout(function() {
     $('#loading').css('display', 'none');
     $('#test-choice').addClass('loaded');
-    $.scrollTo($(svg).find('#root'));
+    scroll($(svg).find('#root'));
   }, 600);
 }
 
@@ -46,17 +46,24 @@ function toggleSubtree(event) {
   if ($(target).is('.visible')) {
     text.html('-');
     const focus = $(target).children('g').first().children('.choice').first();
-    $.scrollTo(focus, 300, {
-      over: {left: 0.5, top: 0.5},
-      offset: {
-        left: -$(window).width() / 2,
-        top: -$(window).height() / 2},
-    });
+    scroll(focus);
   } else {
     text.html('+');
   }
 }
 
+/**
+ * Scroll target into view.
+ * @param {Element} target The element that should be positioned on screen.
+ */
+function scroll(target) {
+  $.scrollTo(target, 300, {
+    over: {left: 0.5, top: 0.5},
+    offset: {
+      left: -$(window).width() / 2,
+      top: -$(window).height() / 2},
+  });
+}
 /**
  * Toggle the visibility of a subtree
  * @param {Element} subtree
