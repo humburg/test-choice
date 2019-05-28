@@ -16,6 +16,7 @@ g {
   opacity: 0;
 }
 .tooltip:hover {
+  display: block;
   opacity: 1;
 }
 .tooltip:not(.visible) {
