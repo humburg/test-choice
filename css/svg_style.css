@@ -38,3 +38,11 @@ g {
 .visible > g > .inform {
   cursor: help;
 }
+a {
+  text-decoration: underline
+}
+
+a:focus,a:hover {
+  fill: #80225f;
+  text-decoration: none
+}
