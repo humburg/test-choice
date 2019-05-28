@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="7406.9961"
@@ -8934,7 +8935,7 @@
            y="739.22534"
            id="tspan1446">the <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-   id="tspan1454">sampling distribution of the</tspan></tspan><tspan
+   id="tspan1454"><a xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution" xlink:title="Read more on Wikipedia" xlink:show="new">sampling distribution</a> of the</tspan></tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="759.22534"
@@ -9153,7 +9154,7 @@
            y="739.22534"
            id="tspan1446-8">the <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-   id="tspan1454-7">sampling distribution of the</tspan></tspan><tspan
+   id="tspan1454-7"><a xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution" xlink:title="Read more on Wikipedia" xlink:show="new">sampling distribution</a> of the</tspan></tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="759.22534"
@@ -9493,7 +9494,7 @@
            x="-81.544197"
            y="639.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan2669"><a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient" target="_blank">Pearson correlation</a> measures the</tspan><tspan
+           id="tspan2669"><a xlink:href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient" xlink:title="Read more on Wikipedia" xlink:show="new">Pearson correlation</a> measures the</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -9522,7 +9523,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2707">the <tspan
    style="font-style:italic"
-   id="tspan2715"><a href="https://en.wikipedia.org/wiki/Sampling_distribution" target="_blank">sampling distribution</a> of the</tspan></tspan><tspan
+   id="tspan2715"><a xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution" xlink:title="Read more on Wikipedia" xlink:show="new">sampling distribution</a> of the</tspan></tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="759.22534"
