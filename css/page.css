@@ -105,3 +105,12 @@ p {
   font: normal normal 400 1em/1.25em "national-book",sans-serif;
   text-align: left
 }
+a {
+  color: #80225f;
+  font: normal normal 400 1em/1.25em "national-book",sans-serif;
+  text-decoration: underline
+}
+
+a:focus,a:hover {
+  text-decoration: none
+}
