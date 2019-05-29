@@ -344,6 +344,70 @@
          result="composite2"
          id="feComposite1437-0-5-2-9" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -352,11 +416,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="2635.7755"
-     inkscape:cy="305.44304"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="1462.3633"
+     inkscape:cy="-5.4774596"
      inkscape:document-units="px"
-     inkscape:current-layer="ord-1-ord-grp"
+     inkscape:current-layer="layer3"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -1226,7 +1290,9 @@
                  id="int-1-cat-2-yes-yes-grp">
                 <g
                    id="g949-8"
-                   transform="translate(26.263966,-2.0203051)">
+                   transform="translate(26.263966,-2.0203051)"
+                   data-tooltip="independent-t"
+                   class="inform">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -1420,7 +1486,9 @@
                  id="pair-t-grp">
                 <g
                    id="g949-8-19"
-                   transform="translate(26.263966,-2.0203051)">
+                   transform="translate(26.263966,-2.0203051)"
+                   class="inform"
+                   data-tooltip="paired-t">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -9795,7 +9863,8 @@
            id="tspan2685-1-8"><a
    xlink:href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">Spearman correlation</a> measures the </tspan><tspan
+   xlink:show="new"
+   id="a1802">Spearman correlation</a> measures the </tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -9803,9 +9872,10 @@
            id="tspan2677-0-6">strength of the <tspan
    style="font-weight:bold"
    id="tspan2698"><a
-   xlink:href="https://en.wikipedia.org/wiki/Monotonic_function"
-   xlink:title="Read more on Wikipedia"
-   xlink:show="new">monotonic</a></tspan> rela-</tspan><tspan
+     xlink:href="https://en.wikipedia.org/wiki/Monotonic_function"
+     xlink:title="Read more on Wikipedia"
+     xlink:show="new"
+     id="a1805">monotonic</a></tspan> rela-</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="679.22534"
@@ -9841,6 +9911,221 @@
            y="799.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2784">or the sample correlations.</tspan></text>
+    </g>
+    <g
+       id="independent-t"
+       class="tooltip"
+       transform="translate(558.48698,846.80264)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0"
+         width="283.99579"
+         height="684.28876"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2784-2"><a
+   xlink:href="https://en.wikipedia.org/wiki/Student%27s_t-test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1823">Student's t-test</a> compares the means</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2769">of two populations. The test assumes</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2771">that the <tspan
+   style="font-style:italic"
+   id="tspan2773"><a
+     xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution"
+     xlink:title="Read more on Wikipedia"
+     xlink:show="new"
+     id="a1827">sampling distributions</a></tspan> of</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2777">the means are normal and that both</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2781">populations have the same variance.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2787" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2791">The normality assumption will be met</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2795">if the sample is large enough. If the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2797">distribution of the data is symmetric</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2799">relatively modest sample sizes are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2801">likely to be sufficient.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2803" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2807">If it isn't reasonable to assume that</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2811">the variances are equal, use <a
+   xlink:href="https://en.wikipedia.org/wiki/Welch%27s_t-test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1841">Welch's</a></tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813"><a
+   xlink:href="https://en.wikipedia.org/wiki/Welch%27s_t-test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1844">t-test</a> instead.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775" /></text>
+    </g>
+    <g
+       id="paired-t"
+       class="tooltip"
+       transform="translate(885.47358,849.30239)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1"
+         width="286.9375"
+         height="527.7514"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2769-5">The <a
+   xlink:href="https://en.wikipedia.org/wiki/Student%27s_t-test#Dependent_t-test_for_paired_samples"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">paired t-test</a> compares the means </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2777-7">of two matched groups. The test as-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2818">sumes that the <tspan
+   style="font-style:italic"
+   id="tspan2773-4"><a
+     xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution"
+     xlink:title="Read more on Wikipedia"
+     xlink:show="new">sampling distribution</a></tspan></tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2781-4">of the mean difference between</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2825">groups is normal.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2787-7" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2791-8">The normality assumption will be met</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2795-1">if the sample is large enough. If the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2797-4">distribution of the differences is sym-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2799-3">metric relatively modest sample sizes</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2801-4">are likely to be sufficient.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-0" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0" /></text>
     </g>
   </g>
 </svg>
