@@ -280,6 +280,38 @@
          result="composite2"
          id="feComposite1437-0-5" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -289,10 +321,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="710.36018"
-     inkscape:cy="76.87162"
+     inkscape:cx="359.01433"
+     inkscape:cy="191.15733"
      inkscape:document-units="px"
-     inkscape:current-layer="pearson-cor"
+     inkscape:current-layer="int-1-int-no-no-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -2106,7 +2138,9 @@
                inkscape:label="int-1-int-no-no-grp">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-2">
+                 id="g949-2"
+                 data-tooltip="pearson-bootstrap"
+                 class="inform">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-5"
@@ -8935,7 +8969,11 @@
            y="739.22534"
            id="tspan1446">the <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-   id="tspan1454"><a xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution" xlink:title="Read more on Wikipedia" xlink:show="new">sampling distribution</a> of the</tspan></tspan><tspan
+   id="tspan1454"><a
+   xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1629">sampling distribution</a> of the</tspan></tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="759.22534"
@@ -9154,7 +9192,11 @@
            y="739.22534"
            id="tspan1446-8">the <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-   id="tspan1454-7"><a xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution" xlink:title="Read more on Wikipedia" xlink:show="new">sampling distribution</a> of the</tspan></tspan><tspan
+   id="tspan1454-7"><a
+   xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1677">sampling distribution</a> of the</tspan></tspan><tspan
            sodipodi:role="line"
            x="-73.544197"
            y="759.22534"
@@ -9494,7 +9536,11 @@
            x="-81.544197"
            y="639.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan2669"><a xlink:href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient" xlink:title="Read more on Wikipedia" xlink:show="new">Pearson correlation</a> measures the</tspan><tspan
+           id="tspan2669"><a
+   xlink:href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1747">Pearson correlation</a> measures the</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -9523,7 +9569,11 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2707">the <tspan
    style="font-style:italic"
-   id="tspan2715"><a xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution" xlink:title="Read more on Wikipedia" xlink:show="new">sampling distribution</a> of the</tspan></tspan><tspan
+   id="tspan2715"><a
+   xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1755">sampling distribution</a> of the</tspan></tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="759.22534"
@@ -9576,6 +9626,108 @@
            y="939.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2743">in the data. </tspan></text>
+    </g>
+    <g
+       id="pearson-bootstrap"
+       class="tooltip"
+       transform="translate(-86.513003,853.23126)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3"
+         width="264.5816"
+         height="654.37292"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2669-2"><a
+            xlink:href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
+            xlink:title="Read more on Wikipedia"
+            xlink:show="new">Pearson correlation</a> measures the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2685-1">strength of the <tspan
+   style="font-weight:bold"
+   id="tspan2701-9">linear</tspan> relationship</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2677-0">between two continuous variables.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2691-3" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2576-5"><a
+            xlink:href="https://en.wikipedia.org/wiki/Bootstrapping_(statistics)"
+            xlink:title="Read more on Wikipedia"
+            xlink:show="new">Bootstrapping</a> does not require the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2724">normality assumptions the para-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2726">metric test relies on. It <tspan
+   style="font-style:italic"
+   id="tspan2728">does</tspan> require</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2732">larger sample sizes and should be</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2734">avoided for small samples.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2705-3" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2693-8">Pearson's correlation coefficient</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2697-7">is sensitive to outliers and may be</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2699-4">misleading if outliers are present</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2743-9">in the data. </tspan></text>
     </g>
   </g>
 </svg>
