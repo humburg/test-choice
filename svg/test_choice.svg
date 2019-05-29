@@ -312,6 +312,38 @@
          result="composite2"
          id="feComposite1437-0-5-2" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -321,10 +353,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="359.01433"
-     inkscape:cy="191.15733"
+     inkscape:cx="2635.7755"
+     inkscape:cy="305.44304"
      inkscape:document-units="px"
-     inkscape:current-layer="int-1-int-no-no-grp"
+     inkscape:current-layer="ord-1-ord-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -2300,7 +2332,9 @@
              inkscape:label="int-1-int-yes-grp">
             <g
                transform="translate(26.263966,-2.0203051)"
-               id="g949-87">
+               id="g949-87"
+               data-tooltip="spearman-cor"
+               class="inform">
               <rect
                  style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                  id="rect937-4"
@@ -4542,7 +4576,9 @@
            inkscape:label="int-1-int-yes-grp">
           <g
              transform="translate(26.263966,-2.0203051)"
-             id="g949-87-9">
+             id="g949-87-9"
+             data-tooltip="spearman-cor"
+             class="inform">
             <rect
                style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                id="rect937-4-3"
@@ -9653,9 +9689,10 @@
            y="639.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2669-2"><a
-            xlink:href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
-            xlink:title="Read more on Wikipedia"
-            xlink:show="new">Pearson correlation</a> measures the</tspan><tspan
+   xlink:href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1775">Pearson correlation</a> measures the</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -9678,9 +9715,10 @@
            y="719.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2576-5"><a
-            xlink:href="https://en.wikipedia.org/wiki/Bootstrapping_(statistics)"
-            xlink:title="Read more on Wikipedia"
-            xlink:show="new">Bootstrapping</a> does not require the</tspan><tspan
+   xlink:href="https://en.wikipedia.org/wiki/Bootstrapping_(statistics)"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1782">Bootstrapping</a> does not require the</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="739.22534"
@@ -9728,6 +9766,81 @@
            y="899.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2743-9">in the data. </tspan></text>
+    </g>
+    <g
+       id="spearman-cor"
+       class="tooltip"
+       transform="translate(254.20128,848.94554)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0"
+         width="270.12851"
+         height="453.93677"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2685-1-8"><a
+   xlink:href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Spearman correlation</a> measures the </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2677-0-6">strength of the <tspan
+   style="font-weight:bold"
+   id="tspan2698"><a
+   xlink:href="https://en.wikipedia.org/wiki/Monotonic_function"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">monotonic</a></tspan> rela-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2714">tionshipbetween  two variables.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2691-3-0" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2743-9-3">It is more robust towards outliers</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2778">than the Pearson correlation coef-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2780">ficient and makes no assumptions</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2782">about the distribution of the data</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2784">or the sample correlations.</tspan></text>
     </g>
   </g>
 </svg>
