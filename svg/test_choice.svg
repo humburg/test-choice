@@ -408,6 +408,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-5" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-6">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-87" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-9" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-7" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-0" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -416,11 +448,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="1462.3633"
-     inkscape:cy="-5.4774596"
+     inkscape:zoom="0.7"
+     inkscape:cx="3358.0584"
+     inkscape:cy="218.32482"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="ord-1-cat-2-yes-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -1327,7 +1359,9 @@
                  id="int-1-cat-2-yes-no-grp">
                 <g
                    id="g949-8-1"
-                   transform="translate(26.263966,-2.0203051)">
+                   transform="translate(26.263966,-2.0203051)"
+                   class="inform"
+                   data-tooltip="mwu-test">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -4388,7 +4422,9 @@
                id="ord-1-cat-2-yes-grp">
               <g
                  id="g949-8-1-91"
-                 transform="translate(26.263966,-2.0203051)">
+                 transform="translate(26.263966,-2.0203051)"
+                 class="inform"
+                 data-tooltip="mwu-test">
                 <rect
                    y="819.08154"
                    x="-474.7717"
@@ -10060,7 +10096,8 @@
            id="tspan2769-5">The <a
    xlink:href="https://en.wikipedia.org/wiki/Student%27s_t-test#Dependent_t-test_for_paired_samples"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">paired t-test</a> compares the means </tspan><tspan
+   xlink:show="new"
+   id="a1853">paired t-test</a> compares the means </tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -10075,7 +10112,8 @@
    id="tspan2773-4"><a
      xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution"
      xlink:title="Read more on Wikipedia"
-     xlink:show="new">sampling distribution</a></tspan></tspan><tspan
+     xlink:show="new"
+     id="a1857">sampling distribution</a></tspan></tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="699.22534"
@@ -10126,6 +10164,71 @@
            y="879.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2775-0" /></text>
+    </g>
+    <g
+       id="mwu-test"
+       class="tooltip"
+       transform="translate(1222.7727,850.37413)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-12"
+         width="282.60907"
+         height="367.18069"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-6)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-2"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-1">The <a
+     xlink:href="https://en.wikipedia.org/wiki/Sampling_distribution"
+     xlink:title="Read more on Wikipedia"
+     xlink:show="new">Mann-Whitney U test</a> compares</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2943">the distributions of two independent</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2945">samples. </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2947" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2949">If the shape and scale of both distri-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2951">butions are the same this can be in-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2953">terpreted as a comparison of medians.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-1" /></text>
     </g>
   </g>
 </svg>
