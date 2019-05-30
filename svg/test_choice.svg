@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="7406.9961"
-   height="1456.1238"
-   viewBox="0 0 7406.9965 1456.1237"
+   height="1559.1583"
+   viewBox="0 0 7406.9963 1559.1582"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -472,6 +472,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-0-5" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-6-3">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-6-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-8-6" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-1-3" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-1-7" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-2-5" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -481,10 +513,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="2655.2808"
-     inkscape:cy="476.55869"
+     inkscape:cx="3255.3771"
+     inkscape:cy="379.32512"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1822-3-4-3-2"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -492,7 +524,11 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -509,7 +545,7 @@
      inkscape:label="Layer 1"
      id="layer1"
      class="layer"
-     transform="translate(3203.6931,-55.526524)"
+     transform="translate(3203.6931,-55.526549)"
      inkscape:groupmode="layer">
     <g
        id="root">
@@ -612,7 +648,8 @@
       <g
          class="choice"
          id="choice-1"
-         transform="translate(235.36554,-56.568543)">
+         transform="translate(235.36554,-56.568543)"
+         style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
         <rect
            id="rect815"
            width="96.689354"
@@ -681,7 +718,8 @@
         <g
            transform="translate(24.639895,189.12781)"
            id="dv-choice-7"
-           class="choice">
+           class="choice"
+           style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
           <rect
              transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
              ry="1.0277354"
@@ -783,7 +821,8 @@
         </g>
         <g
            id="g1412"
-           class="choice">
+           class="choice"
+           style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
           <rect
              transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
              ry="1.0277354"
@@ -937,7 +976,8 @@
           <g
              id="dv-choice-6"
              transform="translate(413.3732,244.3605)"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect815-1"
                width="96.689354"
@@ -1060,7 +1100,8 @@
             <g
                transform="translate(413.3732,244.3605)"
                id="dv-choice-6-1"
-               class="choice">
+               class="choice"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                  ry="1.0277354"
@@ -1155,7 +1196,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-0"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -1277,7 +1319,8 @@
                    id="dv-choice-7-0-6"
                    transform="translate(199.34326,523.7399)"
                    class="choice inform"
-                   data-tooltip="normal-mean">
+                   data-tooltip="normal-mean"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5"
                      width="96.689354"
@@ -1449,7 +1492,7 @@
                        style="font-size:18.66666603px">+</tspan></text>
                 </g>
                 <g
-                   data-subtree="wilcox-grp"
+                   data-subtree="int-1-cat-2-no-no-grp"
                    class="toggle"
                    transform="translate(342.90995,541.76087)"
                    id="g1427-3-0-0-5-3-1">
@@ -1583,42 +1626,197 @@
                    id="path951-8-2"
                    inkscape:connector-curvature="0" />
               </g>
+            </g>
+            <g
+               id="int-1-cat-2-no-no-grp">
               <g
-                 inkscape:label="wilcox-grp"
-                 transform="translate(-1512.8346,549.752)"
-                 id="wilcox-grp">
+                 id="int-1-cat-2-no-no-yes-grp"
+                 transform="translate(-1658.2632,666.46629)"
+                 inkscape:label="#int-1-cat-2-no-no-yes-grp">
                 <g
-                   id="g949-8-1-2"
-                   transform="translate(26.263966,-2.0203051)"
+                   data-tooltip="wilcoxon-signed-rank"
                    class="inform"
-                   data-tooltip="wilcoxon-signed-rank">
+                   transform="translate(26.263966,-2.0203051)"
+                   id="g949-8-1-2">
                   <rect
-                     y="819.08154"
-                     x="-474.7717"
-                     height="64.649773"
-                     width="186.87822"
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                      id="rect937-0-0-5"
-                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                     width="186.87822"
+                     height="64.649773"
+                     x="-474.7717"
+                     y="819.08154" />
                   <text
-                     id="text941-9-0-8"
-                     y="845.4494"
-                     x="-381.37946"
+                     xml:space="preserve"
                      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                     xml:space="preserve"><tspan
-                       id="tspan1346-6-6"
-                       y="845.4494"
-                       x="-381.37946"
-                       sodipodi:role="line">Wilcoxon</tspan><tspan
-                       y="865.4494"
-                       x="-381.37946"
+                     x="-381.37946"
+                     y="845.4494"
+                     id="text941-9-0-8"><tspan
                        sodipodi:role="line"
-                       id="tspan3096">signed rank test</tspan></text>
+                       x="-381.37946"
+                       y="845.4494"
+                       id="tspan1346-6-6">Wilcoxon</tspan><tspan
+                       id="tspan3096"
+                       sodipodi:role="line"
+                       x="-381.37946"
+                       y="865.4494">signed rank test</tspan></text>
                 </g>
                 <path
-                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                   d="M -355.06862,817.12938 V 743.20081"
+                   inkscape:connector-curvature="0"
                    id="path951-8-1-1"
-                   inkscape:connector-curvature="0" />
+                   d="M -355.06862,817.12938 V 743.20081"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+              </g>
+              <g
+                 id="g1822-3-4-3"
+                 transform="translate(-2350.1142,650.44051)">
+                <g
+                   id="g1427-3-0-0-4-0-8"
+                   transform="translate(51.782964,541.76087)"
+                   class="toggle"
+                   data-subtree="int-1-cat-2-no-no-yes-grp">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-2-1-6"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-7-3-5"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-7-7-8"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   id="g1427-3-0-0-5-3-1-6"
+                   transform="translate(342.90995,541.76087)"
+                   class="toggle"
+                   data-subtree="int-1-cat-2-no-no-no-grp">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-9-1-7-2"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-1-8-0-9"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-0-7-9-4"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   data-tooltip="symmetric-diff"
+                   class="choice inform"
+                   transform="translate(199.34326,523.7399)"
+                   id="dv-choice-7-0-6-0-3">
+                  <rect
+                     transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
+                     ry="1.0277354"
+                     rx="0.91376519"
+                     y="318.3754"
+                     x="-67.427727"
+                     height="96.689354"
+                     width="96.689354"
+                     id="rect815-5-3-5-9-9" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     x="281.68542"
+                     y="218.8942"
+                     id="text819-6-6-7-1-0"><tspan
+                       id="tspan2805"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="218.8942"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Symmetric</tspan><tspan
+                       id="tspan2808"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="243.39908"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">differences</tspan></text>
+                </g>
+                <text
+                   id="text1796-0-3-0"
+                   y="746.3302"
+                   x="360.52295"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="360.52295"
+                     id="tspan1794-7-5-4"
+                     sodipodi:role="line">Yes</tspan></text>
+                <text
+                   id="text1800-5-5-0"
+                   y="746.3302"
+                   x="578.81738"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="578.81738"
+                     id="tspan1798-8-9-5"
+                     sodipodi:role="line">No</tspan></text>
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 402.86031,749.45575 H 345.87573"
+                   id="path4823-7-4-2"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 616.67386,749.45575 H 559.68928"
+                   id="path4823-4-3-4-4"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 481.27479,692.88721 V 643.52777"
+                   id="path935-3-2-3"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+              </g>
+              <g
+                 id="int-1-cat-2-no-no-no-grp"
+                 transform="translate(-1367.9102,666.33725)"
+                 inkscape:label="#int-1-cat-2-no-no-no-grp">
+                <g
+                   data-tooltip="wilcoxon-signed-rank"
+                   class="inform"
+                   transform="translate(26.263966,-2.0203051)"
+                   id="g949-8-1-2-7">
+                  <rect
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                     id="rect937-0-0-5-6"
+                     width="186.87822"
+                     height="64.649773"
+                     x="-474.7717"
+                     y="819.08154" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     x="-381.63727"
+                     y="855.54706"
+                     id="text941-9-0-8-0"><tspan
+                       id="tspan3096-1"
+                       sodipodi:role="line"
+                       x="-381.63727"
+                       y="855.54706">Sign test</tspan></text>
+                </g>
+                <path
+                   inkscape:connector-curvature="0"
+                   id="path951-8-1-1-33"
+                   d="M -355.06862,817.12938 V 743.20081"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
               </g>
             </g>
           </g>
@@ -1678,7 +1876,8 @@
                  transform="translate(-324.65674,523.7399)"
                  id="dv-choice-7-0-0-8"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -1800,7 +1999,8 @@
                    id="dv-choice-7-0-6-8"
                    transform="translate(199.34326,523.7399)"
                    class="choice inform"
-                   data-tooltip="normal-resid">
+                   data-tooltip="normal-resid"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5-6"
                      width="96.689354"
@@ -1989,7 +2189,8 @@
                 <g
                    id="dv-choice-7-0-6-8-2"
                    transform="translate(199.34326,523.7399)"
-                   class="choice">
+                   class="choice"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5-6-8"
                      width="96.689354"
@@ -2192,7 +2393,8 @@
                  data-tooltip="normal-cor"
                  class="choice inform"
                  transform="translate(199.34326,523.7399)"
-                 id="dv-choice-7-0">
+                 id="dv-choice-7-0"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -2391,7 +2593,8 @@
                data-tooltip="data-cor"
                class="choice inform"
                transform="translate(199.34326,523.7399)"
-               id="dv-choice-7-0-17">
+               id="dv-choice-7-0-17"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                  ry="1.0277354"
@@ -2583,7 +2786,8 @@
           <g
              id="dv-choice-6-5"
              transform="translate(413.3732,244.3605)"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect815-1-31"
                width="96.689354"
@@ -2736,7 +2940,8 @@
                id="dv-choice-7-0-1"
                transform="translate(199.34326,523.7399)"
                data-tooltip="normal-resid"
-               class="choice inform">
+               class="choice inform"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-5-3-4"
                  width="96.689354"
@@ -2928,7 +3133,8 @@
                id="dv-choice-7-0-0-6"
                transform="translate(199.34326,523.7399)"
                data-tooltip="independent"
-               class="choice inform">
+               class="choice inform"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-5-3-1-2"
                  width="96.689354"
@@ -3049,7 +3255,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6"
                  class="choice inform"
-                 data-tooltip="normal-resid">
+                 data-tooltip="normal-resid"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3240,7 +3447,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-2"
                  data-tooltip="normal-mixed"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3440,7 +3648,8 @@
                id="dv-choice-7-0-0-6-4"
                transform="translate(199.34326,523.7399)"
                data-tooltip="independent"
-               class="choice inform">
+               class="choice inform"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-5-3-1-2-9"
                  width="96.689354"
@@ -3562,7 +3771,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-0"
                  data-tooltip="normal-resid"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3754,7 +3964,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-6-8-6-2-8"
                  data-tooltip="normal-mixed"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -3913,7 +4124,8 @@
         <g
            class="choice"
            id="dv-choice-7-5"
-           transform="translate(24.639895,189.12781)">
+           transform="translate(24.639895,189.12781)"
+           style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
           <rect
              id="rect815-5-6"
              width="96.689354"
@@ -4015,7 +4227,8 @@
         </g>
         <g
            class="choice"
-           id="g1412-0">
+           id="g1412-0"
+           style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
           <rect
              id="rect1431-8"
              width="96.689354"
@@ -4168,7 +4381,8 @@
           <g
              id="dv-choice-6-9"
              transform="translate(413.3732,244.3605)"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect815-1-1"
                width="96.689354"
@@ -4290,7 +4504,8 @@
             <g
                class="choice"
                id="dv-choice-6-1-4"
-               transform="translate(413.3732,244.3605)">
+               transform="translate(413.3732,244.3605)"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-1-3-9"
                  width="96.689354"
@@ -4384,7 +4599,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-0-0"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -4485,42 +4701,197 @@
                  sodipodi:nodetypes="cc" />
             </g>
             <g
-               inkscape:label="wilcox-grp"
-               transform="translate(696.04746,383.41907)"
+               transform="translate(2209.8194,-99.245059)"
                id="ord-1-cat-2-no-grp">
               <g
-                 id="g949-8-1-2-6"
-                 transform="translate(26.263966,-2.0203051)"
-                 class="inform"
-                 data-tooltip="wilcoxon-signed-rank">
-                <rect
-                   y="819.08154"
-                   x="-474.7717"
-                   height="64.649773"
-                   width="186.87822"
-                   id="rect937-0-0-5-2"
-                   style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-                <text
-                   id="text941-9-0-8-9"
-                   y="845.4494"
-                   x="-381.37946"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                   xml:space="preserve"><tspan
-                     id="tspan1346-6-6-8"
+                 id="ord-1-cat-2-no-yes-grp"
+                 transform="translate(-1658.2632,666.46629)"
+                 inkscape:label="#ord-1-cat-2-no-yes-grp">
+                <g
+                   data-tooltip="wilcoxon-signed-rank"
+                   class="inform"
+                   transform="translate(26.263966,-2.0203051)"
+                   id="g949-8-1-2-9">
+                  <rect
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                     id="rect937-0-0-5-9"
+                     width="186.87822"
+                     height="64.649773"
+                     x="-474.7717"
+                     y="819.08154" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     x="-381.37946"
                      y="845.4494"
-                     x="-381.37946"
-                     sodipodi:role="line">Wilcoxon</tspan><tspan
-                     id="tspan3094"
-                     y="865.4494"
-                     x="-381.37946"
-                     sodipodi:role="line">signed rank test</tspan></text>
+                     id="text941-9-0-8-1"><tspan
+                       sodipodi:role="line"
+                       x="-381.37946"
+                       y="845.4494"
+                       id="tspan1346-6-6-1">Wilcoxon</tspan><tspan
+                       id="tspan3096-0"
+                       sodipodi:role="line"
+                       x="-381.37946"
+                       y="865.4494">signed rank test</tspan></text>
+                </g>
+                <path
+                   inkscape:connector-curvature="0"
+                   id="path951-8-1-1-9"
+                   d="M -355.06862,817.12938 V 743.20081"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
               </g>
-              <path
-                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                 d="M -355.06862,817.12938 V 697.20081"
-                 id="path951-8-1-1-3"
-                 inkscape:connector-curvature="0"
-                 sodipodi:nodetypes="cc" />
+              <g
+                 id="g1822-3-4-3-2"
+                 transform="translate(-2350.1142,650.44051)">
+                <g
+                   id="g1427-3-0-0-4-0-8-6"
+                   transform="translate(51.782964,541.76087)"
+                   class="toggle"
+                   data-subtree="ord-1-cat-2-no-yes-grp">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-2-1-6-7"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-7-3-5-0"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-7-7-8-0"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   id="g1427-3-0-0-5-3-1-6-0"
+                   transform="translate(342.90995,541.76087)"
+                   class="toggle"
+                   data-subtree="ord-1-cat-2-no-no-grp">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-9-1-7-2-0"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-1-8-0-9-1"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-0-7-9-4-9"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   data-tooltip="symmetric-diff"
+                   class="choice inform"
+                   transform="translate(199.34326,523.7399)"
+                   id="dv-choice-7-0-6-0-3-1">
+                  <rect
+                     transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
+                     ry="1.0277354"
+                     rx="0.91376519"
+                     y="318.3754"
+                     x="-67.427727"
+                     height="96.689354"
+                     width="96.689354"
+                     id="rect815-5-3-5-9-9-6" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     x="281.68542"
+                     y="218.8942"
+                     id="text819-6-6-7-1-0-2"><tspan
+                       id="tspan2805-4"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="218.8942"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Symmetric</tspan><tspan
+                       id="tspan2808-6"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="243.39908"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">differences</tspan></text>
+                </g>
+                <text
+                   id="text1796-0-3-0-2"
+                   y="746.3302"
+                   x="360.52295"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="360.52295"
+                     id="tspan1794-7-5-4-8"
+                     sodipodi:role="line">Yes</tspan></text>
+                <text
+                   id="text1800-5-5-0-6"
+                   y="746.3302"
+                   x="578.81738"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="578.81738"
+                     id="tspan1798-8-9-5-6"
+                     sodipodi:role="line">No</tspan></text>
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 402.86031,749.45575 H 345.87573"
+                   id="path4823-7-4-2-9"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 616.67386,749.45575 H 559.68928"
+                   id="path4823-4-3-4-4-6"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 481.27479,692.88721 V 530.67063"
+                   id="path935-3-2-3-3"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+              </g>
+              <g
+                 id="ord-1-cat-2-no-no-grp"
+                 transform="translate(-1367.9102,666.33725)"
+                 inkscape:label="#ord-1-cat-2-no-no-grp">
+                <g
+                   data-tooltip="wilcoxon-signed-rank"
+                   class="inform"
+                   transform="translate(26.263966,-2.0203051)"
+                   id="g949-8-1-2-7-4">
+                  <rect
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                     id="rect937-0-0-5-6-0"
+                     width="186.87822"
+                     height="64.649773"
+                     x="-474.7717"
+                     y="819.08154" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     x="-381.63727"
+                     y="855.54706"
+                     id="text941-9-0-8-0-6"><tspan
+                       id="tspan3096-1-5"
+                       sodipodi:role="line"
+                       x="-381.63727"
+                       y="855.54706">Sign test</tspan></text>
+                </g>
+                <path
+                   inkscape:connector-curvature="0"
+                   id="path951-8-1-1-33-0"
+                   d="M -355.06862,817.12938 V 743.20081"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+              </g>
             </g>
           </g>
           <g
@@ -4830,7 +5201,8 @@
           <g
              id="dv-choice-6-5-6"
              transform="translate(413.3732,244.3605)"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect815-1-31-4"
                width="96.689354"
@@ -5017,7 +5389,8 @@
                class="choice inform"
                data-tooltip="independent"
                transform="translate(199.34326,523.7399)"
-               id="dv-choice-7-0-0-6-41">
+               id="dv-choice-7-0-0-6-41"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                  ry="1.0277354"
@@ -5207,7 +5580,8 @@
                class="choice inform"
                data-tooltip="independent"
                transform="translate(199.34326,523.7399)"
-               id="dv-choice-7-0-0-6-41-7">
+               id="dv-choice-7-0-0-6-41-7"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                  ry="1.0277354"
@@ -5426,7 +5800,8 @@
         <g
            class="choice"
            id="dv-choice-6-1-4-3"
-           transform="translate(413.3732,244.3605)">
+           transform="translate(413.3732,244.3605)"
+           style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
           <rect
              id="rect815-1-3-9-6"
              width="96.689354"
@@ -5474,7 +5849,8 @@
           <g
              transform="translate(24.639895,189.12781)"
              id="dv-choice-7-5-7"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                ry="1.0277354"
@@ -5576,7 +5952,8 @@
           </g>
           <g
              id="g1412-0-5"
-             class="choice">
+             class="choice"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                ry="1.0277354"
@@ -5729,7 +6106,8 @@
             <g
                id="dv-choice-6-5-6-9"
                transform="translate(413.3732,253.45185)"
-               class="choice">
+               class="choice"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-1-31-4-3"
                  width="96.689354"
@@ -5882,7 +6260,8 @@
                  class="choice inform"
                  data-tooltip="normal-iv"
                  id="dv-choice-7-0-6-8-6-2-8-2"
-                 transform="translate(199.34326,523.7399)">
+                 transform="translate(199.34326,523.7399)"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    id="rect815-5-3-5-6-81-9-1-6"
                    width="96.689354"
@@ -6106,7 +6485,8 @@
                  class="choice inform"
                  data-tooltip="independent"
                  id="dv-choice-7-0-0-0-7-4-6"
-                 transform="translate(199.34326,523.7399)">
+                 transform="translate(199.34326,523.7399)"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    id="rect815-5-3-1-6-1-4-0"
                    width="96.689354"
@@ -6264,7 +6644,8 @@
                  class="choice inform"
                  data-tooltip="independent"
                  id="dv-choice-7-0-0-0-7-4-4"
-                 transform="translate(199.34326,523.7399)">
+                 transform="translate(199.34326,523.7399)"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    id="rect815-5-3-1-6-1-4-05"
                    width="96.689354"
@@ -6480,7 +6861,8 @@
             <g
                id="dv-choice-6-2"
                transform="translate(413.3732,244.3605)"
-               class="choice">
+               class="choice"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-1-5"
                  width="96.689354"
@@ -6633,7 +7015,8 @@
               <g
                  transform="translate(413.3732,244.3605)"
                  id="dv-choice-6-1-4-9"
-                 class="choice">
+                 class="choice"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -6728,7 +7111,8 @@
                    transform="translate(199.34326,523.7399)"
                    id="dv-choice-7-0-0-0-7"
                    data-tooltip="independent"
-                   class="choice inform">
+                   class="choice inform"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                      ry="1.0277354"
@@ -6849,7 +7233,8 @@
                      class="choice inform"
                      data-tooltip="small-count"
                      id="dv-choice-7-0-0-0-7-6"
-                     transform="translate(199.34326,523.7399)">
+                     transform="translate(199.34326,523.7399)"
+                     style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                     <rect
                        id="rect815-5-3-1-6-1-0"
                        width="96.689354"
@@ -7065,7 +7450,8 @@
                    transform="translate(199.34326,523.7399)"
                    id="dv-choice-7-0-0-0-7-4"
                    data-tooltip="independent"
-                   class="choice inform">
+                   class="choice inform"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                      ry="1.0277354"
@@ -7186,7 +7572,8 @@
                      class="choice inform"
                      data-tooltip="small-count"
                      id="dv-choice-7-0-0-0-7-6-6"
-                     transform="translate(199.34326,523.7399)">
+                     transform="translate(199.34326,523.7399)"
+                     style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                     <rect
                        id="rect815-5-3-1-6-1-0-9"
                        width="96.689354"
@@ -7361,7 +7748,8 @@
           <g
              class="choice"
              id="dv-choice-7-5-7-6"
-             transform="translate(24.639895,189.12781)">
+             transform="translate(24.639895,189.12781)"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect815-5-6-8-6"
                width="96.689354"
@@ -7463,7 +7851,8 @@
           </g>
           <g
              class="choice"
-             id="g1412-0-5-1">
+             id="g1412-0-5-1"
+             style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
             <rect
                id="rect1431-8-8-5"
                width="96.689354"
@@ -7616,7 +8005,8 @@
             <g
                id="dv-choice-6-2-0"
                transform="translate(413.3732,244.3605)"
-               class="choice">
+               class="choice"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  id="rect815-1-5-8"
                  width="96.689354"
@@ -7713,7 +8103,8 @@
                    transform="translate(199.34326,523.7399)"
                    id="dv-choice-7-0-0-0-7-3"
                    data-tooltip="independent"
-                   class="choice inform">
+                   class="choice inform"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                      ry="1.0277354"
@@ -7870,7 +8261,8 @@
                      class="choice inform"
                      data-tooltip="small-count"
                      id="dv-choice-7-0-0-0-7-6-6-2"
-                     transform="translate(199.34326,523.7399)">
+                     transform="translate(199.34326,523.7399)"
+                     style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                     <rect
                        id="rect815-5-3-1-6-1-0-9-7"
                        width="96.689354"
@@ -8080,7 +8472,8 @@
               <g
                  class="choice"
                  id="dv-choice-6-1-4-9-3"
-                 transform="translate(413.3732,244.3605)">
+                 transform="translate(413.3732,244.3605)"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    id="rect815-1-3-9-63-4"
                    width="96.689354"
@@ -8176,7 +8569,8 @@
                    class="choice inform"
                    data-tooltip="independent"
                    id="dv-choice-7-0-0-0-7-4-65"
-                   transform="translate(199.34326,523.7399)">
+                   transform="translate(199.34326,523.7399)"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-1-6-1-4-8"
                      width="96.689354"
@@ -8297,7 +8691,8 @@
                      transform="translate(199.34326,523.7399)"
                      id="dv-choice-7-0-0-0-7-6-6-9"
                      data-tooltip="small-count"
-                     class="choice inform">
+                     class="choice inform"
+                     style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                     <rect
                        transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                        ry="1.0277354"
@@ -8577,7 +8972,8 @@
             <g
                class="choice"
                transform="translate(413.3732,253.45185)"
-               id="dv-choice-6-5-6-9-5">
+               id="dv-choice-6-5-6-9-5"
+               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
               <rect
                  transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                  ry="1.0277354"
@@ -8797,7 +9193,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-0-0-7-4-6-7"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -8955,7 +9352,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-0-0-7-4-4-7"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -9101,7 +9499,8 @@
     <g
        id="normal-mean"
        class="tooltip"
-       transform="translate(-410.75533,-613.29826)">
+       transform="translate(-410.75533,-613.29826)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408"
          width="250.71429"
@@ -9211,7 +9610,8 @@
     <g
        id="normal-resid"
        class="tooltip"
-       transform="translate(-406.92342,-210.99298)">
+       transform="translate(-406.92342,-210.99298)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3"
          width="250.71429"
@@ -9266,7 +9666,8 @@
     <g
        id="independent"
        class="tooltip"
-       transform="translate(-406.92342,-2.2702042)">
+       transform="translate(-406.92342,-2.2702042)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1"
          width="250.71429"
@@ -9324,7 +9725,8 @@
     <g
        id="normal-cor"
        class="tooltip"
-       transform="translate(-412.32675,196.86652)">
+       transform="translate(-412.32675,196.86652)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-7"
          width="252.09239"
@@ -9439,7 +9841,8 @@
     <g
        id="normal-mixed"
        class="tooltip"
-       transform="translate(-412.68802,604.59878)">
+       transform="translate(-412.68802,604.59878)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-0"
          width="246.55412"
@@ -9501,7 +9904,8 @@
     <g
        id="data-cor"
        class="tooltip"
-       transform="translate(-101.54516,-606.8298)">
+       transform="translate(-101.54516,-606.8298)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0"
          width="249.32756"
@@ -9572,7 +9976,8 @@
     <g
        id="small-count"
        class="tooltip"
-       transform="translate(-104.37013,-352.48304)">
+       transform="translate(-104.37013,-352.48304)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-8"
          width="250.71429"
@@ -9627,7 +10032,8 @@
     <g
        id="normal-iv"
        class="tooltip"
-       transform="translate(-98.655852,-184.62589)">
+       transform="translate(-98.655852,-184.62589)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-8-1"
          width="229.91341"
@@ -9690,7 +10096,7 @@
     <g
        id="pearson-cor"
        class="tooltip"
-       transform="translate(-392.22727,853.94553)"
+       transform="translate(-400.12208,941.75531)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0"
@@ -9806,7 +10212,7 @@
     <g
        id="pearson-bootstrap"
        class="tooltip"
-       transform="translate(-86.513003,853.23126)"
+       transform="translate(-94.40781,941.04111)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3"
@@ -9910,7 +10316,7 @@
     <g
        id="spearman-cor"
        class="tooltip"
-       transform="translate(254.20128,848.94554)"
+       transform="translate(246.30647,936.75531)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0"
@@ -9987,7 +10393,7 @@
     <g
        id="independent-t"
        class="tooltip"
-       transform="translate(558.48698,846.80264)"
+       transform="translate(550.59217,934.61241)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0"
@@ -10107,7 +10513,7 @@
     <g
        id="paired-t"
        class="tooltip"
-       transform="translate(885.47358,849.30239)"
+       transform="translate(877.57876,937.11221)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0-1"
@@ -10204,7 +10610,7 @@
     <g
        id="mwu-test"
        class="tooltip"
-       transform="translate(1222.7727,850.37413)"
+       transform="translate(1214.8779,938.18391)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0-12"
@@ -10270,7 +10676,7 @@
     <g
        id="wilcoxon-signed-rank"
        class="tooltip"
-       transform="translate(1542.0585,847.51699)"
+       transform="translate(1534.1637,935.32681)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0-12-9"
@@ -10295,7 +10701,8 @@
            id="tspan2813-1-7">The <a
    xlink:href="https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">Wilcoxon signed rank test</a> com-</tspan><tspan
+   xlink:show="new"
+   id="a1896">Wilcoxon signed rank test</a> com-</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -10331,6 +10738,38 @@
            y="779.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2798">differences is symmetric.</tspan></text>
+    </g>
+    <g
+       id="symmetric-diff"
+       class="tooltip"
+       transform="translate(-98.393951,392.00172)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-0-3"
+         width="243.78067"
+         height="133.83714"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-6-3)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-73.544197"
+         y="639.22534"
+         id="text1431-9-1-2"><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1567-5">Is the distribution of differences</tspan><tspan
+           sodipodi:role="line"
+           x="-73.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3000">between groups symmetric?</tspan></text>
     </g>
   </g>
 </svg>
