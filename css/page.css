@@ -19,6 +19,7 @@ object.loaded {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* MQ styles */
 h1,h2,h3 {
   font-feature-settings: "kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1
@@ -113,4 +114,43 @@ a {
 
 a:focus,a:hover {
   text-decoration: none
+}
+
+/* Collapsible for instructions */
+.content {
+  padding: 0 2em;
+  background-color: #f4f2ef;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #f4f2ef;
+  color: #80225f;
+  cursor: pointer;
+  padding: .45em 2.5em .6em .7em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.15em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  color: white;
+  background-color: #80225f;
+}
+
+.collapsible:after {
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
+  font-size: 1.15em;
+  font-weight: bold;
+  float: right;
+}
+
+.active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
 }

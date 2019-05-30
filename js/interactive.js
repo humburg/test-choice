@@ -1,4 +1,25 @@
-$(window).on('load', prepSvg);
+$(window).on('load', function() {
+  prepPage();
+  prepSvg();
+});
+
+/**
+ * Add callback for collapsible
+ */
+function prepPage() {
+  $('.collapsible').on('click', (event) => {
+    const target = event.currentTarget;
+    target.classList.toggle('active');
+    const content = target.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+      content.style.paddingTop = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+      content.style.paddingTop = '1em';
+    }
+  });
+}
 
 /**
  * Hook up javascript for interactivity.
