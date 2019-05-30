@@ -440,6 +440,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-0" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-6-8">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-87-2" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-9-5" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-7-2" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-8-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-0-5" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -448,11 +480,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="3358.0584"
-     inkscape:cy="218.32482"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="2655.2808"
+     inkscape:cy="476.55869"
      inkscape:document-units="px"
-     inkscape:current-layer="ord-1-cat-2-yes-grp"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -1557,7 +1589,9 @@
                  id="wilcox-grp">
                 <g
                    id="g949-8-1-2"
-                   transform="translate(26.263966,-2.0203051)">
+                   transform="translate(26.263966,-2.0203051)"
+                   class="inform"
+                   data-tooltip="wilcoxon-signed-rank">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -4456,7 +4490,9 @@
                id="ord-1-cat-2-no-grp">
               <g
                  id="g949-8-1-2-6"
-                 transform="translate(26.263966,-2.0203051)">
+                 transform="translate(26.263966,-2.0203051)"
+                 class="inform"
+                 data-tooltip="wilcoxon-signed-rank">
                 <rect
                    y="819.08154"
                    x="-474.7717"
@@ -10191,9 +10227,10 @@
            y="639.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2813-1">The <a
-     xlink:href="https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test"
-     xlink:title="Read more on Wikipedia"
-     xlink:show="new">Mann-Whitney U test</a> compares</tspan><tspan
+   xlink:href="https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1878">Mann-Whitney U test</a> compares</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -10229,6 +10266,71 @@
            y="779.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2775-1" /></text>
+    </g>
+    <g
+       id="wilcoxon-signed-rank"
+       class="tooltip"
+       transform="translate(1542.0585,847.51699)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-12-9"
+         width="277.06219"
+         height="400.0882"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-6-8)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-2-0"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-1-7">The <a
+   xlink:href="https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Wilcoxon signed rank test</a> com-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2945-8">pares the mean ranks of two related</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2770">groups of observations. </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2947-3" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-1-2">The differences between groups have</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2788">to be at least ordinal and it is as-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2796">sumed that the distribution of the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2798">differences is symmetric.</tspan></text>
     </g>
   </g>
 </svg>
