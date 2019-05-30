@@ -504,6 +504,38 @@
          result="composite2"
          id="feComposite1437-2-5" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-6-8-9">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-87-2-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-9-5-3" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-7-2-2" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-8-0-7" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-0-5-8" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -513,10 +545,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="3255.3771"
-     inkscape:cy="379.32512"
+     inkscape:cx="2290.9846"
+     inkscape:cy="-146.89555"
      inkscape:document-units="px"
-     inkscape:current-layer="g1822-3-4-3-2"
+     inkscape:current-layer="ord-1-cat-2-no-no-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -1790,7 +1822,7 @@
                  transform="translate(-1367.9102,666.33725)"
                  inkscape:label="#int-1-cat-2-no-no-no-grp">
                 <g
-                   data-tooltip="wilcoxon-signed-rank"
+                   data-tooltip="sign-test"
                    class="inform"
                    transform="translate(26.263966,-2.0203051)"
                    id="g949-8-1-2-7">
@@ -4864,7 +4896,7 @@
                  transform="translate(-1367.9102,666.33725)"
                  inkscape:label="#ord-1-cat-2-no-no-grp">
                 <g
-                   data-tooltip="wilcoxon-signed-rank"
+                   data-tooltip="sign-test"
                    class="inform"
                    transform="translate(26.263966,-2.0203051)"
                    id="g949-8-1-2-7-4">
@@ -10770,6 +10802,51 @@
            y="659.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan3000">between groups symmetric?</tspan></text>
+    </g>
+    <g
+       id="sign-test"
+       class="tooltip"
+       transform="translate(1862.832,933.32094)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-12-9-9"
+         width="246.66473"
+         height="226.62782"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-6-8-9)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-2-0-3"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2889">The <a
+   xlink:href="https://en.wikipedia.org/wiki/Sign_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">sign test</a> can be used to test</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2893">whether the median difference</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2895">between paired observations is</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2897">zero.</tspan></text>
     </g>
   </g>
 </svg>
