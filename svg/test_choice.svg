@@ -553,7 +553,7 @@
            y="163.95993"
            x="595"
            id="tspan935"
-           sodipodi:role="line">Categorical</tspan></text>
+           sodipodi:role="line">Nominal</tspan></text>
       <g
          transform="translate(232.80077,100.23371)"
          id="g846-4"
@@ -901,7 +901,7 @@
                id="tspan935-1"
                x="767.27106"
                y="465.26746"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">Categorical</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">Nominal</tspan></text>
           <g
              id="dv-choice-6"
              transform="translate(413.3732,244.3605)"
@@ -2545,7 +2545,7 @@
                id="tspan935-1-1"
                x="773.27106"
                y="465.26746"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All categorical</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All Nominal</tspan></text>
           <g
              id="dv-choice-6-5"
              transform="translate(413.3732,244.3605)"
@@ -2644,7 +2644,7 @@
                  x="531.53857"
                  y="283.31985"
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
-                 id="tspan1863">categorical</tspan></text>
+                 id="tspan1863">Nominal</tspan></text>
           </g>
         </g>
         <g
@@ -4130,7 +4130,7 @@
                id="tspan935-1-2"
                x="767.27106"
                y="465.26746"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">Categorical</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">Nominal</tspan></text>
           <g
              id="dv-choice-6-9"
              transform="translate(413.3732,244.3605)"
@@ -4790,7 +4790,7 @@
                id="tspan935-1-1-8"
                x="773.27106"
                y="465.26746"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All categorical</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All Nominal</tspan></text>
           <g
              id="dv-choice-6-5-6"
              transform="translate(413.3732,244.3605)"
@@ -4889,7 +4889,7 @@
                  x="531.53857"
                  y="283.31985"
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
-                 id="tspan1863-4">categorical</tspan></text>
+                 id="tspan1863-4">Nominal</tspan></text>
           </g>
         </g>
         <g
@@ -5689,7 +5689,7 @@
                  y="474.35892"
                  x="773.27106"
                  id="tspan935-1-1-8-3"
-                 sodipodi:role="line">All categorical</tspan></text>
+                 sodipodi:role="line">All Nominal</tspan></text>
             <g
                id="dv-choice-6-5-6-9"
                transform="translate(413.3732,253.45185)"
@@ -5788,7 +5788,7 @@
                    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
                    y="283.31985"
                    x="531.53857"
-                   sodipodi:role="line">categorical</tspan></text>
+                   sodipodi:role="line">Nominal</tspan></text>
             </g>
           </g>
           <g
@@ -6429,7 +6429,7 @@
                  y="467.00833"
                  x="536.9726"
                  id="tspan876-7-92"
-                 sodipodi:role="line">Categorical</tspan></text>
+                 sodipodi:role="line">Nominal</tspan></text>
             <text
                id="text937-0-3"
                y="467.26746"
@@ -7565,7 +7565,7 @@
                  y="467.00833"
                  x="536.9726"
                  id="tspan876-7-92-1"
-                 sodipodi:role="line">Categorical</tspan></text>
+                 sodipodi:role="line">Nominal</tspan></text>
             <text
                id="text937-0-3-7"
                y="467.26746"
@@ -8537,7 +8537,7 @@
                  id="tspan935-1-1-8-3-2"
                  x="773.27106"
                  y="474.35892"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All categorical</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All Nominal</tspan></text>
             <g
                class="choice"
                transform="translate(413.3732,253.45185)"
@@ -8636,7 +8636,7 @@
                    x="531.53857"
                    y="283.31985"
                    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
-                   id="tspan1863-4-8-9">categorical</tspan></text>
+                   id="tspan1863-4-8-9">Nominal</tspan></text>
             </g>
           </g>
           <g
