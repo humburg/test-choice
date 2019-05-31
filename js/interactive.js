@@ -78,7 +78,7 @@ function toggleSubtree(event) {
  * @param {Element} target The element that should be positioned on screen.
  */
 function scroll(target) {
-  const heightOffset = $('#instructions').height() / 2;
+  const heightOffset = $('#instructions').height();
   $.scrollTo(target, 300, {
     over: {left: 0.5, top: 0.5},
     offset: {
