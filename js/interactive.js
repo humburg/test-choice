@@ -1,4 +1,25 @@
-$(window).on('load', prepSvg);
+$(window).on('load', function() {
+  prepPage();
+  prepSvg();
+});
+
+/**
+ * Add callback for collapsible
+ */
+function prepPage() {
+  $('.collapsible').on('click', (event) => {
+    const target = event.currentTarget;
+    target.classList.toggle('active');
+    const content = target.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+      content.style.paddingTop = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+      content.style.paddingTop = '1em';
+    }
+  });
+}
 
 /**
  * Hook up javascript for interactivity.
@@ -26,7 +47,7 @@ function prepSvg() {
   window.setTimeout(function() {
     $('#loading').css('display', 'none');
     $('#test-choice').addClass('loaded');
-    $.scrollTo($(svg).find('#root'));
+    scroll($(svg).find('#root'));
   }, 600);
 }
 
@@ -46,17 +67,30 @@ function toggleSubtree(event) {
   if ($(target).is('.visible')) {
     text.html('-');
     const focus = $(target).children('g').first().children('.choice').first();
-    $.scrollTo(focus, 300, {
-      over: {left: 0.5, top: 0.5},
-      offset: {
-        left: -$(window).width() / 2,
-        top: -$(window).height() / 2},
-    });
+    scroll(focus);
   } else {
     text.html('+');
   }
 }
 
+/**
+ * Scroll target into view.
+ * @param {Element} target The element that should be positioned on screen.
+ */
+function scroll(target) {
+  const heightOffset = $('#instructions').height();
+  $.scrollTo(target, 300, {
+    over: {left: 0.5, top: 0.5},
+    offset: {
+      left: -$(window).width() / 2,
+      top: -$(window).height() / 2 + heightOffset},
+  });
+  $(window).scroll(function() {
+    $('#instructions').css({
+      'left': $(window).scrollLeft(),
+    });
+  });
+}
 /**
  * Toggle the visibility of a subtree
  * @param {Element} subtree

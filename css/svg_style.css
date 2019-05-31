@@ -16,6 +16,7 @@ g {
   opacity: 0;
 }
 .tooltip:hover {
+  display: block;
   opacity: 1;
 }
 .tooltip:not(.visible) {
@@ -37,4 +38,12 @@ g {
 
 .visible > g > .inform {
   cursor: help;
+}
+a {
+  text-decoration: underline
+}
+
+a:focus,a:hover {
+  fill: #80225f;
+  text-decoration: none
 }

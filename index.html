@@ -1,19 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Choose a Statistical Test</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-    <script src='js/interactive.js'></script>
-    <link rel="stylesheet" type="text/css" href="css/page.css">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Choose a Statistical Test</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src='js/interactive.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/page.css">
 </head>
 <body>
-    <div id="loading">
-        Loading...
+  <div id="wrapper">
+    <div id="instructions">
+      <h1 class="type2">Choosing a statistical test</h1>
+      <p>
+        The <a href="#test-choice">diagram below</a> is intended as a guide to choosing an appropriate statistical
+        test to investigate the relationship between two or more variables for a given
+        dataset. It focuses on determining what type of test is available based on the
+        nature of the data. Answering the questions about the dependent and independent
+        variables will guide you to a specific test or method to use. It is important to
+        note that in most cases more than one option is available. To help simplify
+        decision making only a single choice is provided here.
+      </p>
+      <button class="collapsible">Instructions</button>
+      <div class="content">
+        <h3>Dependent and independent variables</h3>
+        <p>
+          The diagram asks you to make choices based on the nature of <em>dependent</em>
+          and <em>independent</em> variables. In many situations that distinction is clear.
+          If you are interested in testing how different experimental conditions change
+          an outcome measure of interest, it is pretty clear that the outcome measure is
+          the dependent variable and all other variables will be treated as independent.
+        </p>
+        <p>
+          Things aren't always that clear cut. Especially in situations where you are dealing
+          with two variables it is possible that there is no clear distinction between them.
+          For example, if you are interested in how closely related two different outcome
+          measures are, neither of them really is an independent variable. For the purpose
+          of the below diagram you are free to choose either one as dependent variable.
+          Note, however, that if the two variables are of different type, the statistical
+          analysis methods at your disposal will differ depending on which one you treat as
+          independent variable.
+        </p>
+        <h3>Measurement scales</h3>
+        <p>
+          While traversing the diagram you will be asked to indicate the level at which your
+          dependent and independent variables are measured. These questions rely on
+          <a href="https://en.wikipedia.org/wiki/Level_of_measurement" target="_blank">
+            Stevens' classsification of measurement scales</a>. This classsification
+          system recognises four types of measurements.
+        </p>
+        <p>
+          <strong>Nominal</strong> measures distinguish between a fixed number of discrete classes
+          that are identified by their names. No numeric value is attached to the different
+          classes and they can only be compared for equality.
+        </p>
+        <p>
+          <strong>Ordinal</strong> measures consist of discrete categories that can be ranked. This
+          allows for comparison of values to determine whether one of them is larger than the
+          other but the magnitude of the difference between two observations is not meaningful.
+        </p>
+        <p>
+          <strong>Interval</strong> measures are numeric quantities for which differences can be computed
+          and compared in a meaningful way. However, such scales do not include a <em>zero</em>
+          point that corresponds to an absence of the measured quantity. As a result of this
+          ratios of interval measures are not meaningful, so it isn't possible to say that one
+          value is twice as large as another.
+        </p>
+        <p>
+          <strong>Ratio</strong> scale measurements are numeric quantities that <em>do</em> include a
+          meaningful <em>zero</em> and allow for ratios between values them to be computed and compared.
+        </p>
+        <p>
+          Looking at the above description you may note that these measurement scales fall into two
+          groups. <em>Nominal</em> and <em>ordinal</em> variables take on values from a limited
+          number of categories and may be described as <em>categorical</em> variables. Methods that
+          indicate that they require nominal measurements will generally also work for ordinal data,
+          although any ordering of values will be ignored. Similarly, <em>interval</em> and <em>ratio</em>
+          scales can collectively be described as being <em>numeric</em>. Methods designed for
+          interval scale variables will also work for ratio scale measurements.
+        </p>
+        <p>
+          In some situations it is common practice to treat measures that really are <em>ordinal</em>
+          as if they were <em>interval</em> values. For example, Likert scale items are inherently
+          ordinal. However, it is common to aggregate individual items into scales by adding or averaging
+          individual items, thereby treating them as if they were on an <em>interval</em> scale. The resulting
+          aggregate scores are then typically treated as <em>interval</em> measurements.
+        </p>
+        <h3>Multivariate responses</h3>
+        <p>
+          You may have more than one response measure. It may be perfectly fine to analyse
+          each of these separately. If that is what you want to do, simply use the diagram
+          below repeatedly, using each measure as dependent variable in turn. It may be
+          beneficial to consider a joint analysis of your measures, treating them as a single
+          multivariate response. This situation is not covered here.
+        </p>
+      </div>
     </div>
-    <object id="test-choice" data="svg/test_choice.svg" type="image/svg+xml"></object>
+  </div>
+  <div id="loading">
+    Loading...
+  </div>
+  <object id="test-choice" data="svg/test_choice.svg" type="image/svg+xml"></object>
 </body>
 </html>

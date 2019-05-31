@@ -12,3 +12,145 @@ object {
 object.loaded {
   opacity: 1;
 }
+#instructions {
+  position: relative;
+  max-width: 800px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MQ styles */
+h1,h2,h3 {
+  font-feature-settings: "kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  color: #000;
+  counter-reset: a
+}
+h1 {
+  margin-bottom: .2em;
+  font: normal normal 400 1em/1.25em "national-extra-bold",sans-serif;
+  font-size: 1.579em;
+  line-height: 1.1em
+}
+@media screen and (min-width: 48em) {
+  h1 {
+      font-size:2.4em
+  }
+}
+h2 {
+  margin-bottom: .2em;
+  font: normal normal 400 1em/1.25em "national-extra-bold",sans-serif;
+  font-size: 1.25em;
+  line-height: 1.1em
+}
+@media screen and (min-width: 48em) {
+  h2 {
+      font-size:1.66em
+  }
+}
+h3 {
+  margin-bottom: .5em;
+  font: normal normal 400 1em/1.25em "national-extra-bold",sans-serif;
+  font-size: 1.05em;
+  line-height: 1.1em;
+  color: #a6192e
+}
+@media screen and (min-width: 48em) {
+  h3 {
+      font-size:1.188em
+  }
+}
+h4 {
+  margin-bottom: .5em;
+  font: normal normal 400 1em/1.25em "national-extra-bold",sans-serif;
+  font-size: 1em;
+  line-height: 1.1em;
+  color: #76232f
+}
+@media screen and (min-width: 48em) {
+  h4 {
+      font-size:1.288em
+  }
+}
+h5 {
+  margin-bottom: .15em;
+  font: normal normal 400 1em/1.25em "national-extra-bold",sans-serif;
+  font-size: .947em;
+  text-transform: uppercase;
+  color: #a6192e
+}
+h5,h6 {
+  line-height: 1.1em
+}
+h6 {
+  font: normal normal 400 1em/1.25em "national-extra-bold",sans-serif;
+  font-size: 1.03em
+}
+.type2 {
+  display: block;
+  margin: 0 0 .5em;
+  border-bottom: 1px solid #000;
+  padding: 0 0 .3em;
+  font: normal normal 400 1em/1.25em "national-extra-bold",sans-serif;
+  font-size: 1.85em;
+  color: #000;
+  line-height: .92em;
+  letter-spacing: -1px
+}
+p {
+  margin: 0 0 1.2em;
+  color: #000;
+  font: normal normal 400 1em/1.25em "national-book",sans-serif;
+  text-align: left
+}
+a {
+  color: #80225f;
+  font: normal normal 400 1em/1.25em "national-book",sans-serif;
+  text-decoration: underline
+}
+
+a:focus,a:hover {
+  text-decoration: none
+}
+
+/* Collapsible for instructions */
+.content {
+  padding: 0 2em;
+  background-color: #f4f2ef;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, padding-top 0.4s ease-in-out;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #f4f2ef;
+  color: #80225f;
+  cursor: pointer;
+  padding: .45em 1em .6em .7em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.15em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  color: white;
+  background-color: #80225f;
+}
+
+.collapsible:after {
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
+  font-size: 1.15em;
+  font-weight: bold;
+  float: right;
+}
+
+.active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}
