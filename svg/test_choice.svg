@@ -632,6 +632,38 @@
          result="composite2"
          id="feComposite1437-3-4-9" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-9">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-5" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-3" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-42" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-79" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-6" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -640,11 +672,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748738"
-     inkscape:cx="-425.69535"
-     inkscape:cy="1533.0729"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1693.1086"
+     inkscape:cy="527.1583"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="int-2-cat-no-yes-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -2405,7 +2437,9 @@
                    inkscape:label="int-1-cat-3-no-yes-no-grp">
                   <g
                      transform="translate(26.263966,-2.0203051)"
-                     id="g949-8-5-3">
+                     id="g949-8-5-3"
+                     class="inform"
+                     data-tooltip="repeated-anova">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-0-07-7"
@@ -4490,7 +4524,9 @@
                transform="translate(1214.0294,294.11619)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6-6-4">
+                 id="g949-8-5-6-6-4"
+                 class="inform"
+                 data-tooltip="repeated-anova">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-07-9-8-4"
@@ -11554,6 +11590,114 @@
            y="859.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan3301">tal conditions.</tspan></text>
+    </g>
+    <g
+       id="repeated-anova"
+       class="tooltip"
+       transform="translate(233.31195,1186.409)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-7"
+         width="292.31616"
+         height="687.28033"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-9)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-7"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-07"><a
+   xlink:href="https://en.wikipedia.org/wiki/Repeated_measures_design"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Repeated measures ANOVA</a> allows</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3636">for the comparison of group means</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3638">in a situation where observations</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3642">are correlated, typically because</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3644">each subject contributes multiple </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3646">observations.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3652" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3656">This procedure assumes that obser-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3660">vations from different subjects are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3662">independent of each other and</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3664">residuals are assumed to be normally</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3666">distributed. In addition, the difference</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3668">scores between two levels of the same</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3670">within-subject factor are assumed to</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3672">have the same variance (<a
+   xlink:href="https://en.wikipedia.org/wiki/Mauchly%27s_sphericity_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">sphericity</a>).</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3640" /></text>
     </g>
   </g>
 </svg>
