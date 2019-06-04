@@ -760,6 +760,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-0-0-2" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-3">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-4" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-7" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-5" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -769,10 +801,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="2242.2646"
-     inkscape:cy="424.79108"
+     inkscape:cx="2053.9375"
+     inkscape:cy="527.61893"
      inkscape:document-units="px"
-     inkscape:current-layer="ord-1-cat-grp"
+     inkscape:current-layer="layer3"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -3462,11 +3494,11 @@
                  id="tspan965-0"
                  x="531.53857"
                  y="259.98651"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interval &amp;</tspan><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interval &amp;</tspan><tspan
                  sodipodi:role="line"
                  x="531.53857"
                  y="283.31985"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
                  id="tspan1863">Nominal</tspan></text>
           </g>
         </g>
@@ -3603,7 +3635,9 @@
              id="int-2-int-yes-grp">
             <g
                id="g949-85"
-               transform="translate(26.263966,-2.0203051)">
+               transform="translate(26.263966,-2.0203051)"
+               class="inform"
+               data-tooltip="linear-regression">
               <rect
                  y="819.08154"
                  x="-474.7717"
@@ -3917,7 +3951,9 @@
                transform="translate(-988.74247,347.53521)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6">
+                 id="g949-8-5-6"
+                 class="inform"
+                 data-tooltip="linear-regression">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-07-9"
@@ -11960,7 +11996,8 @@
            id="tspan2775-1-27">The <a
    xlink:href="https://en.wikipedia.org/wiki/Friedman_test"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">Friedman test</a> compares out-</tspan><tspan
+   xlink:show="new"
+   id="a2187">Friedman test</a> compares out-</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -12018,7 +12055,8 @@
            id="tspan6822"><a
    xlink:href="https://en.wikipedia.org/wiki/Blocking_(statistics)#Randomized_block_design"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">complete block designs</a> and does</tspan><tspan
+   xlink:show="new"
+   id="a2200">complete block designs</a> and does</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="879.22534"
@@ -12053,7 +12091,8 @@
            id="tspan2775-1-27-6">The <a
    xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2761045/"
    xlink:title="Read more online"
-   xlink:show="new">Skillings-Mack test</a> compares </tspan><tspan
+   xlink:show="new"
+   id="a2207">Skillings-Mack test</a> compares </tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -12126,12 +12165,114 @@
            id="tspan6944">or <a
    xlink:href="https://en.wikipedia.org/wiki/Missing_data#Missing_completely_at_random"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">completely at random</a>.</tspan><tspan
+   xlink:show="new"
+   id="a2223">completely at random</a>.</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="939.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan6824-5" /></text>
+    </g>
+    <g
+       id="linear-regression"
+       class="tooltip"
+       transform="translate(1542.9084,1178.7883)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2-8"
+         width="257.04477"
+         height="605.51746"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-3)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-5"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6870-2"><a
+   xlink:href="https://en.wikipedia.org/wiki/Linear_regression"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Linear models</a> allow inference </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6872-1">of linear relationships between </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6886-6">the dependent variable  and the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3173">independent variables.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6890-8" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6894-5">Residuals are assumed to be un-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6902-6">correlated, normally distributed</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6906-7">and have <a
+   xlink:href="https://en.wikipedia.org/wiki/Homoscedasticity"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">equal variance</a>.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6908-1" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6910-2">It is possible to model non-linear</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6912-3">relationships between the depen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6916-6">dent and independent variables,</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6920-0">e.g., using <a
+   xlink:href="https://en.wikipedia.org/wiki/Polynomial_regression"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">polynomial regression</a>.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0-3-0" /></text>
     </g>
   </g>
 </svg>
