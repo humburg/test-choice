@@ -664,6 +664,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-6" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -673,10 +705,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="1693.1086"
-     inkscape:cy="527.1583"
+     inkscape:cx="1551.3186"
+     inkscape:cy="250.8324"
      inkscape:document-units="px"
-     inkscape:current-layer="int-2-cat-no-yes-grp"
+     inkscape:current-layer="int-2-mix-no-yes-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -697,7 +729,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2598,7 +2630,9 @@
                    inkscape:label="int-1-cat-3-no-yes-yes-grp">
                   <g
                      transform="translate(26.263966,-2.0203051)"
-                     id="g949-8-5-3-3">
+                     id="g949-8-5-3-3"
+                     class="inform"
+                     data-tooltip="mixed-linear">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-0-07-7-7"
@@ -4007,7 +4041,9 @@
                transform="translate(-511.44646,257.55015)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6-6">
+                 id="g949-8-5-6-6"
+                 class="inform"
+                 data-tooltip="mixed-linear">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-07-9-8"
@@ -11619,7 +11655,8 @@
            id="tspan2775-07"><a
    xlink:href="https://en.wikipedia.org/wiki/Repeated_measures_design"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">Repeated measures ANOVA</a> allows</tspan><tspan
+   xlink:show="new"
+   id="a2124">Repeated measures ANOVA</a> allows</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -11692,12 +11729,136 @@
            id="tspan3672">have the same variance (<a
    xlink:href="https://en.wikipedia.org/wiki/Mauchly%27s_sphericity_test"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">sphericity</a>).</tspan><tspan
+   xlink:show="new"
+   id="a2140">sphericity</a>).</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="939.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan3640" /></text>
+    </g>
+    <g
+       id="mixed-linear"
+       class="tooltip"
+       transform="translate(551.98409,1277.6252)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2"
+         width="265.36511"
+         height="823.90326"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2801-4-7"><a
+   xlink:href="https://en.wikipedia.org/wiki/Mixed_model"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Linear mixed effects models</a> allow</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6870">inference of linear relationships</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6872">between the dependent variable </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6874">and the independent variables in</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6880">situations where each subject pro-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6882">vides multiple responses or obser-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6884">vations are clustered in some other</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6886">way.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6890" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-0-9">Within each cluster residuals are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6894">assumed to be uncorrelated, </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6902">normally distributed and have</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6906">equal variance.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6908" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6910">It is possible to model non-linear</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6912">relationships between the depen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="959.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6916">dent and independent variables,</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="979.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6920">e.g., using <a
+   xlink:href="https://en.wikipedia.org/wiki/Polynomial_regression"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">polynomial regression</a>.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="999.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0-3" /></text>
     </g>
   </g>
 </svg>
