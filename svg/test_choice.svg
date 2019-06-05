@@ -824,6 +824,70 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-5-3-5-4" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-8-1">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-5-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-6-1" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-2-5" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-48-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-9-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-4">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-9" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-1" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-4" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-9" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -833,10 +897,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="2226.5707"
-     inkscape:cy="699.0475"
+     inkscape:cx="4235.3933"
+     inkscape:cy="914.66451"
      inkscape:document-units="px"
-     inkscape:current-layer="int-2-cat-yes-no-grp"
+     inkscape:current-layer="ord-2-cat-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -4376,7 +4440,7 @@
           </g>
           <g
              id="int-2-cat-yes-grp"
-             transform="translate(1.890319,-492)">
+             transform="translate(1.890319,-98)">
             <g
                id="g1822-3-49-6-5"
                transform="translate(-943.80462,535.03707)">
@@ -4497,40 +4561,10 @@
                  sodipodi:nodetypes="cc" />
               <path
                  style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                 d="M 481.27479,692.88721 V 670.74966"
+                 d="M 481.27479,692.88721 V 277.6068"
                  id="path935-3-9-4-8"
                  inkscape:connector-curvature="0"
                  sodipodi:nodetypes="cc" />
-            </g>
-            <g
-               id="int-2-cat-yes-yes-grp"
-               transform="translate(-252.4568,549.8783)">
-              <g
-                 transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6-0">
-                <rect
-                   style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                   id="rect937-0-07-9-81"
-                   width="186.87822"
-                   height="64.649773"
-                   x="-474.7717"
-                   y="819.08154" />
-                <text
-                   xml:space="preserve"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                   x="-381.37946"
-                   y="855.55096"
-                   id="text941-9-4-9-5"><tspan
-                     sodipodi:role="line"
-                     x="-381.37946"
-                     y="855.55096"
-                     id="tspan1346-61-7-5">Factorial ANOVA</tspan></text>
-              </g>
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path951-8-4-2-0"
-                 d="M -355.06862,817.12938 V 743.20081"
-                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             </g>
             <g
                id="int-2-cat-yes-no-grp"
@@ -4567,6 +4601,195 @@
                  id="path951-8-1-9-1-1"
                  d="M -355.06862,817.12938 V 743.20081"
                  style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            </g>
+            <g
+               id="int-2-cat-yes-yes-grp">
+              <g
+                 transform="translate(-105.31394,681.02116)"
+                 id="int-2-cat-yes-yes-no-grp">
+                <g
+                   data-tooltip="factorial-anova"
+                   class="inform"
+                   id="g949-8-5-6-0"
+                   transform="translate(26.263966,-2.0203051)">
+                  <rect
+                     y="819.08154"
+                     x="-474.7717"
+                     height="64.649773"
+                     width="186.87822"
+                     id="rect937-0-07-9-81"
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text941-9-4-9-5"
+                     y="855.55096"
+                     x="-381.37946"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       id="tspan1346-61-7-5"
+                       y="855.55096"
+                       x="-381.37946"
+                       sodipodi:role="line">Factorial ANOVA</tspan></text>
+                </g>
+                <path
+                   sodipodi:nodetypes="cc"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M -355.06862,817.12938 V 777.20081"
+                   id="path951-8-4-2-0"
+                   inkscape:connector-curvature="0" />
+              </g>
+              <g
+                 id="g1822-3-49-3-8-2-6"
+                 transform="translate(-1088.3155,698.08366)">
+                <g
+                   id="g1427-3-0-0-4-9-9-2-2-5"
+                   transform="translate(51.782964,541.76087)"
+                   data-subtree="int-2-cat-yes-yes-yes-grp"
+                   class="toggle">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-2-3-4-6-8-1"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-7-2-3-6-4-3"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-7-70-3-3-4-1"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   id="g1427-3-0-0-5-3-5-3-1-5-4"
+                   transform="translate(342.90995,541.76087)"
+                   data-subtree="int-2-cat-yes-yes-no-grp"
+                   class="toggle">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-9-1-2-9-3-6-8"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-1-8-7-2-5-1-6"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-0-7-5-0-9-4-5"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   data-tooltip="missing-data"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                   class="choice inform"
+                   transform="translate(199.34326,523.7399)"
+                   id="dv-choice-7-0-6-8-2-3-3-7">
+                  <rect
+                     transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
+                     ry="1.0277354"
+                     rx="0.91376519"
+                     y="318.3754"
+                     x="-67.427727"
+                     height="96.689354"
+                     width="96.689354"
+                     id="rect815-5-3-5-6-8-6-7-3" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     x="281.68542"
+                     y="220.03502"
+                     id="text819-6-6-7-16-1-0-8-0"><tspan
+                       id="tspan1199-8-1-0-0-9-4"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="220.03502"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Missing</tspan><tspan
+                       id="tspan2931-5-9"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="244.5399"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">values</tspan></text>
+                </g>
+                <text
+                   id="text1796-0-1-7-2-2-0"
+                   y="746.3302"
+                   x="360.52295"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="360.52295"
+                     id="tspan1794-7-3-7-2-3-5"
+                     sodipodi:role="line">Yes</tspan></text>
+                <text
+                   id="text1800-5-1-7-6-6-1"
+                   y="746.3302"
+                   x="578.81738"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="578.81738"
+                     id="tspan1798-8-1-3-4-5-3"
+                     sodipodi:role="line">No</tspan></text>
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 402.86031,749.45575 H 345.87573"
+                   id="path4823-7-9-0-7-6-1"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 616.67386,749.45575 H 559.68928"
+                   id="path4823-4-3-46-6-3-6-1"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 481.27479,692.88721 V 598.65219"
+                   id="path935-3-9-8-9-7-1"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+              </g>
+              <g
+                 transform="translate(-397.1184,681.02116)"
+                 id="int-2-cat-yes-yes-yes-grp">
+                <g
+                   data-tooltip="linear-regression"
+                   class="inform"
+                   id="g949-8-1-9-3-84-8"
+                   transform="translate(26.263966,-2.0203051)">
+                  <rect
+                     y="819.08154"
+                     x="-474.7717"
+                     height="64.649773"
+                     width="186.87822"
+                     id="rect937-0-0-1-9-3-0"
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text941-9-0-2-8-1-4"
+                     y="855.4494"
+                     x="-381.37946"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       id="tspan2224-5-7"
+                       y="855.4494"
+                       x="-381.37946"
+                       sodipodi:role="line">Multiple regression</tspan></text>
+                </g>
+                <path
+                   sodipodi:nodetypes="cc"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M -355.06862,817.12938 V 777.20081"
+                   id="path951-8-1-9-1-1-8"
+                   inkscape:connector-curvature="0" />
+              </g>
             </g>
           </g>
           <g
@@ -4742,7 +4965,9 @@
                transform="translate(297.6516,294.11619)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-1-9-3-8-3">
+                 id="g949-8-1-9-3-8-3"
+                 class="inform"
+                 data-tooltip="mixed-glm">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-0-1-9-0-7"
@@ -5686,7 +5911,9 @@
                id="ord-1-cat-3-yes-grp">
               <g
                  id="g949-8-5-7"
-                 transform="translate(26.263966,-2.0203051)">
+                 transform="translate(26.263966,-2.0203051)"
+                 class="inform"
+                 data-tooltip="kw-test">
                 <rect
                    y="819.08154"
                    x="-474.7717"
@@ -5857,14 +6084,14 @@
           <text
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-             x="773.27106"
+             x="770.41388"
              y="465.26746"
              id="text937-0-0-0"><tspan
                sodipodi:role="line"
                id="tspan935-1-1-8"
-               x="773.27106"
+               x="770.41388"
                y="465.26746"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All Nominal</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">Some Nominal</tspan></text>
           <g
              id="dv-choice-6-5-6"
              transform="translate(413.3732,244.3605)"
@@ -5908,64 +6135,6 @@
              id="path931-3-5"
              inkscape:connector-curvature="0"
              sodipodi:nodetypes="ccc" />
-          <path
-             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             d="M 695.30474,587.1351 V 526.64489"
-             id="path4764-2-1-0"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cc" />
-          <g
-             transform="rotate(-90,685.31884,196.62406)"
-             id="g1427-3-7-7-6"
-             data-subtree="ord-2-mix-grp"
-             class="toggle">
-            <circle
-               style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="circle1421-4-08-5-0"
-               cx="284.49631"
-               cy="206.60995"
-               r="8" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               x="279.04578"
-               y="213.18613"
-               id="text1425-9-3-0-5"><tspan
-                 sodipodi:role="line"
-                 id="tspan1423-2-14-3-7"
-                 x="279.04578"
-                 y="213.18613"
-                 style="font-size:18.66666603px">+</tspan></text>
-          </g>
-          <g
-             transform="translate(162.3503,289.36007)"
-             id="g974-6-3">
-            <rect
-               style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.54564691;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect969-7-0"
-               width="99.171867"
-               height="45.044605"
-               x="483.3685"
-               y="243.65811"
-               rx="1.1049404"
-               ry="1.6757662" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-               x="531.53857"
-               y="259.98651"
-               id="text967-0-1"><tspan
-                 sodipodi:role="line"
-                 id="tspan965-0-4"
-                 x="531.53857"
-                 y="259.98651"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interval &amp;</tspan><tspan
-                 sodipodi:role="line"
-                 x="531.53857"
-                 y="283.31985"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
-                 id="tspan1863-4">Nominal</tspan></text>
-          </g>
         </g>
         <g
            transform="translate(1090.447,-151.94846)"
@@ -6000,197 +6169,6 @@
              d="M -355.06862,817.12938 V 743.20081"
              id="path951-2-7-2"
              inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="ord-2-mix-grp">
-          <g
-             id="g1822-9-7-6"
-             transform="translate(442.65594,138.41505)">
-            <g
-               id="g1427-3-0-0-6-3-1"
-               transform="translate(69.782964,542.7277)"
-               data-subtree="ord-2-mix-yes-grp"
-               class="toggle">
-              <circle
-                 r="8"
-                 cy="206.60995"
-                 cx="284.49631"
-                 id="circle1421-4-0-3-4-7-3"
-                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-              <text
-                 id="text1425-9-2-4-0-4-1"
-                 y="213.18613"
-                 x="279.04578"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-                 xml:space="preserve"><tspan
-                   style="font-size:18.66666603px"
-                   y="213.18613"
-                   x="279.04578"
-                   id="tspan1423-2-1-7-4-8-2"
-                   sodipodi:role="line">+</tspan></text>
-            </g>
-            <g
-               id="g1427-3-0-0-5-7-3-0"
-               transform="translate(326.90995,542.77103)"
-               data-subtree="ord-2-mix-no-grp"
-               class="toggle">
-              <circle
-                 r="8"
-                 cy="206.60995"
-                 cx="284.49631"
-                 id="circle1421-4-0-3-9-7-3-0"
-                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-              <text
-                 id="text1425-9-2-4-1-3-00-2"
-                 y="213.18613"
-                 x="279.04578"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-                 xml:space="preserve"><tspan
-                   style="font-size:18.66666603px"
-                   y="213.18613"
-                   x="279.04578"
-                   id="tspan1423-2-1-7-0-2-9-1"
-                   sodipodi:role="line">+</tspan></text>
-            </g>
-            <g
-               class="choice inform"
-               data-tooltip="independent"
-               transform="translate(199.34326,523.7399)"
-               id="dv-choice-7-0-0-6-41"
-               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-              <rect
-                 transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
-                 ry="1.0277354"
-                 rx="0.91376519"
-                 y="318.3754"
-                 x="-67.427727"
-                 height="96.689354"
-                 width="96.689354"
-                 id="rect815-5-3-1-2-7" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 x="281.68542"
-                 y="222.11894"
-                 id="text819-6-6-8-6-2"><tspan
-                   id="tspan1199-4-8-6"
-                   sodipodi:role="line"
-                   x="281.68542"
-                   y="222.11894"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Independent</tspan><tspan
-                   sodipodi:role="line"
-                   x="281.68542"
-                   y="246.62383"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-                   id="tspan1156-5-4">groups</tspan></text>
-            </g>
-            <text
-               id="text1796-6-7-5"
-               y="746.3302"
-               x="372.52295"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               xml:space="preserve"><tspan
-                 y="746.3302"
-                 x="372.52295"
-                 id="tspan1794-3-8-8"
-                 sodipodi:role="line">Yes</tspan></text>
-            <text
-               id="text1800-1-5-39"
-               y="746.3302"
-               x="570.81738"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               xml:space="preserve"><tspan
-                 y="746.3302"
-                 x="570.81738"
-                 id="tspan1798-3-3-4"
-                 sodipodi:role="line">No</tspan></text>
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M 402.86031,749.45575 H 363.87573"
-               id="path4823-8-09-97"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M 600.67386,749.45575 H 559.68928"
-               id="path4823-4-1-6-7"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M 481.27479,692.88721 V 581.52777"
-               id="path935-5-5-8"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
-          </g>
-          <g
-             id="ord-2-mix-yes-grp"
-             transform="translate(1152.2327,154.35758)">
-            <g
-               transform="translate(26.263966,-2.0203051)"
-               id="g949-2-5-7-3">
-              <rect
-                 style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="rect937-5-5-4-9"
-                 width="186.87822"
-                 height="64.649773"
-                 x="-474.7717"
-                 y="819.08154" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 x="-381.37946"
-                 y="845.64081"
-                 id="text941-0-0-0-3"><tspan
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="845.64081"
-                   id="tspan2033-8-0">Ordinal logistic</tspan><tspan
-                   id="tspan2834-2"
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="865.64081">regression</tspan></text>
-            </g>
-            <path
-               inkscape:connector-curvature="0"
-               id="path951-2-7-2-2"
-               d="M -355.06862,817.12938 V 743.20081"
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-          </g>
-          <g
-             id="ord-2-mix-no-grp"
-             transform="translate(1409.3755,154.35758)">
-            <g
-               transform="translate(26.263966,-2.0203051)"
-               id="g949-2-5-7-3-1">
-              <rect
-                 style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="rect937-5-5-4-9-1"
-                 width="186.87822"
-                 height="64.649773"
-                 x="-474.7717"
-                 y="819.08154" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 x="-381.37946"
-                 y="845.64081"
-                 id="text941-0-0-0-3-0"><tspan
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="845.64081"
-                   id="tspan2033-8-0-7">Ordinal logistic</tspan><tspan
-                   id="tspan2834-2-0"
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="865.64081">mixed effects model</tspan></text>
-            </g>
-            <path
-               inkscape:connector-curvature="0"
-               id="path951-2-7-2-2-4"
-               d="M -355.06862,817.12938 V 743.20081"
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-          </g>
         </g>
         <g
            id="ord-2-cat-grp">
@@ -6336,7 +6314,7 @@
                    sodipodi:role="line"
                    x="-381.37946"
                    y="845.64081"
-                   id="tspan2033-8-0-1">Ordinal logistic</tspan><tspan
+                   id="tspan2033-8-0-1">Orderedlogistic</tspan><tspan
                    id="tspan2834-2-2"
                    sodipodi:role="line"
                    x="-381.37946"
@@ -6370,7 +6348,7 @@
                    sodipodi:role="line"
                    x="-381.37946"
                    y="845.64081"
-                   id="tspan2033-8-0-7-7">Ordinal logistic</tspan><tspan
+                   id="tspan2033-8-0-7-7">Ordered logistic</tspan><tspan
                    id="tspan2834-2-0-8"
                    sodipodi:role="line"
                    x="-381.37946"
@@ -12343,7 +12321,8 @@
            id="tspan6870-2-4"><a
    xlink:href="https://en.wikipedia.org/wiki/Generalized_linear_model"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">Generalized linear models</a> allow</tspan><tspan
+   xlink:show="new"
+   id="a2258">Generalized linear models</a> allow</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -12404,6 +12383,216 @@
            y="879.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2775-0-3-0-0">ful consideration.</tspan></text>
+    </g>
+    <g
+       id="factorial-anova"
+       class="tooltip"
+       transform="translate(2154.7406,962.83757)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-4-3"
+         width="272.90198"
+         height="543.68433"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-8-1)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-2-4"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2784-3-3">The <a
+   xlink:href="https://en.wikipedia.org/wiki/Analysis_of_variance"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">factorial ANOVA</a> compares the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2938-9">means of several groups that are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3171">defined by two or more indepen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2940-5">dent variables. It assumes that the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2942-4">residuals of the dependent variable</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2944-3">are normally distributed and that</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2948-1">all groups share the same variance.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2950-1" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2952-1">The ANOVA is relatively robust</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2954-5">against violations of these assump-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2958-7">tions when group sizes are equal. </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2946-0" /></text>
+    </g>
+    <g
+       id="mixed-glm"
+       class="tooltip"
+       transform="translate(2472.284,962.45757)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2-5"
+         width="266.34567"
+         height="855.63379"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-4)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-8"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2801-4-7-2"><a
+   xlink:href="https://en.wikipedia.org/wiki/Generalized_linear_mixed_model"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Generalized linear mixed effects</a></tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6870-0">models allow inference of linear</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6872-8">relationships between the depen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6874-2">dent variable and the independent</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6880-6">variables in situations where each</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6882-3">subject provides multiple respon-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6884-5">ses or observations are clustered </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6886-7">in some other way.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6890-82" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-0-9-4">Within each cluster residuals are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6894-0">assumed to be uncorrelated with </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3524">equal variance but are not requir-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3528">ed to be normally distributed.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6908-4" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3539">A variety of distributions are avail-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3541">able to model the dependent </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="959.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3543">variable. Choosing the most appro-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="979.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3545">priate model for a given dataset</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="999.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3547">may require careful consideration.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="1019.2253"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0-3-3" /></text>
     </g>
   </g>
 </svg>
