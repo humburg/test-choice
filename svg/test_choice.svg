@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="7406.9961"
-   height="1559.1583"
-   viewBox="0 0 7406.9963 1559.1582"
+   width="7403.5996"
+   height="1727.8729"
+   viewBox="0 0 7403.5998 1727.8727"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -536,6 +536,358 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-0-5-8" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-8">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-5" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-6" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-2" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-48" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-6-82">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-87-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-9-9" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-7-0" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-8-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-0-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-3-2-0">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-7-6-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-2-4-6" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-8-7-4" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-11-3-9" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-3-4-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-9">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-5" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-3" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-42" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-79" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-6-9">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-87-9" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-9-2" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-7-02" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-8-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-0-0" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-6-9-1">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-87-9-2" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-9-2-0" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-7-02-8" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-8-8-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-0-0-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-3">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-4" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-7" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-5" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-3-6">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-8-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-4-7" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-7-8" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-5-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-5-4" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-8-1">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-5-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-6-1" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-2-5" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-48-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-9-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-4">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-9" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-1" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-4" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-9" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -544,11 +896,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="2290.9846"
-     inkscape:cy="-146.89555"
+     inkscape:zoom="0.7"
+     inkscape:cx="4235.3933"
+     inkscape:cy="914.66451"
      inkscape:document-units="px"
-     inkscape:current-layer="ord-1-cat-2-no-no-grp"
+     inkscape:current-layer="ord-2-cat-grp"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -577,7 +929,7 @@
      inkscape:label="Layer 1"
      id="layer1"
      class="layer"
-     transform="translate(3203.6931,-55.526549)"
+     transform="translate(3200.2967,-55.526545)"
      inkscape:groupmode="layer">
     <g
        id="root">
@@ -1550,7 +1902,8 @@
                    id="dv-choice-7-0-6-0"
                    transform="translate(199.34326,523.7399)"
                    class="choice inform"
-                   data-tooltip="normal-mean">
+                   data-tooltip="normal-mean"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      id="rect815-5-3-5-9"
                      width="96.689354"
@@ -1751,7 +2104,8 @@
                    data-tooltip="symmetric-diff"
                    class="choice inform"
                    transform="translate(199.34326,523.7399)"
-                   id="dv-choice-7-0-6-0-3">
+                   id="dv-choice-7-0-6-0-3"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                      ry="1.0277354"
@@ -2109,7 +2463,9 @@
                  id="int-1-cat-3-yes-yes-grp">
                 <g
                    id="g949-8-5"
-                   transform="translate(26.263966,-2.0203051)">
+                   transform="translate(26.263966,-2.0203051)"
+                   class="inform"
+                   data-tooltip="oneway-anova">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -2140,7 +2496,9 @@
                  id="int-1-cat-3-yes-no-grp">
                 <g
                    id="g949-8-1-9"
-                   transform="translate(26.263966,-2.0203051)">
+                   transform="translate(26.263966,-2.0203051)"
+                   class="inform"
+                   data-tooltip="kw-test">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -2168,14 +2526,15 @@
             </g>
             <g
                id="int-1-cat-3-no-grp"
-               inkscape:label="int-1-cat-3-no-grp">
+               inkscape:label="int-1-cat-3-no-grp"
+               transform="translate(262.63966,40.406102)">
               <g
                  transform="translate(-1941.6739,534.44897)"
                  id="g1822-3-49-3">
                 <g
                    class="toggle"
                    data-subtree="int-1-cat-3-no-yes-grp"
-                   transform="translate(51.782964,541.76087)"
+                   transform="translate(-70.717037,541.76087)"
                    id="g1427-3-0-0-4-9-9">
                   <circle
                      style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2198,7 +2557,7 @@
                 <g
                    class="toggle"
                    data-subtree="int-1-cat-3-no-no-grp"
-                   transform="translate(342.90995,541.76087)"
+                   transform="translate(420.90995,541.76087)"
                    id="g1427-3-0-0-5-3-5-3">
                   <circle
                      style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2278,90 +2637,412 @@
                    sodipodi:nodetypes="cc"
                    inkscape:connector-curvature="0"
                    id="path4823-7-9-0"
-                   d="M 402.86031,749.45575 H 345.87573"
+                   d="M 402.86031,749.45575 H 223.87573"
                    style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
                 <path
                    sodipodi:nodetypes="cc"
                    inkscape:connector-curvature="0"
                    id="path4823-4-3-46-6"
-                   d="M 616.67386,749.45575 H 559.68928"
+                   d="M 692.67386,749.45575 H 559.68928"
                    style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
                 <path
-                   sodipodi:nodetypes="cc"
+                   sodipodi:nodetypes="cccc"
                    inkscape:connector-curvature="0"
                    id="path935-3-9-8"
-                   d="M 481.27479,692.88721 V 390.03284"
+                   d="M 481.27479,692.88721 V 668.65219 H 217.77305 V 348.88547"
                    style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
               </g>
               <g
-                 inkscape:label="int-1-cat-3-no-yes-grp"
-                 transform="translate(-1250.326,549.2902)"
-                 id="int-1-cat-3-no-yes-grp">
+                 id="int-1-cat-3-no-yes-grp"
+                 transform="translate(-120,-147.14286)">
                 <g
-                   id="g949-8-5-3"
-                   transform="translate(26.263966,-2.0203051)">
-                  <rect
-                     y="819.08154"
-                     x="-474.7717"
-                     height="64.649773"
-                     width="186.87822"
-                     id="rect937-0-07-7"
-                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-                  <text
-                     id="text941-9-4-2"
-                     y="837.1369"
-                     x="-381.37946"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                     xml:space="preserve"><tspan
-                       id="tspan1346-61-4"
+                   id="int-1-cat-3-no-yes-no-grp"
+                   transform="translate(-1105.6219,857.86163)"
+                   inkscape:label="int-1-cat-3-no-yes-no-grp">
+                  <g
+                     transform="translate(26.263966,-2.0203051)"
+                     id="g949-8-5-3"
+                     class="inform"
+                     data-tooltip="repeated-anova">
+                    <rect
+                       style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                       id="rect937-0-07-7"
+                       width="186.87822"
+                       height="64.649773"
+                       x="-474.7717"
+                       y="819.08154" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                       x="-381.37946"
                        y="837.1369"
-                       x="-379.16071"
-                       sodipodi:role="line">One-way </tspan><tspan
-                       id="tspan1735"
-                       y="857.1369"
-                       x="-381.37946"
-                       sodipodi:role="line">repeated measures</tspan><tspan
-                       id="tspan1733"
-                       y="877.1369"
-                       x="-381.37946"
-                       sodipodi:role="line">ANOVA</tspan></text>
+                       id="text941-9-4-2"><tspan
+                         sodipodi:role="line"
+                         x="-379.16071"
+                         y="837.1369"
+                         id="tspan1346-61-4">One-way </tspan><tspan
+                         sodipodi:role="line"
+                         x="-381.37946"
+                         y="857.1369"
+                         id="tspan1735">repeated measures</tspan><tspan
+                         sodipodi:role="line"
+                         x="-381.37946"
+                         y="877.1369"
+                         id="tspan1733">ANOVA</tspan></text>
+                  </g>
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path951-8-4-5"
+                     d="M -355.06862,817.12938 V 743.20081"
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
                 </g>
-                <path
-                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                   d="M -355.06862,817.12938 V 743.20081"
-                   id="path951-8-4-5"
-                   inkscape:connector-curvature="0" />
+                <g
+                   id="g1822-3-49-3-8"
+                   transform="translate(-2088.7617,841.2749)">
+                  <g
+                     id="g1427-3-0-0-4-9-9-2"
+                     transform="translate(51.782964,541.76087)"
+                     data-subtree="int-1-cat-3-no-yes-yes-grp"
+                     class="toggle">
+                    <circle
+                       r="8"
+                       cy="206.60995"
+                       cx="284.49631"
+                       id="circle1421-4-0-3-2-3-4-6"
+                       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                    <text
+                       id="text1425-9-2-4-7-2-3-6"
+                       y="213.18613"
+                       x="279.04578"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                       xml:space="preserve"><tspan
+                         style="font-size:18.66666603px"
+                         y="213.18613"
+                         x="279.04578"
+                         id="tspan1423-2-1-7-7-70-3-3"
+                         sodipodi:role="line">+</tspan></text>
+                  </g>
+                  <g
+                     id="g1427-3-0-0-5-3-5-3-1"
+                     transform="translate(342.90995,541.76087)"
+                     data-subtree="int-1-cat-3-no-yes-no-grp"
+                     class="toggle">
+                    <circle
+                       r="8"
+                       cy="206.60995"
+                       cx="284.49631"
+                       id="circle1421-4-0-3-9-1-2-9-3"
+                       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                    <text
+                       id="text1425-9-2-4-1-8-7-2-5"
+                       y="213.18613"
+                       x="279.04578"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                       xml:space="preserve"><tspan
+                         style="font-size:18.66666603px"
+                         y="213.18613"
+                         x="279.04578"
+                         id="tspan1423-2-1-7-0-7-5-0-9"
+                         sodipodi:role="line">+</tspan></text>
+                  </g>
+                  <g
+                     style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                     class="choice inform"
+                     transform="translate(199.34326,523.7399)"
+                     id="dv-choice-7-0-6-8-2-3"
+                     data-tooltip="missing-data">
+                    <rect
+                       transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
+                       ry="1.0277354"
+                       rx="0.91376519"
+                       y="318.3754"
+                       x="-67.427727"
+                       height="96.689354"
+                       width="96.689354"
+                       id="rect815-5-3-5-6-8-6" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                       x="281.68542"
+                       y="220.03502"
+                       id="text819-6-6-7-16-1-0"><tspan
+                         id="tspan1199-8-1-0-0"
+                         sodipodi:role="line"
+                         x="281.68542"
+                         y="220.03502"
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Missing</tspan><tspan
+                         id="tspan2931"
+                         sodipodi:role="line"
+                         x="281.68542"
+                         y="244.5399"
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">values</tspan></text>
+                  </g>
+                  <text
+                     id="text1796-0-1-7-2"
+                     y="746.3302"
+                     x="360.52295"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       y="746.3302"
+                       x="360.52295"
+                       id="tspan1794-7-3-7-2"
+                       sodipodi:role="line">Yes</tspan></text>
+                  <text
+                     id="text1800-5-1-7-6"
+                     y="746.3302"
+                     x="578.81738"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       y="746.3302"
+                       x="578.81738"
+                       id="tspan1798-8-1-3-4"
+                       sodipodi:role="line">No</tspan></text>
+                  <path
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                     d="M 402.86031,749.45575 H 345.87573"
+                     id="path4823-7-9-0-7"
+                     inkscape:connector-curvature="0"
+                     sodipodi:nodetypes="cc" />
+                  <path
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                     d="M 616.67386,749.45575 H 559.68928"
+                     id="path4823-4-3-46-6-3"
+                     inkscape:connector-curvature="0"
+                     sodipodi:nodetypes="cc" />
+                  <path
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                     d="M 481.27479,692.88721 V 598.65219"
+                     id="path935-3-9-8-9"
+                     inkscape:connector-curvature="0"
+                     sodipodi:nodetypes="cc" />
+                </g>
+                <g
+                   id="int-1-cat-3-no-yes-yes-grp"
+                   transform="translate(-1396.9784,857.86163)"
+                   inkscape:label="int-1-cat-3-no-yes-yes-grp">
+                  <g
+                     transform="translate(26.263966,-2.0203051)"
+                     id="g949-8-5-3-3"
+                     class="inform"
+                     data-tooltip="mixed-linear">
+                    <rect
+                       style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                       id="rect937-0-07-7-7"
+                       width="186.87822"
+                       height="64.649773"
+                       x="-474.7717"
+                       y="819.08154" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                       x="-381.37946"
+                       y="847.03925"
+                       id="text941-9-4-2-6"><tspan
+                         sodipodi:role="line"
+                         x="-381.37946"
+                         y="847.03925"
+                         id="tspan1733-2">Linear mixed</tspan><tspan
+                         id="tspan2974"
+                         sodipodi:role="line"
+                         x="-381.37946"
+                         y="867.03925">effects model</tspan></text>
+                  </g>
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path951-8-4-5-9"
+                     d="M -355.06862,817.12938 V 743.20081"
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                </g>
               </g>
               <g
-                 inkscape:label="int-1-cat-3-no-no-grp"
-                 transform="translate(-958.7039,549.2902)"
-                 id="int-1-cat-3-no-no-grp">
+                 id="int-1-cat-3-no-no-grp"
+                 transform="translate(0,4.04061)">
                 <g
-                   id="g949-8-1-9-1"
-                   transform="translate(26.263966,-2.0203051)">
-                  <rect
-                     y="819.08154"
-                     x="-474.7717"
-                     height="64.649773"
-                     width="186.87822"
-                     id="rect937-0-0-1-8"
-                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-                  <text
-                     id="text941-9-0-2-6"
-                     y="857.03925"
-                     x="-381.37946"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                     xml:space="preserve"><tspan
-                       id="tspan1346-6-9-4"
-                       y="857.03925"
+                   id="int-1-cat-3-no-no-no-grp"
+                   transform="translate(-732.98962,707.2902)"
+                   inkscape:label="int-1-cat-3-no-no-no-grp">
+                  <g
+                     transform="translate(26.263966,-2.0203051)"
+                     id="g949-8-1-9-1"
+                     class="inform"
+                     data-tooltip="friedman-test">
+                    <rect
+                       style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                       id="rect937-0-0-1-8"
+                       width="186.87822"
+                       height="64.649773"
+                       x="-474.7717"
+                       y="819.08154" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
                        x="-381.37946"
-                       sodipodi:role="line">Friedman test</tspan></text>
+                       y="857.03925"
+                       id="text941-9-0-2-6"><tspan
+                         sodipodi:role="line"
+                         x="-381.37946"
+                         y="857.03925"
+                         id="tspan1346-6-9-4">Friedman test</tspan></text>
+                  </g>
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path951-8-1-9-2"
+                     d="M -355.06862,817.12938 V 743.20081"
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
                 </g>
-                <path
-                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                   d="M -355.06862,817.12938 V 743.20081"
-                   id="path951-8-1-9-2"
-                   inkscape:connector-curvature="0" />
+                <g
+                   transform="translate(-1716.7469,690.67725)"
+                   id="g1822-3-49-3-8-2">
+                  <g
+                     class="toggle"
+                     data-subtree="int-1-cat-3-no-no-yes-grp"
+                     transform="translate(51.782964,541.76087)"
+                     id="g1427-3-0-0-4-9-9-2-2">
+                    <circle
+                       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                       id="circle1421-4-0-3-2-3-4-6-8"
+                       cx="284.49631"
+                       cy="206.60995"
+                       r="8" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                       x="279.04578"
+                       y="213.18613"
+                       id="text1425-9-2-4-7-2-3-6-4"><tspan
+                         sodipodi:role="line"
+                         id="tspan1423-2-1-7-7-70-3-3-4"
+                         x="279.04578"
+                         y="213.18613"
+                         style="font-size:18.66666603px">+</tspan></text>
+                  </g>
+                  <g
+                     class="toggle"
+                     data-subtree="int-1-cat-3-no-no-no-grp"
+                     transform="translate(342.90995,541.76087)"
+                     id="g1427-3-0-0-5-3-5-3-1-5">
+                    <circle
+                       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                       id="circle1421-4-0-3-9-1-2-9-3-6"
+                       cx="284.49631"
+                       cy="206.60995"
+                       r="8" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                       x="279.04578"
+                       y="213.18613"
+                       id="text1425-9-2-4-1-8-7-2-5-1"><tspan
+                         sodipodi:role="line"
+                         id="tspan1423-2-1-7-0-7-5-0-9-4"
+                         x="279.04578"
+                         y="213.18613"
+                         style="font-size:18.66666603px">+</tspan></text>
+                  </g>
+                  <g
+                     id="dv-choice-7-0-6-8-2-3-3"
+                     transform="translate(199.34326,523.7399)"
+                     class="choice inform"
+                     style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                     data-tooltip="missing-data">
+                    <rect
+                       id="rect815-5-3-5-6-8-6-7"
+                       width="96.689354"
+                       height="96.689354"
+                       x="-67.427727"
+                       y="318.3754"
+                       rx="0.91376519"
+                       ry="1.0277354"
+                       transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)" />
+                    <text
+                       id="text819-6-6-7-16-1-0-8"
+                       y="220.03502"
+                       x="281.68542"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                       xml:space="preserve"><tspan
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+                         y="220.03502"
+                         x="281.68542"
+                         sodipodi:role="line"
+                         id="tspan1199-8-1-0-0-9">Missing</tspan><tspan
+                         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+                         y="244.5399"
+                         x="281.68542"
+                         sodipodi:role="line"
+                         id="tspan2931-5">values</tspan></text>
+                  </g>
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     x="360.52295"
+                     y="746.3302"
+                     id="text1796-0-1-7-2-2"><tspan
+                       sodipodi:role="line"
+                       id="tspan1794-7-3-7-2-3"
+                       x="360.52295"
+                       y="746.3302">Yes</tspan></text>
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     x="578.81738"
+                     y="746.3302"
+                     id="text1800-5-1-7-6-6"><tspan
+                       sodipodi:role="line"
+                       id="tspan1798-8-1-3-4-5"
+                       x="578.81738"
+                       y="746.3302">No</tspan></text>
+                  <path
+                     sodipodi:nodetypes="cc"
+                     inkscape:connector-curvature="0"
+                     id="path4823-7-9-0-7-6"
+                     d="M 402.86031,749.45575 H 345.87573"
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                  <path
+                     sodipodi:nodetypes="cc"
+                     inkscape:connector-curvature="0"
+                     id="path4823-4-3-46-6-3-6"
+                     d="M 616.67386,749.45575 H 559.68928"
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                  <path
+                     sodipodi:nodetypes="cc"
+                     inkscape:connector-curvature="0"
+                     id="path935-3-9-8-9-7"
+                     d="M 481.27479,692.88721 V 598.65219"
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                </g>
+                <g
+                   id="int-1-cat-3-no-no-yes-grp"
+                   transform="translate(-1024.8764,707.2902)"
+                   inkscape:label="int-1-cat-3-no-no-no-yes-grp">
+                  <g
+                     transform="translate(26.263966,-2.0203051)"
+                     id="g949-8-1-9-1-40"
+                     class="inform"
+                     data-tooltip="skillings-mack-test">
+                    <rect
+                       style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                       id="rect937-0-0-1-8-0"
+                       width="186.87822"
+                       height="64.649773"
+                       x="-474.7717"
+                       y="819.08154" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                       x="-381.37946"
+                       y="857.03925"
+                       id="text941-9-0-2-6-2"><tspan
+                         sodipodi:role="line"
+                         x="-381.37946"
+                         y="857.03925"
+                         id="tspan1346-6-9-4-0">Skillings–Mack test</tspan></text>
+                  </g>
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path951-8-1-9-2-1"
+                     d="M -355.06862,817.12938 V 743.20081"
+                     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                </g>
               </g>
             </g>
           </g>
@@ -2909,11 +3590,11 @@
                  id="tspan965-0"
                  x="531.53857"
                  y="259.98651"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interval &amp;</tspan><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interval &amp;</tspan><tspan
                  sodipodi:role="line"
                  x="531.53857"
                  y="283.31985"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
                  id="tspan1863">Nominal</tspan></text>
           </g>
         </g>
@@ -3050,7 +3731,9 @@
              id="int-2-int-yes-grp">
             <g
                id="g949-85"
-               transform="translate(26.263966,-2.0203051)">
+               transform="translate(26.263966,-2.0203051)"
+               class="inform"
+               data-tooltip="linear-regression">
               <rect
                  y="819.08154"
                  x="-474.7717"
@@ -3080,7 +3763,9 @@
              id="int-2-int-no-grp">
             <g
                id="g949-2-5"
-               transform="translate(26.263966,-2.0203051)">
+               transform="translate(26.263966,-2.0203051)"
+               class="inform"
+               data-tooltip="glm">
               <rect
                  y="819.08154"
                  x="-474.7717"
@@ -3364,7 +4049,9 @@
                transform="translate(-988.74247,347.53521)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6">
+                 id="g949-8-5-6"
+                 class="inform"
+                 data-tooltip="linear-regression">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-07-9"
@@ -3394,7 +4081,9 @@
                transform="translate(-697.1203,347.53521)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-1-9-3">
+                 id="g949-8-1-9-3"
+                 class="inform"
+                 data-tooltip="glm">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-0-1-9"
@@ -3556,7 +4245,9 @@
                transform="translate(-511.44646,257.55015)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6-6">
+                 id="g949-8-5-6-6"
+                 class="inform"
+                 data-tooltip="mixed-linear">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-07-9-8"
@@ -3749,7 +4440,7 @@
           </g>
           <g
              id="int-2-cat-yes-grp"
-             transform="translate(1.890319,-492)">
+             transform="translate(1.890319,-98)">
             <g
                id="g1822-3-49-6-5"
                transform="translate(-943.80462,535.03707)">
@@ -3870,47 +4561,19 @@
                  sodipodi:nodetypes="cc" />
               <path
                  style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                 d="M 481.27479,692.88721 V 670.74966"
+                 d="M 481.27479,692.88721 V 277.6068"
                  id="path935-3-9-4-8"
                  inkscape:connector-curvature="0"
                  sodipodi:nodetypes="cc" />
-            </g>
-            <g
-               id="int-2-cat-yes-yes-grp"
-               transform="translate(-252.4568,549.8783)">
-              <g
-                 transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6-0">
-                <rect
-                   style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                   id="rect937-0-07-9-81"
-                   width="186.87822"
-                   height="64.649773"
-                   x="-474.7717"
-                   y="819.08154" />
-                <text
-                   xml:space="preserve"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                   x="-381.37946"
-                   y="855.55096"
-                   id="text941-9-4-9-5"><tspan
-                     sodipodi:role="line"
-                     x="-381.37946"
-                     y="855.55096"
-                     id="tspan1346-61-7-5">Factorial ANOVA</tspan></text>
-              </g>
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path951-8-4-2-0"
-                 d="M -355.06862,817.12938 V 743.20081"
-                 style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             </g>
             <g
                id="int-2-cat-yes-no-grp"
                transform="translate(39.1654,549.8783)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-1-9-3-84">
+                 id="g949-8-1-9-3-84"
+                 class="inform"
+                 data-tooltip="glm">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-0-1-9-3"
@@ -3938,6 +4601,195 @@
                  id="path951-8-1-9-1-1"
                  d="M -355.06862,817.12938 V 743.20081"
                  style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            </g>
+            <g
+               id="int-2-cat-yes-yes-grp">
+              <g
+                 transform="translate(-105.31394,681.02116)"
+                 id="int-2-cat-yes-yes-no-grp">
+                <g
+                   data-tooltip="factorial-anova"
+                   class="inform"
+                   id="g949-8-5-6-0"
+                   transform="translate(26.263966,-2.0203051)">
+                  <rect
+                     y="819.08154"
+                     x="-474.7717"
+                     height="64.649773"
+                     width="186.87822"
+                     id="rect937-0-07-9-81"
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text941-9-4-9-5"
+                     y="855.55096"
+                     x="-381.37946"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       id="tspan1346-61-7-5"
+                       y="855.55096"
+                       x="-381.37946"
+                       sodipodi:role="line">Factorial ANOVA</tspan></text>
+                </g>
+                <path
+                   sodipodi:nodetypes="cc"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M -355.06862,817.12938 V 777.20081"
+                   id="path951-8-4-2-0"
+                   inkscape:connector-curvature="0" />
+              </g>
+              <g
+                 id="g1822-3-49-3-8-2-6"
+                 transform="translate(-1088.3155,698.08366)">
+                <g
+                   id="g1427-3-0-0-4-9-9-2-2-5"
+                   transform="translate(51.782964,541.76087)"
+                   data-subtree="int-2-cat-yes-yes-yes-grp"
+                   class="toggle">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-2-3-4-6-8-1"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-7-2-3-6-4-3"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-7-70-3-3-4-1"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   id="g1427-3-0-0-5-3-5-3-1-5-4"
+                   transform="translate(342.90995,541.76087)"
+                   data-subtree="int-2-cat-yes-yes-no-grp"
+                   class="toggle">
+                  <circle
+                     r="8"
+                     cy="206.60995"
+                     cx="284.49631"
+                     id="circle1421-4-0-3-9-1-2-9-3-6-8"
+                     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text1425-9-2-4-1-8-7-2-5-1-6"
+                     y="213.18613"
+                     x="279.04578"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       style="font-size:18.66666603px"
+                       y="213.18613"
+                       x="279.04578"
+                       id="tspan1423-2-1-7-0-7-5-0-9-4-5"
+                       sodipodi:role="line">+</tspan></text>
+                </g>
+                <g
+                   data-tooltip="missing-data"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                   class="choice inform"
+                   transform="translate(199.34326,523.7399)"
+                   id="dv-choice-7-0-6-8-2-3-3-7">
+                  <rect
+                     transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
+                     ry="1.0277354"
+                     rx="0.91376519"
+                     y="318.3754"
+                     x="-67.427727"
+                     height="96.689354"
+                     width="96.689354"
+                     id="rect815-5-3-5-6-8-6-7-3" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     x="281.68542"
+                     y="220.03502"
+                     id="text819-6-6-7-16-1-0-8-0"><tspan
+                       id="tspan1199-8-1-0-0-9-4"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="220.03502"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Missing</tspan><tspan
+                       id="tspan2931-5-9"
+                       sodipodi:role="line"
+                       x="281.68542"
+                       y="244.5399"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">values</tspan></text>
+                </g>
+                <text
+                   id="text1796-0-1-7-2-2-0"
+                   y="746.3302"
+                   x="360.52295"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="360.52295"
+                     id="tspan1794-7-3-7-2-3-5"
+                     sodipodi:role="line">Yes</tspan></text>
+                <text
+                   id="text1800-5-1-7-6-6-1"
+                   y="746.3302"
+                   x="578.81738"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+                   xml:space="preserve"><tspan
+                     y="746.3302"
+                     x="578.81738"
+                     id="tspan1798-8-1-3-4-5-3"
+                     sodipodi:role="line">No</tspan></text>
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 402.86031,749.45575 H 345.87573"
+                   id="path4823-7-9-0-7-6-1"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 616.67386,749.45575 H 559.68928"
+                   id="path4823-4-3-46-6-3-6-1"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+                <path
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M 481.27479,692.88721 V 598.65219"
+                   id="path935-3-9-8-9-7-1"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cc" />
+              </g>
+              <g
+                 transform="translate(-397.1184,681.02116)"
+                 id="int-2-cat-yes-yes-yes-grp">
+                <g
+                   data-tooltip="linear-regression"
+                   class="inform"
+                   id="g949-8-1-9-3-84-8"
+                   transform="translate(26.263966,-2.0203051)">
+                  <rect
+                     y="819.08154"
+                     x="-474.7717"
+                     height="64.649773"
+                     width="186.87822"
+                     id="rect937-0-0-1-9-3-0"
+                     style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+                  <text
+                     id="text941-9-0-2-8-1-4"
+                     y="855.4494"
+                     x="-381.37946"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+                     xml:space="preserve"><tspan
+                       id="tspan2224-5-7"
+                       y="855.4494"
+                       x="-381.37946"
+                       sodipodi:role="line">Multiple regression</tspan></text>
+                </g>
+                <path
+                   sodipodi:nodetypes="cc"
+                   style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                   d="M -355.06862,817.12938 V 777.20081"
+                   id="path951-8-1-9-1-1-8"
+                   inkscape:connector-curvature="0" />
+              </g>
             </g>
           </g>
           <g
@@ -4073,7 +4925,9 @@
                transform="translate(1214.0294,294.11619)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-5-6-6-4">
+                 id="g949-8-5-6-6-4"
+                 class="inform"
+                 data-tooltip="repeated-anova">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-07-9-8-4"
@@ -4111,7 +4965,9 @@
                transform="translate(297.6516,294.11619)">
               <g
                  transform="translate(26.263966,-2.0203051)"
-                 id="g949-8-1-9-3-8-3">
+                 id="g949-8-1-9-3-8-3"
+                 class="inform"
+                 data-tooltip="mixed-glm">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-0-0-1-9-0-7"
@@ -4825,7 +5681,8 @@
                    data-tooltip="symmetric-diff"
                    class="choice inform"
                    transform="translate(199.34326,523.7399)"
-                   id="dv-choice-7-0-6-0-3-1">
+                   id="dv-choice-7-0-6-0-3-1"
+                   style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                   <rect
                      transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                      ry="1.0277354"
@@ -4981,7 +5838,8 @@
                  transform="translate(199.34326,523.7399)"
                  id="dv-choice-7-0-0-0-1"
                  data-tooltip="independent"
-                 class="choice inform">
+                 class="choice inform"
+                 style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
                 <rect
                    transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
                    ry="1.0277354"
@@ -5053,7 +5911,9 @@
                id="ord-1-cat-3-yes-grp">
               <g
                  id="g949-8-5-7"
-                 transform="translate(26.263966,-2.0203051)">
+                 transform="translate(26.263966,-2.0203051)"
+                 class="inform"
+                 data-tooltip="kw-test">
                 <rect
                    y="819.08154"
                    x="-474.7717"
@@ -5085,7 +5945,9 @@
                id="ord-1-cat-3-no-grp">
               <g
                  id="g949-8-1-9-1-4"
-                 transform="translate(26.263966,-2.0203051)">
+                 transform="translate(26.263966,-2.0203051)"
+                 class="inform"
+                 data-tooltip="friedman-test">
                 <rect
                    y="819.08154"
                    x="-474.7717"
@@ -5222,14 +6084,14 @@
           <text
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-             x="773.27106"
+             x="770.41388"
              y="465.26746"
              id="text937-0-0-0"><tspan
                sodipodi:role="line"
                id="tspan935-1-1-8"
-               x="773.27106"
+               x="770.41388"
                y="465.26746"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">All Nominal</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">Some Nominal</tspan></text>
           <g
              id="dv-choice-6-5-6"
              transform="translate(413.3732,244.3605)"
@@ -5273,64 +6135,6 @@
              id="path931-3-5"
              inkscape:connector-curvature="0"
              sodipodi:nodetypes="ccc" />
-          <path
-             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             d="M 695.30474,587.1351 V 526.64489"
-             id="path4764-2-1-0"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cc" />
-          <g
-             transform="rotate(-90,685.31884,196.62406)"
-             id="g1427-3-7-7-6"
-             data-subtree="ord-2-mix-grp"
-             class="toggle">
-            <circle
-               style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="circle1421-4-08-5-0"
-               cx="284.49631"
-               cy="206.60995"
-               r="8" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               x="279.04578"
-               y="213.18613"
-               id="text1425-9-3-0-5"><tspan
-                 sodipodi:role="line"
-                 id="tspan1423-2-14-3-7"
-                 x="279.04578"
-                 y="213.18613"
-                 style="font-size:18.66666603px">+</tspan></text>
-          </g>
-          <g
-             transform="translate(162.3503,289.36007)"
-             id="g974-6-3">
-            <rect
-               style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.54564691;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect969-7-0"
-               width="99.171867"
-               height="45.044605"
-               x="483.3685"
-               y="243.65811"
-               rx="1.1049404"
-               ry="1.6757662" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-               x="531.53857"
-               y="259.98651"
-               id="text967-0-1"><tspan
-                 sodipodi:role="line"
-                 id="tspan965-0-4"
-                 x="531.53857"
-                 y="259.98651"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interval &amp;</tspan><tspan
-                 sodipodi:role="line"
-                 x="531.53857"
-                 y="283.31985"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
-                 id="tspan1863-4">Nominal</tspan></text>
-          </g>
         </g>
         <g
            transform="translate(1090.447,-151.94846)"
@@ -5365,197 +6169,6 @@
              d="M -355.06862,817.12938 V 743.20081"
              id="path951-2-7-2"
              inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="ord-2-mix-grp">
-          <g
-             id="g1822-9-7-6"
-             transform="translate(442.65594,138.41505)">
-            <g
-               id="g1427-3-0-0-6-3-1"
-               transform="translate(69.782964,542.7277)"
-               data-subtree="ord-2-mix-yes-grp"
-               class="toggle">
-              <circle
-                 r="8"
-                 cy="206.60995"
-                 cx="284.49631"
-                 id="circle1421-4-0-3-4-7-3"
-                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-              <text
-                 id="text1425-9-2-4-0-4-1"
-                 y="213.18613"
-                 x="279.04578"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-                 xml:space="preserve"><tspan
-                   style="font-size:18.66666603px"
-                   y="213.18613"
-                   x="279.04578"
-                   id="tspan1423-2-1-7-4-8-2"
-                   sodipodi:role="line">+</tspan></text>
-            </g>
-            <g
-               id="g1427-3-0-0-5-7-3-0"
-               transform="translate(326.90995,542.77103)"
-               data-subtree="ord-2-mix-no-grp"
-               class="toggle">
-              <circle
-                 r="8"
-                 cy="206.60995"
-                 cx="284.49631"
-                 id="circle1421-4-0-3-9-7-3-0"
-                 style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#373a36;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-              <text
-                 id="text1425-9-2-4-1-3-00-2"
-                 y="213.18613"
-                 x="279.04578"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-                 xml:space="preserve"><tspan
-                   style="font-size:18.66666603px"
-                   y="213.18613"
-                   x="279.04578"
-                   id="tspan1423-2-1-7-0-2-9-1"
-                   sodipodi:role="line">+</tspan></text>
-            </g>
-            <g
-               class="choice inform"
-               data-tooltip="independent"
-               transform="translate(199.34326,523.7399)"
-               id="dv-choice-7-0-0-6-41"
-               style="opacity:1;fill:#76232f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.20861697;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-              <rect
-                 transform="matrix(0.81099398,-0.58505449,0.81099398,0.58505449,0,0)"
-                 ry="1.0277354"
-                 rx="0.91376519"
-                 y="318.3754"
-                 x="-67.427727"
-                 height="96.689354"
-                 width="96.689354"
-                 id="rect815-5-3-1-2-7" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Garamond;-inkscape-font-specification:Garamond;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 x="281.68542"
-                 y="222.11894"
-                 id="text819-6-6-8-6-2"><tspan
-                   id="tspan1199-4-8-6"
-                   sodipodi:role="line"
-                   x="281.68542"
-                   y="222.11894"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Independent</tspan><tspan
-                   sodipodi:role="line"
-                   x="281.68542"
-                   y="246.62383"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-                   id="tspan1156-5-4">groups</tspan></text>
-            </g>
-            <text
-               id="text1796-6-7-5"
-               y="746.3302"
-               x="372.52295"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               xml:space="preserve"><tspan
-                 y="746.3302"
-                 x="372.52295"
-                 id="tspan1794-3-8-8"
-                 sodipodi:role="line">Yes</tspan></text>
-            <text
-               id="text1800-1-5-39"
-               y="746.3302"
-               x="570.81738"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-               xml:space="preserve"><tspan
-                 y="746.3302"
-                 x="570.81738"
-                 id="tspan1798-3-3-4"
-                 sodipodi:role="line">No</tspan></text>
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M 402.86031,749.45575 H 363.87573"
-               id="path4823-8-09-97"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M 600.67386,749.45575 H 559.68928"
-               id="path4823-4-1-6-7"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M 481.27479,692.88721 V 581.52777"
-               id="path935-5-5-8"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
-          </g>
-          <g
-             id="ord-2-mix-yes-grp"
-             transform="translate(1152.2327,154.35758)">
-            <g
-               transform="translate(26.263966,-2.0203051)"
-               id="g949-2-5-7-3">
-              <rect
-                 style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="rect937-5-5-4-9"
-                 width="186.87822"
-                 height="64.649773"
-                 x="-474.7717"
-                 y="819.08154" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 x="-381.37946"
-                 y="845.64081"
-                 id="text941-0-0-0-3"><tspan
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="845.64081"
-                   id="tspan2033-8-0">Ordinal logistic</tspan><tspan
-                   id="tspan2834-2"
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="865.64081">regression</tspan></text>
-            </g>
-            <path
-               inkscape:connector-curvature="0"
-               id="path951-2-7-2-2"
-               d="M -355.06862,817.12938 V 743.20081"
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-          </g>
-          <g
-             id="ord-2-mix-no-grp"
-             transform="translate(1409.3755,154.35758)">
-            <g
-               transform="translate(26.263966,-2.0203051)"
-               id="g949-2-5-7-3-1">
-              <rect
-                 style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="rect937-5-5-4-9-1"
-                 width="186.87822"
-                 height="64.649773"
-                 x="-474.7717"
-                 y="819.08154" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-                 x="-381.37946"
-                 y="845.64081"
-                 id="text941-0-0-0-3-0"><tspan
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="845.64081"
-                   id="tspan2033-8-0-7">Ordinal logistic</tspan><tspan
-                   id="tspan2834-2-0"
-                   sodipodi:role="line"
-                   x="-381.37946"
-                   y="865.64081">mixed effects model</tspan></text>
-            </g>
-            <path
-               inkscape:connector-curvature="0"
-               id="path951-2-7-2-2-4"
-               d="M -355.06862,817.12938 V 743.20081"
-               style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-          </g>
         </g>
         <g
            id="ord-2-cat-grp">
@@ -5701,7 +6314,7 @@
                    sodipodi:role="line"
                    x="-381.37946"
                    y="845.64081"
-                   id="tspan2033-8-0-1">Ordinal logistic</tspan><tspan
+                   id="tspan2033-8-0-1">Orderedlogistic</tspan><tspan
                    id="tspan2834-2-2"
                    sodipodi:role="line"
                    x="-381.37946"
@@ -5735,7 +6348,7 @@
                    sodipodi:role="line"
                    x="-381.37946"
                    y="845.64081"
-                   id="tspan2033-8-0-7-7">Ordinal logistic</tspan><tspan
+                   id="tspan2033-8-0-7-7">Ordered logistic</tspan><tspan
                    id="tspan2834-2-0-8"
                    sodipodi:role="line"
                    x="-381.37946"
@@ -9527,7 +10140,7 @@
      id="layer3"
      class="layer"
      inkscape:label="Tooltips"
-     transform="translate(527.18542,40.104451)">
+     transform="translate(523.78902,40.104451)">
     <g
        id="normal-mean"
        class="tooltip"
@@ -10545,7 +11158,7 @@
     <g
        id="paired-t"
        class="tooltip"
-       transform="translate(877.57876,937.11221)"
+       transform="translate(877.57876,953.1122)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0-1"
@@ -10642,7 +11255,7 @@
     <g
        id="mwu-test"
        class="tooltip"
-       transform="translate(1214.8779,938.18391)"
+       transform="translate(1214.8779,964.1839)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0-12"
@@ -10708,7 +11321,7 @@
     <g
        id="wilcoxon-signed-rank"
        class="tooltip"
-       transform="translate(1534.1637,935.32681)"
+       transform="translate(1534.1637,961.3268)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0-12-9"
@@ -10806,7 +11419,7 @@
     <g
        id="sign-test"
        class="tooltip"
-       transform="translate(1862.832,933.32094)"
+       transform="translate(1862.832,959.3209)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="rect1408-3-1-0-0-3-0-0-12-9-9"
@@ -10831,7 +11444,8 @@
            id="tspan2889">The <a
    xlink:href="https://en.wikipedia.org/wiki/Sign_test"
    xlink:title="Read more on Wikipedia"
-   xlink:show="new">sign test</a> can be used to test</tspan><tspan
+   xlink:show="new"
+   id="a1981">sign test</a> can be used to test</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -10847,6 +11461,1138 @@
            y="699.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan2897">zero.</tspan></text>
+    </g>
+    <g
+       id="oneway-anova"
+       class="tooltip"
+       transform="translate(-407.22731,1316.9801)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-4"
+         width="272.90198"
+         height="603.51599"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-8)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-2"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2784-3">The <a
+   xlink:href="https://en.wikipedia.org/wiki/One-way_analysis_of_variance"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a1995">one-way ANOVA</a> compares the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2938">means of two or more groups. It</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2940">assumes that the residuals of the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2942">dependent variable are normally</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2944">distributed and that all groups </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2948">share the same variance.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2950" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2952">The ANOVA is relatively robust</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2954">against violations of these assump-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2958">tions when group sizes are equal. </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2960">For unequal group sizes <a
+   xlink:href="https://statisticsbyjim.com/anova/welchs-anova-compared-to-classic-one-way-anova/"
+   xlink:title="Read more online"
+   xlink:show="new"
+   id="a2007">Welch's</a></tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2962">ANOVA provides a robust </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2830">alternative.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2946" /></text>
+    </g>
+    <g
+       id="kw-test"
+       class="tooltip"
+       transform="translate(-97.700714,1278.569)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-12-7"
+         width="281.62851"
+         height="646.40961"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-6-82)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-2-5"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-1-1">The <a
+   xlink:href="https://en.wikipedia.org/wiki/Kruskal%E2%80%93Wallis_one-way_analysis_of_variance"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2020">Kruskal-Wallis test</a> compares</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2943-1">the distributions of several indepen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2945-0">dent samples. </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2947-9" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2949-0">If the shape and scale of all distri-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2951-7">butions are the same this can be in-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2953-2">terpreted as a comparison of medians</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2892">between groups.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2896" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2900">If the test indicates that the null</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2904">hypothesis of equal distributions for</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2906">all groups should be rejected, the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2908"><a
+   xlink:href="https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2034">Mann-Whitney U test</a> can be used</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2910">for post-hoc testing.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-1-3" /></text>
+    </g>
+    <g
+       id="missing-data"
+       class="tooltip"
+       transform="translate(-103.40229,486.4574)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-8-1-9"
+         width="227.13994"
+         height="555.65076"
+         x="-82.691299"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-3-2-0)"
+         transform="matrix(1.0301754,0,0,0.47752987,-3.9114583,321.61937)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-77.829918"
+         y="639.22534"
+         id="text1431-9-5-9-9-4"><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan1607-2-8-9">It is common for data to be </tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3323">missing because not all par-</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3325">ticipants provided complete</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3327">responses or because some of</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3331">them dropped out before com-</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3335">pleting the study.</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3337" /><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3321">Data may also be missing by</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3303">design, e.g., in an incomplete</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3305">block design, where blocks are</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3307">not exposed to all experimen-</tspan><tspan
+           sodipodi:role="line"
+           x="-77.829918"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3301">tal conditions.</tspan></text>
+    </g>
+    <g
+       id="repeated-anova"
+       class="tooltip"
+       transform="translate(233.31195,1186.409)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-7"
+         width="292.31616"
+         height="687.28033"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-9)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-7"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-07"><a
+   xlink:href="https://en.wikipedia.org/wiki/Repeated_measures_design"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2124">Repeated measures ANOVA</a> allows</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3636">for the comparison of group means</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3638">in a situation where observations</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3642">are correlated, typically because</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3644">each subject contributes multiple </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3646">observations.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3652" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3656">This procedure assumes that obser-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3660">vations from different subjects are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3662">independent of each other and</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3664">residuals are assumed to be normally</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3666">distributed. In addition, the difference</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3668">scores between two levels of the same</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3670">within-subject factor are assumed to</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3672">have the same variance (<a
+   xlink:href="https://en.wikipedia.org/wiki/Mauchly%27s_sphericity_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2140">sphericity</a>).</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3640" /></text>
+    </g>
+    <g
+       id="mixed-linear"
+       class="tooltip"
+       transform="translate(551.98409,1277.6252)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2"
+         width="265.36511"
+         height="823.90326"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2801-4-7"><a
+   xlink:href="https://en.wikipedia.org/wiki/Mixed_model"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2151">Linear mixed effects models</a> allow</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6870">inference of linear relationships</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6872">between the dependent variable </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6874">and the independent variables in</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6880">situations where each subject pro-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6882">vides multiple responses or obser-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6884">vations are clustered in some other</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6886">way.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6890" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-0-9">Within each cluster residuals are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6894">assumed to be uncorrelated, </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6902">normally distributed and have</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6906">equal variance.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6908" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6910">It is possible to model non-linear</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6912">relationships between the depen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="959.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6916">dent and independent variables,</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="979.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6920">e.g., using <a
+   xlink:href="https://en.wikipedia.org/wiki/Polynomial_regression"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2170">polynomial regression</a>.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="999.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0-3" /></text>
+    </g>
+    <g
+       id="friedman-test"
+       class="tooltip"
+       transform="translate(874.02623,1236.409)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-12-3"
+         width="272.90198"
+         height="603.51599"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-6-9)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-2-7"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-1-27">The <a
+   xlink:href="https://en.wikipedia.org/wiki/Friedman_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2187">Friedman test</a> compares out-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6794">comes between groups in a situation </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6796">where observations are correlated,</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6798">typically because each subject con-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6800">tributes multiple observations.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6802" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6804">As a non-parametric procedure it</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6814">does not rely on normality assump-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6816">tions.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6818" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6820">The Friedman test is restricted to</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6822"><a
+   xlink:href="https://en.wikipedia.org/wiki/Blocking_(statistics)#Randomized_block_design"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2200">complete block designs</a> and does</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6824">not allow for missing data.</tspan></text>
+    </g>
+    <g
+       id="skillings-mack-test"
+       class="tooltip"
+       transform="translate(1216.1691,1165.6947)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-12-3-2"
+         width="275.67545"
+         height="690.27203"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-6-9-1)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-2-7-7"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-1-27-6">The <a
+   xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2761045/"
+   xlink:title="Read more online"
+   xlink:show="new"
+   id="a2207">Skillings-Mack test</a> compares </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6794-6">outcomes between groups in a</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6796-6">situation where observations are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6798-2">correlated, typically because each</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6800-5">subject contributes multiple obser-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6925">vations.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6802-6" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6804-7">As a non-parametric procedure it</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6814-2">does not rely on normality assump-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6816-7">tions.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6936" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6938">The Skillings-Mack test can handle</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6940">arbitrary patterns of missing data,</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6942">provided that it is missing by design</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6944">or <a
+   xlink:href="https://en.wikipedia.org/wiki/Missing_data#Missing_completely_at_random"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2223">completely at random</a>.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6824-5" /></text>
+    </g>
+    <g
+       id="linear-regression"
+       class="tooltip"
+       transform="translate(1542.9084,1178.7883)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2-8"
+         width="257.04477"
+         height="605.51746"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-3)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-5"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6870-2"><a
+   xlink:href="https://en.wikipedia.org/wiki/Linear_regression"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2232">Linear models</a> allow inference </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6872-1">of linear relationships between </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6886-6">the dependent variable  and the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3173">independent variables.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6890-8" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6894-5">Residuals are assumed to be un-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6902-6">correlated, normally distributed</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6906-7">and have <a
+   xlink:href="https://en.wikipedia.org/wiki/Homoscedasticity"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2241">equal variance</a>.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6908-1" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6910-2">It is possible to model non-linear</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6912-3">relationships between the depen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6916-6">dent and independent variables,</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6920-0">e.g., using <a
+   xlink:href="https://en.wikipedia.org/wiki/Polynomial_regression"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2248">polynomial regression</a>.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0-3-0" /></text>
+    </g>
+    <g
+       id="glm"
+       class="tooltip"
+       transform="translate(1864.3369,1092.3597)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2-8-0"
+         width="248.72441"
+         height="611.50067"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-3-6)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-5-2"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6870-2-4"><a
+   xlink:href="https://en.wikipedia.org/wiki/Generalized_linear_model"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a2258">Generalized linear models</a> allow</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6872-1-4">inference of linear relationships</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6886-6-0"> between the dependent variable </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3173-8">and the independent variables </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3152">without requiring residuals to </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3154">be normally distributed.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6890-8-5" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6908-1-0">A variety of distributions are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3166">available to model the depen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3168">dent variable. Choosing the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3170">most appropriate model for a</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3172">given dataset may require care-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0-3-0-0">ful consideration.</tspan></text>
+    </g>
+    <g
+       id="factorial-anova"
+       class="tooltip"
+       transform="translate(2154.7406,962.83757)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-4-3"
+         width="272.90198"
+         height="543.68433"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-8-1)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-2-4"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2784-3-3">The <a
+   xlink:href="https://en.wikipedia.org/wiki/Analysis_of_variance"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">factorial ANOVA</a> compares the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2938-9">means of several groups that are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3171">defined by two or more indepen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2940-5">dent variables. It assumes that the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2942-4">residuals of the dependent variable</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2944-3">are normally distributed and that</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2948-1">all groups share the same variance.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2950-1" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2952-1">The ANOVA is relatively robust</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2954-5">against violations of these assump-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2958-7">tions when group sizes are equal. </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2946-0" /></text>
+    </g>
+    <g
+       id="mixed-glm"
+       class="tooltip"
+       transform="translate(2472.284,962.45757)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2-5"
+         width="266.34567"
+         height="855.63379"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-4)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-8"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2801-4-7-2"><a
+   xlink:href="https://en.wikipedia.org/wiki/Generalized_linear_mixed_model"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Generalized linear mixed effects</a></tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6870-0">models allow inference of linear</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6872-8">relationships between the depen-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6874-2">dent variable and the independent</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6880-6">variables in situations where each</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6882-3">subject provides multiple respon-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6884-5">ses or observations are clustered </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6886-7">in some other way.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6890-82" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2813-0-9-4">Within each cluster residuals are</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6894-0">assumed to be uncorrelated with </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3524">equal variance but are not requir-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3528">ed to be normally distributed.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan6908-4" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3539">A variety of distributions are avail-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3541">able to model the dependent </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="959.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3543">variable. Choosing the most appro-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="979.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3545">priate model for a given dataset</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="999.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3547">may require careful consideration.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="1019.2253"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan2775-0-3-3" /></text>
     </g>
   </g>
 </svg>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -10,6 +11,7 @@
   <script src='js/interactive.js'></script>
   <link rel="stylesheet" type="text/css" href="css/page.css">
 </head>
+
 <body>
   <div id="wrapper">
     <div id="instructions">
@@ -49,8 +51,10 @@
           dependent and independent variables are measured. These questions rely on
           <a href="https://en.wikipedia.org/wiki/Level_of_measurement" target="_blank">
             Stevens' classification of measurement scales</a>. This classification
-          system recognises four types of measurements.
+          system recognises four types of measurements, <em>nominal</em>, <em>ordinal</em>,
+          <em>interval</em>, and <em>ratio</em> scales.
         </p>
+        <h4>Types of scales</h4>
         <p>
           <strong>Nominal</strong> measures distinguish between a fixed number of discrete classes
           that are identified by their names. No numeric value is attached to the different
@@ -72,6 +76,7 @@
           <strong>Ratio</strong> scale measurements are numeric quantities that <em>do</em> include a
           meaningful <em>zero</em> and allow for ratios between values them to be computed and compared.
         </p>
+        <h4>Using different types of scales</h4>
         <p>
           Looking at the above description you may note that these measurement scales fall into two
           groups. <em>Nominal</em> and <em>ordinal</em> variables take on values from a limited
@@ -83,18 +88,49 @@
         </p>
         <p>
           In some situations it is common practice to treat measures that really are <em>ordinal</em>
-          as if they were <em>interval</em> values. For example, Likert scale items are inherently
+          as if they were <em>interval</em> values. For example, Likert scale items are generally
           ordinal. However, it is common to aggregate individual items into scales by adding or averaging
           individual items, thereby treating them as if they were on an <em>interval</em> scale. The resulting
-          aggregate scores are then typically treated as <em>interval</em> measurements.
+          aggregate scores are then typically treated as <em>interval</em> measurements. If the underlying
+          assumption that a single step increase for each item corresponds to a unit change of
+          the measured construct is reasonable, this approach is justified.
         </p>
-        <h3>Multivariate responses</h3>
+        <h3>What you won't find here</h3>
         <p>
-          You may have more than one response measure. It may be perfectly fine to analyse
-          each of these separately. If that is what you want to do, simply use the diagram
-          below repeatedly, using each measure as dependent variable in turn. It may be
-          beneficial to consider a joint analysis of your measures, treating them as a single
+          The methods covered here are by no means exhaustive. The focus on choosing
+          a test procedure based on the properties of the data means that little consideration
+          is given to specific research questions or common practices in a given field
+          of research. The recommended methods are of general utility and appropriate
+          under the indicated conditions. However, it is entirely possible that a better
+          method exists for your specific study. Below are a few notes on methods and
+          circumstances not covered here.
+        </p>
+        <h4>Multivariate responses</h4>
+        <p>
+          You may have more than one response measure. If these measures are largely independent
+          of each other it is perfectly fine to analyse them separately. If that is what you want to do,
+          simply use the diagram below repeatedly, using each measure as dependent variable in turn. It may,
+          however, be beneficial to consider a joint analysis of your measures, treating them as a single
           multivariate response. This situation is not covered here.
+        </p>
+        <h4>Structural Equation Models</h4>
+        <p>
+          Structural equation models (SEMs) are not included in the diagram below.
+          They combine factor analysis and multiple regression techniques
+          to model structural relationships between observed and latent variables. When combined with
+          longitudinal data SEMs, unlike the methods covered here, can be used to model causal relationships
+          but care needs to be taken in the interpretation of such models. Even carefully designed
+          experiments can usually not rule out all alternative interpretations, leaving some doubts
+          regarding causality.
+        </p>
+        <h4>Time series</h4>
+        <p>
+          Time series consist of regular measurements taken over an extended period of time. Their
+          analysis usually focuses on the identification of short term, long term and seasonal
+          trends. Although they share some common features with longitudinal data (which may be
+          analysed with some of the methods below), time series focus on the detailed analysis
+          of single units based on frequent observations whereas longitudinal studies track
+          changes in populations, often using relatively few timepoints per individual.
         </p>
       </div>
     </div>
@@ -104,4 +140,5 @@
   </div>
   <object id="test-choice" data="svg/test_choice.svg" type="image/svg+xml"></object>
 </body>
+
 </html>
