@@ -8014,7 +8014,7 @@
                   <g
                      transform="translate(24.164438,-2.0203051)"
                      id="g949-2-5-7-3-8-3-4-1"
-                     data-tooltip="gtest">
+                     data-tooltip="gtest" class="inform">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-5-5-4-9-5-1-6-4"
@@ -8354,7 +8354,7 @@
                   <g
                      transform="translate(24.164438,-2.0203051)"
                      id="g949-2-5-7-3-8-3-4-1-9"
-                     data-tooltip="gtest">
+                     data-tooltip="gtest" class="inform">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-5-5-4-9-5-1-6-4-0"
@@ -9044,7 +9044,7 @@
                   <g
                      transform="translate(24.164438,-2.0203051)"
                      id="g949-2-5-7-3-8-3-4-1-9-7"
-                     data-tooltip="gtest">
+                     data-tooltip="gtest" class="inform">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-5-5-4-9-5-1-6-4-0-0"
@@ -9475,7 +9475,7 @@
                   <g
                      id="g949-2-5-7-3-8-3-4-1-9-1"
                      transform="translate(24.164438,-2.0203051)"
-                     data-tooltip="gtest">
+                     data-tooltip="gtest" class="inform">
                     <rect
                        y="819.08154"
                        x="-474.7717"
