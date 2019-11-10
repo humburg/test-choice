@@ -12656,8 +12656,11 @@
            sodipodi:role="line"
            x="-81.544197"
            y="639.22534"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
-           id="tspan2775-0-3-0-0-0">The G test compares the observed</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia">The <a
+             xlink:href="https://en.wikipedia.org/wiki/G-test"
+             xlink:title="Read more on Wikipedia"
+             xlink:show="new"
+             id="a2286">G test</a> compares the observed</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
