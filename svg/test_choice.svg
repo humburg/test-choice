@@ -8011,11 +8011,11 @@
                 </g>
                 <g
                    id="cat-2-1-cat-2-yes-yes-grp"
-                   transform="translate(1354.4852,501.35756)"
-                   data-tooltip="fisher-exact" class="inform">
+                   transform="translate(1354.4852,501.35756)">
                   <g
                      transform="translate(24.164438,-2.0203051)"
-                     id="g949-2-5-7-3-8-3-4">
+                     id="g949-2-5-7-3-8-3-4"
+                     data-tooltip="fisher-exact" class="inform">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-5-5-4-9-5-1-6"
