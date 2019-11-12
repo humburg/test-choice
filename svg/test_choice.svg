@@ -952,6 +952,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-5-3-5-4-2-2" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-3-6-1-19">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-8-7-1-1" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-4-7-5-8" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-7-8-3-23" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-5-5-9-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-5-4-2-1" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -961,10 +993,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="3811.6573"
-     inkscape:cy="-28.320393"
+     inkscape:cx="3968.5966"
+     inkscape:cy="262.41392"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="mcnemar"
      showgrid="false"
      units="px"
      borderlayer="false"
@@ -8015,7 +8047,8 @@
                   <g
                      transform="translate(24.164438,-2.0203051)"
                      id="g949-2-5-7-3-8-3-4"
-                     data-tooltip="fisher-exact" class="inform">
+                     data-tooltip="fisher-exact"
+                     class="inform">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-5-5-4-9-5-1-6"
@@ -8080,7 +8113,8 @@
                  id="cat-2-1-cat-2-no-grp">
                 <g
                    id="g949-2-5-7-3-8-3-4-8"
-                   transform="translate(24.164438,-2.0203051)">
+                   transform="translate(24.164438,-2.0203051)"
+                   data-tooltip="mcnemar" class="inform">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -8357,7 +8391,8 @@
                   <g
                      transform="translate(24.164438,-2.0203051)"
                      id="g949-2-5-7-3-8-3-4-5"
-                     data-tooltip="fisher-exact" class="inform">
+                     data-tooltip="fisher-exact"
+                     class="inform">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-5-5-4-9-5-1-6-3"
@@ -9049,7 +9084,8 @@
                   <g
                      transform="translate(24.164438,-2.0203051)"
                      id="g949-2-5-7-3-8-3-4-5-2"
-                     data-tooltip="fisher-exact" class="inform">
+                     data-tooltip="fisher-exact"
+                     class="inform">
                     <rect
                        style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                        id="rect937-5-5-4-9-5-1-6-3-1"
@@ -9482,7 +9518,8 @@
                   <g
                      id="g949-2-5-7-3-8-3-4-5-9"
                      transform="translate(24.164438,-2.0203051)"
-                     data-tooltip="fisher-exact" class="inform">
+                     data-tooltip="fisher-exact"
+                     class="inform">
                     <rect
                        y="819.08154"
                        x="-474.7717"
@@ -12798,7 +12835,7 @@
    xlink:href="https://en.wikipedia.org/wiki/Fisher%27s_exact_test"
    xlink:title="Read more on Wikipedia"
    xlink:show="new"
-   id="a2315">Fisher's exact test</a> assesses the</tspan><tspan
+   id="a2339">Fisher's exact test</a> assesses the</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -12812,7 +12849,7 @@
    xlink:href="https://en.wikipedia.org/wiki/Contingency_table"
    xlink:title="Read more on Wikipedia"
    xlink:show="new"
-   id="a2315">contingency table</a> resulting from</tspan><tspan
+   id="a2343">contingency table</a> resulting from</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="699.22534"
@@ -12888,6 +12925,120 @@
            y="979.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan3344-2">riate.</tspan></text>
+    </g>
+    <g
+       id="mcnemar"
+       class="tooltip"
+       transform="translate(3435.0512,970.21684)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="rect1408-3-1-0-0-3-0-0-1-2-8-0-2-6"
+         width="275.0722"
+         height="776.0379"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-3-6-1-19)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-5-2-1-4"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3380"><a
+   xlink:href="https://en.wikipedia.org/wiki/McNemar%27s_test"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">
+   McNemar's test</a> compares binary</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3384">outcomes for paired samples. The</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3394">test determines whether there is</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3396">a statistically significant difference</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3400">between the paired observations.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3404" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3408">The test assumes that pairs are in-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3412">dependent of each other. If samples</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3416">are from larger clusters use the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3430"><a
+   xlink:href="https://en.wikipedia.org/wiki/Cochran%E2%80%93Mantel%E2%80%93Haenszel_statistics"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new">Cochran–Mantel–Haenszel test</a></tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3418">instead.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3432" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3434">Note that the power of the test de-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="899.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3436">pends on the number of disagree-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="919.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3438">ments between groups. Power may</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="939.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3440">be low, even for large sample sizes</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="959.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3442">if agreement is high.</tspan></text>
     </g>
   </g>
 </svg>
