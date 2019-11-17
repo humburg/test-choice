@@ -1048,6 +1048,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-5-3-5-4-2-2-1-4" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-3-6-1-1-5-8-7">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-8-7-1-9-1-2-0" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-4-7-5-1-3-8-1" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-7-8-3-2-8-0-8" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-5-5-9-0-2-9-3" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-5-4-2-2-1-4-6" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1057,8 +1089,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="3736.4537"
-     inkscape:cy="205.27106"
+     inkscape:cx="4109.8419"
+     inkscape:cy="319.55677"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -6302,7 +6334,8 @@
           <g
              id="g949-2-5-7"
              transform="translate(26.263966,-2.0203051)"
-           data-tooltip="ordered-logistic" class="inform">
+             data-tooltip="ordered-logistic"
+             class="inform">
             <rect
                y="819.08154"
                x="-474.7717"
@@ -6459,7 +6492,8 @@
             <g
                transform="translate(26.263966,-2.0203051)"
                id="g949-2-5-7-3-8"
-               data-tooltip="ordered-logistic" class="inform">
+               data-tooltip="ordered-logistic"
+               class="inform">
               <rect
                  style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                  id="rect937-5-5-4-9-5"
@@ -6493,7 +6527,8 @@
              transform="translate(1657.9469,-60.283531)">
             <g
                transform="translate(26.263966,-2.0203051)"
-               id="g949-2-5-7-3-1-4">
+               id="g949-2-5-7-3-1-4"
+               data-tooltip="mixed-ordered-logistic" class="inform">
               <rect
                  style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                  id="rect937-5-5-4-9-1-2"
@@ -13204,8 +13239,8 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <rect
          id="g123234-3-0"
-         width="295.87314"
-         height="342.25797"
+         width="291.71295"
+         height="315.33374"
          x="-92.398384"
          y="608.63556"
          rx="19.414169"
@@ -13227,7 +13262,7 @@
    xlink:href="https://en.wikipedia.org/wiki/Ordinal_regression"
    xlink:title="Read more on Wikipedia"
    xlink:show="new"
-   id="a2406">Ordered logistic regression</a> models the</tspan><tspan
+   id="a3230">Ordered logistic regression</a> models the</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -13258,6 +13293,98 @@
            y="759.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan3328" /></text>
+    </g>
+    <g
+       id="mixed-ordered-logistic"
+       class="tooltip"
+       transform="translate(4095.7655,972.3597)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="g123234-3-0-3"
+         width="309.74042"
+         height="554.66064"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-3-6-1-1-5-8-7)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)"
+         inkscape:label="" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-5-2-1-9-0-4-5"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3344-2-4-1-0">Ordered logistic mixed effects models</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3312">allow the analysis of ordinal dependent</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3317">variables when the observations are not</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3319">independent of each other, e.g., because</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3326">each subject provides multiple responses.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3329" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3332">As in <a
+   xlink:href="https://en.wikipedia.org/wiki/Ordinal_regression"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a3230">ordered logistic regression</a>, the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="779.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3511-8-8">probability that one of several possible</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="799.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3519-2-1">outcomes occurs based on a number of </tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="819.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3257-0">independent variables. This is a genera-</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="839.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3259-8">lization of logistic regression to multiple,</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="859.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3347">ranked, outcomes.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="879.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3328-3" /></text>
     </g>
   </g>
 </svg>
