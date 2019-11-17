@@ -6298,11 +6298,11 @@
         </g>
         <g
            transform="translate(1090.447,-151.94846)"
-           id="ord-2-int-grp"
-           data-tooltip="ordered-logistic" class="inform">
+           id="ord-2-int-grp">
           <g
              id="g949-2-5-7"
-             transform="translate(26.263966,-2.0203051)">
+             transform="translate(26.263966,-2.0203051)"
+           data-tooltip="ordered-logistic" class="inform">
             <rect
                y="819.08154"
                x="-474.7717"
@@ -6455,11 +6455,11 @@
           </g>
           <g
              id="ord-2-cat-yes-grp"
-             transform="translate(1400.8041,-60.283531)"
-             data-tooltip="ordered-logistic" class="inform">
+             transform="translate(1400.8041,-60.283531)">
             <g
                transform="translate(26.263966,-2.0203051)"
-               id="g949-2-5-7-3-8">
+               id="g949-2-5-7-3-8"
+               data-tooltip="ordered-logistic" class="inform">
               <rect
                  style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                  id="rect937-5-5-4-9-5"
