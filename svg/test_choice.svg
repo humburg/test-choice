@@ -1144,6 +1144,38 @@
          result="composite2"
          id="feComposite1437-0-5-2-9-6-5-3-5-4-2-2-1-4-6-2" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1439-8-6-5-9-2-1-1-3-6-1-1-5-8-7-9">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1429-4-3-2-3-3-8-6-8-7-1-9-1-2-0-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1431-3-8-2-4-3-6-1-4-7-5-1-3-8-1-9" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1433-23-8-5-2-3-4-9-7-8-3-2-8-0-8-5" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1435-8-8-8-5-4-7-0-5-5-9-0-2-9-3-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1437-0-5-2-9-6-5-3-5-4-2-2-1-4-6-5" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1154,7 +1186,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="4866.6202"
-     inkscape:cy="166.77863"
+     inkscape:cy="395.35006"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -7244,7 +7276,8 @@
                transform="translate(2240.3322,150.50041)">
               <g
                  transform="translate(24.164438,-2.0203051)"
-                 id="g949-2-5-7-3-8-3-1">
+                 id="g949-2-5-7-3-8-3-1"
+                 data-tool="linear-discriminant" class="inform">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-5-5-4-9-5-1-4"
@@ -7469,7 +7502,8 @@
               <g
                  transform="translate(24.164438,-2.0203051)"
                  id="g949-2-5-7-3-8-3-12-6-6"
-                 data-tooltip="mixed-logistic" class="inform">
+                 data-tooltip="mixed-logistic"
+                 class="inform">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-5-5-4-9-5-1-46-0-5"
@@ -7662,7 +7696,8 @@
               <g
                  transform="translate(24.164438,-2.0203051)"
                  id="g949-2-5-7-3-8-3-12-6-6-9"
-                 data-tooltip="mixed-logistic" class="inform">
+                 data-tooltip="mixed-logistic"
+                 class="inform">
                 <rect
                    style="opacity:1;fill:#d6001c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                    id="rect937-5-5-4-9-5-1-46-0-5-7"
@@ -8635,7 +8670,8 @@
                 <g
                    id="g949-2-5-7-3-1-7"
                    transform="translate(26.263966,-2.0203051)"
-                   data-tooltip="mixed-logistic" class="inform">
+                   data-tooltip="mixed-logistic"
+                   class="inform">
                   <rect
                      y="819.08154"
                      x="-474.7717"
@@ -13484,7 +13520,7 @@
    xlink:href="https://en.wikipedia.org/wiki/Mixed_model"
    xlink:title="Read more on Wikipedia"
    xlink:show="new"
-   id="a3253">mixed effects</a> models allow the</tspan><tspan
+   id="a3276">mixed effects</a> models allow the</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="659.22534"
@@ -13518,7 +13554,7 @@
    xlink:href="https://en.wikipedia.org/wiki/Logistic_regression"
    xlink:title="Read more on Wikipedia"
    xlink:show="new"
-   id="a3253">logistic regression</a>, it is assumed</tspan><tspan
+   id="a3284">logistic regression</a>, it is assumed</tspan><tspan
            sodipodi:role="line"
            x="-81.544197"
            y="779.22534"
@@ -13544,6 +13580,68 @@
            y="859.22534"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
            id="tspan3328-3-9" /></text>
+    </g>
+    <g
+       id="linear-discriminant"
+       class="tooltip"
+       transform="translate(4854.337,964.5025)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#d6d2c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.81047606;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <rect
+         id="g123234-3-0-3-0"
+         width="297.25989"
+         height="369.18228"
+         x="-92.398384"
+         y="608.63556"
+         rx="19.414169"
+         ry="41.882198"
+         style="filter:url(#filter1439-8-6-5-9-2-1-1-3-6-1-1-5-8-7-9)"
+         transform="matrix(1.0301754,0,0,0.47752987,-1.0543155,318.76223)"
+         inkscape:label="" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#373a36;fill-opacity:1;stroke:none"
+         x="-81.544197"
+         y="639.22534"
+         id="text1431-9-5-2-2-8-0-5-8-4-5-2-1-9-0-4-5-35"><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="639.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3328-3-8"><a
+   xlink:href="https://en.wikipedia.org/wiki/Linear_discriminant_analysis"
+   xlink:title="Read more on Wikipedia"
+   xlink:show="new"
+   id="a3284">Linear discriminant analysis</a> aims to</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="659.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3509">determine linear combinations of the</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="679.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3512">independent variables that distinguish</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="699.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3514">between different outcome categories.</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="719.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3516" /><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="739.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3518">The size of the smallest group has to be</tspan><tspan
+           sodipodi:role="line"
+           x="-81.544197"
+           y="759.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia"
+           id="tspan3520">larger than the nuber of predictors.</tspan></text>
     </g>
   </g>
 </svg>
